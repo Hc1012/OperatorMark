@@ -1,0 +1,187 @@
+{
+  "TPFA32": {
+    "N_q": 10,
+    "null_pairs": 190,
+    "null_positive": 0,
+    "primary": {
+      "assumptions": "iid approximately normal owner log ratios conditional on common benchmark/fixed development procedure",
+      "complete_case_substitution": false,
+      "equivalence_coverage": "separate 95% pointwise intervals; all components pass; not 95% simultaneous coverage",
+      "equivalence_intervals": {
+        "random_jvp": {
+          "critical": 2.262157162798205,
+          "df": 9,
+          "geometric_mean": 1.1498685946520466,
+          "log_ratios": [
+            0.11554579694690716,
+            0.05580875082277529,
+            0.1493216396584242,
+            0.21482219041697165,
+            0.07024199171631607,
+            0.08340285795135004,
+            0.18058112465372383,
+            0.187563450159837,
+            0.11337768239982374,
+            0.22581121853784436
+          ],
+          "lower": 1.1008198362740738,
+          "nominal_joint_coverage_at_least": null,
+          "pointwise_coverage": 0.95,
+          "purpose": "all-components-pass equivalence",
+          "quantile": 0.975,
+          "ratios": [
+            1.1224859197992416,
+            1.0573954383900064,
+            1.1610463677163259,
+            1.2396414572378784,
+            1.072767750755329,
+            1.0869796187370226,
+            1.1979132978402125,
+            1.206306787351253,
+            1.1200548780883814,
+            1.2533390357675083
+          ],
+          "signs": {
+            "negative": 0,
+            "positive": 10,
+            "tied": 0
+          },
+          "status": "complete",
+          "upper": 1.2011027975679407
+        },
+        "task": {
+          "critical": 2.262157162798205,
+          "df": 9,
+          "geometric_mean": 0.9088179336682821,
+          "log_ratios": [
+            -0.8214941483012748,
+            -0.0776855940001261,
+            0.04332016853232904,
+            0.138467382021938,
+            0.06099531729149135,
+            -0.06785707130013015,
+            0.033947861281140176,
+            0.07425220369716147,
+            0.04072892951018361,
+            -0.3807800273343915
+          ],
+          "lower": 0.737015932609603,
+          "nominal_joint_coverage_at_least": null,
+          "pointwise_coverage": 0.95,
+          "purpose": "all-components-pass equivalence",
+          "quantile": 0.975,
+          "ratios": [
+            0.43977407568007026,
+            0.9252552866305968,
+            1.0442721844258953,
+            1.1485122188128452,
+            1.0628939369530594,
+            0.9343940157553193,
+            1.0345306662183777,
+            1.0770784144026402,
+            1.0415697284586898,
+            0.6833281866113731
+          ],
+          "signs": {
+            "negative": 4,
+            "positive": 6,
+            "tied": 0
+          },
+          "status": "complete",
+          "upper": 1.1206678173599152
+        }
+      },
+      "errors": [],
+      "intervals": {
+        "random_jvp": {
+          "critical": 2.6850108468164575,
+          "df": 9,
+          "geometric_mean": 1.1498685946520466,
+          "log_ratios": [
+            0.11554579694690716,
+            0.05580875082277529,
+            0.1493216396584242,
+            0.21482219041697165,
+            0.07024199171631607,
+            0.08340285795135004,
+            0.18058112465372383,
+            0.187563450159837,
+            0.11337768239982374,
+            0.22581121853784436
+          ],
+          "lower": 1.0918862308682427,
+          "nominal_joint_coverage_at_least": 0.95,
+          "pointwise_coverage": 0.975,
+          "purpose": "advantage",
+          "quantile": 0.9875,
+          "ratios": [
+            1.1224859197992416,
+            1.0573954383900064,
+            1.1610463677163259,
+            1.2396414572378784,
+            1.072767750755329,
+            1.0869796187370226,
+            1.1979132978402125,
+            1.206306787351253,
+            1.1200548780883814,
+            1.2533390357675083
+          ],
+          "signs": {
+            "negative": 0,
+            "positive": 10,
+            "tied": 0
+          },
+          "status": "complete",
+          "upper": 1.2109299921436791
+        },
+        "task": {
+          "critical": 2.6850108468164575,
+          "df": 9,
+          "geometric_mean": 0.9088179336682821,
+          "log_ratios": [
+            -0.8214941483012748,
+            -0.0776855940001261,
+            0.04332016853232904,
+            0.138467382021938,
+            0.06099531729149135,
+            -0.06785707130013015,
+            0.033947861281140176,
+            0.07425220369716147,
+            0.04072892951018361,
+            -0.3807800273343915
+          ],
+          "lower": 0.7087069650315021,
+          "nominal_joint_coverage_at_least": 0.95,
+          "pointwise_coverage": 0.975,
+          "purpose": "advantage",
+          "quantile": 0.9875,
+          "ratios": [
+            0.43977407568007026,
+            0.9252552866305968,
+            1.0442721844258953,
+            1.1485122188128452,
+            1.0628939369530594,
+            0.9343940157553193,
+            1.0345306662183777,
+            1.0770784144026402,
+            1.0415697284586898,
+            0.6833281866113731
+          ],
+          "signs": {
+            "negative": 4,
+            "positive": 6,
+            "tied": 0
+          },
+          "status": "complete",
+          "upper": 1.1654323681161685
+        }
+      },
+      "label": "trade-off/inconclusive",
+      "planned_n": 10,
+      "qualification_filters_primary": false
+    },
+    "qualified_removal": 10,
+    "source": "historical_evidence/analysis.review.json"
+  },
+  "other_prior_studies": "Historical reported results, with the handover pointers preserved; no completed experiment or audit was repeated."
+}

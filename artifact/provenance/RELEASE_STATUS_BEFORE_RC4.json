@@ -1,0 +1,17 @@
+{
+  "amended_numerical_campaign_complete": true,
+  "canonical_worker_advanced": false,
+  "formal_custody_assurance": false,
+  "full_raw_campaign_reproducibility_claimed": false,
+  "note": "Historical acceptance/readiness flags remain unchanged in their original evidence. This status describes release preparation only.",
+  "paper_complete": false,
+  "prepared_on": "2026-10-25",
+  "public_export_prepared_and_locally_verified": true,
+  "public_launch_complete": false,
+  "public_repository_published": false,
+  "release_candidate": "1.0.0-rc1",
+  "release_package_prepared": true,
+  "release_validation": "passed",
+  "remaining_planned_Colab_runs": 0,
+  "saved_result_analysis_complete": true
+}

@@ -1,0 +1,25 @@
+{
+  "revision": "1.0.0-rc2",
+  "scope": "Documentation and citation metadata only",
+  "baseline_archive_sha256": "e420aa3a0118b9db7dca06a98cb4769a7746253313344a12406f8d989fed6d96",
+  "changed_existing_files": [
+    "CITATION.cff",
+    "DATA_AVAILABILITY.md",
+    "README.md",
+    "docs/METHODS.md",
+    "docs/RESULTS.md"
+  ],
+  "added_documents": [
+    "docs/PAPER_AND_RELEASE.md",
+    "docs/THREAT_MODEL_AND_BUDGETS.md"
+  ],
+  "unchanged_research_analysis_and_support_files": 424,
+  "analysis_sha256": "6bbbdeee9daff3d986a17f41e587ff0820ad367efa86dca0794487ec52c5074c",
+  "frozen_scientific_inputs_changed": false,
+  "analysis_or_experiment_rerun": false,
+  "prior_release_validation_reused": "RELEASE_VALIDATION.json",
+  "current_claim_pointer_failures": [],
+  "modified_document_link_failures": [],
+  "public_publication": false,
+  "remaining": "Author review, final publication format and actual paper/repository identifiers."
+}

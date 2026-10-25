@@ -1,0 +1,175 @@
+"""Analyze stored records only. No training, solver or runner imports."""
+from __future__ import annotations
+import argparse
+import math
+from pathlib import Path
+import statistics
+from core import read, write, positive
+
+PRIMARY = ('random_jvp', 'task')
+
+
+def interval(values):
+    if len(values) != 6 or not all(positive(v) for v in values):
+        return dict(status='incomplete', reason='six finite positive ratios required')
+    logs = [math.log(v) for v in values]
+    if max(logs) == min(logs):
+        return dict(status='degenerate', reason='zero log-ratio variance', ratios=values)
+    from scipy.stats import t
+    critical = float(t.ppf(.9875, df=5))
+    mean = statistics.mean(logs)
+    half = critical*statistics.stdev(logs)/math.sqrt(6)
+    try:
+        result = dict(status='complete', ratios=values, log_ratios=logs,
+                      geometric_mean=math.exp(mean), lower=math.exp(mean-half),
+                      upper=math.exp(mean+half), critical=critical, quantile=.9875, df=5,
+                      pointwise_coverage=.975, nominal_joint_coverage_at_least=.95,
+                      signs=dict(positive=sum(v>1 for v in values),
+                                 negative=sum(v<1 for v in values), tied=sum(v==1 for v in values)))
+        if not all(positive(result[k]) for k in ('geometric_mean','lower','upper')):
+            raise OverflowError('unrepresentable interval')
+        return result
+    except OverflowError:
+        return dict(status='degenerate', reason='unrepresentable exponentiated interval')
+
+
+def quality_label(intervals):
+    if any(r.get('status') != 'complete' for r in intervals.values()):
+        return 'incomplete/degenerate'
+    bounds = [(intervals[m]['lower'], intervals[m]['upper']) for m in PRIMARY]
+    if any(l>1.25 for l,u in bounds) and all(l>.8 for l,u in bounds):
+        return 'copy advantage'
+    if all(l>.8 and u<1.25 for l,u in bounds):
+        return 'equivalence'
+    if any(u<.8 for l,u in bounds) and all(u<1.25 for l,u in bounds):
+        return 'replacement advantage'
+    return 'trade-off/inconclusive'
+
+
+def b2_rank(descendant, clean, replacements):
+    values = [descendant]+clean+replacements
+    if len(clean)!=5 or len(replacements)!=6 or any(
+        x is None or not math.isfinite(x) or x<0 for x in values):
+        return dict(status='unavailable', reason='complete finite nonnegative 5+6 nulls required')
+    nulls=clean+replacements
+    margin=min(nulls)-descendant
+    return dict(status='complete', descendant=descendant, other_clean=clean,
+                selected_replacements=replacements, rank=1+sum(x<descendant for x in nulls),
+                ties=sum(x==descendant for x in nulls), margin=margin,
+                strictly_nearest=margin>0, calibrated_detector=False)
+
+
+def analyze(record):
+    if record.get('schema') != 'tpfa32_results.v1': raise ValueError('result schema')
+    planned=record['planned_owner_ids']
+    if len(planned)!=6 or len(set(planned))!=6:
+        raise ValueError('provisional primary rule requires exactly six planned owner identities')
+    found={}
+    for row in record.get('owners',[]):
+        if row['id'] not in planned or row['id'] in found: raise ValueError('duplicate/unplanned owner')
+        found[row['id']]=row
+    table=[]; ratios={m:[] for m in PRIMARY}; primary_errors=[]
+    for owner in planned:
+        row=found.get(owner,{})
+        q=row.get('qualified') is True
+        intact=row.get('intact',{}); attacked=row.get('attacked',{})
+        intact_pass=intact.get('detected') is True and intact.get('utility') is True
+        removed=q and intact_pass and attacked.get('detected') is False and attacked.get('utility') is True
+        retained=q and intact_pass and attacked.get('detected') is True and attacked.get('utility') is True
+        pair={}
+        for metric in PRIMARY:
+            a=row.get('metrics',{}).get('A3',{}).get(metric)
+            r=row.get('metrics',{}).get('Rstar',{}).get(metric)
+            if not positive(a) or not positive(r):
+                pair[metric]=None;primary_errors.append(dict(owner=owner,metric=metric,reason='missing/nonpositive/nonfinite primary error'))
+            else:
+                ratio=r/a
+                if not positive(ratio):
+                    pair[metric]=None;primary_errors.append(dict(owner=owner,metric=metric,reason='nonfinite ratio'))
+                else: pair[metric]=ratio;ratios[metric].append(ratio)
+        table.append(dict(owner=owner, qualification=row.get('qualified'),
+                          qualification_status=row.get('qualification_status','unavailable'),
+                          final_intact_qualified=intact_pass, removal=removed,
+                          attacked_detection_utility=retained, ratios=pair,costs=row.get('costs'),
+                          observed=owner in found))
+    intervals={m:interval(ratios[m]) for m in PRIMARY}
+    label=quality_label(intervals)
+    nq=sum(r['qualification'] is True for r in table)
+    removed=sum(r['removal'] for r in table)
+    joint={}
+    for outcome in ('removal','attacked_detection_utility'):
+        qualifying={}
+        if label=='copy advantage' and nq>=5:
+            for metric in PRIMARY:
+                other=PRIMARY[1] if metric==PRIMARY[0] else PRIMARY[0]
+                if intervals[metric]['lower']>1.25:
+                    qualifying[metric]=[r['owner'] for r in table if r[outcome] and
+                        r['ratios'][metric] is not None and r['ratios'][other] is not None and
+                        r['ratios'][metric]>1.25 and r['ratios'][other]>=.8]
+        joint[outcome]=dict(qualifying_owner_ids=qualifying,
+                           passed=any(len(ids)>=nq-1 for ids in qualifying.values()) if nq>=5 else False)
+    b2={owner:b2_rank(**record['b2'][owner]) if owner in record.get('b2',{}) else
+        dict(status='unavailable') for owner in planned}
+    pairs=record.get('null_pairs',[])
+    pair_ids={(p.get('reference'),p.get('model')) for p in pairs}
+    expected={(i,'O/'+j) for i in planned for j in planned if i!=j}|{(i,'Rstar/'+j) for i in planned for j in planned}
+    valid_nulls=(len(pairs)==66 and pair_ids==expected and all(type(p.get('detected')) is bool for p in pairs))
+    secondary={}
+    for owner in planned:
+        metrics=found.get(owner,{}).get('metrics',{})
+        comparisons={}
+        for replacement in ('Rstar','R-a@1920','R-b@1920'):
+            for descendant in ('A3','A0'):
+                comparisons[replacement+'/'+descendant]={}
+                for metric in ('forward','random_jvp','task'):
+                    numerator=metrics.get(replacement,{}).get(metric)
+                    denominator=metrics.get(descendant,{}).get(metric)
+                    ratio=numerator/denominator if positive(numerator) and positive(denominator) else None
+                    comparisons[replacement+'/'+descendant][metric]=ratio if positive(ratio) else None
+        secondary[owner]=dict(metrics=metrics,ratios=comparisons,
+                              inferential_status='descriptive; not additional primary tests')
+    return dict(schema='tpfa32_analysis.v1',fixture=record.get('fixture',False),
+                rule_status='provisional; simultaneous-interval/noninferiority choice awaiting review',
+                primary=dict(label=label,intervals=intervals,errors=primary_errors,
+                  planned_n=6,complete_case_substitution=False,
+                  assumptions='iid approximately normal owner log ratios conditional on common benchmark/fixed development procedure'),
+                joint_table=table,N_q=nq,removal_count=removed,
+                removal_fraction_qualified=None if nq==0 else removed/nq,
+                removal_fraction_planned=removed/6,
+                removal_endpoint='insufficiently qualified' if nq<5 else 'qualified denominator locked before final',
+                joint_labels=joint,b2=b2,
+                b2_strictly_nearest_count=sum(r.get('strictly_nearest',False) for r in b2.values()),
+                nulls=dict(status='complete' if valid_nulls else 'incomplete',pairs=pairs,
+                           observed_positives=sum(p.get('detected') is True for p in pairs),
+                           observed_pairs=len(pairs),dependent=True,population_FPR_bound=None),
+                costs=record.get('costs'), secondary=secondary,secondary_b2=record.get('secondary',{}),
+                limits=['No universal claim about budgets >=64','Failed superiority is not equivalence',
+                        'Equal updates are not equal compute','Six signs are not a power guarantee'])
+
+
+def report(record, output):
+    result=analyze(record)
+    path=Path(output);path.mkdir(parents=True,exist_ok=False)
+    write(path/'analysis.json',result)
+    lines=['# TPFA32 analysis — '+('SYNTHETIC FIXTURE ONLY' if result['fixture'] else 'stored study observations'),
+           '',result['rule_status'],'','Primary quality: '+result['primary']['label'],
+           'Removal: '+str(result['removal_count'])+'/'+str(result['N_q'])+' qualified; '+str(result['removal_count'])+'/6 planned.',
+           'Endpoint: '+result['removal_endpoint'],'',
+           '| Owner | Q | Final intact | Removal | R*/A3 JVP | R*/A3 task |',
+           '|---|---|---|---|---|---|']
+    for row in result['joint_table']:
+        lines.append('| '+ ' | '.join(str(row[k]) for k in ('owner','qualification','final_intact_qualified','removal'))+
+                     ' | '+str(row['ratios']['random_jvp'])+' | '+str(row['ratios']['task'])+' |')
+    lines+=['','Intervals, per-owner costs, signs, descriptive B2/null matrices and missing values are in analysis.json.',
+            'Two 97.5% pointwise t intervals give nominal at least 95% joint coverage under the stated model.',
+            'No independent-binomial FPR bound or experimental verification is implied.']
+    (path/'SUMMARY.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+    return result
+
+
+if __name__=='__main__':
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--input',type=Path);parser.add_argument('--output',type=Path)
+    args=parser.parse_args()
+    if args.input is None or args.output is None: parser.print_help()
+    else: report(read(args.input),args.output)

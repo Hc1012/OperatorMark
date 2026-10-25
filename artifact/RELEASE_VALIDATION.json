@@ -1,0 +1,75 @@
+{
+  "Windows_execution_tested": false,
+  "citation_metadata_parsed": true,
+  "citation_schema_validation": "Required fields parsed and manually inspected; no external CFF schema validator was installed.",
+  "clean_dependency_install_tested": false,
+  "execution_platform": "Linux, existing pinned Python analysis dependencies",
+  "fresh_extracted_copy_reproduction": {
+    "analysis_byte_identical": true,
+    "analysis_sha256": "6bbbdeee9daff3d986a17f41e587ff0820ad367efa86dca0794487ec52c5074c",
+    "figure_note": "Font/rendering differences can affect image bytes across operating systems; analysis equality is required.",
+    "figure_png_byte_matches": {
+      "01_primary_copy_advantage.png": true,
+      "02_active_mark_outcomes.png": true,
+      "03_active_and_passive.png": true,
+      "04_discrete_task_context.png": true
+    },
+    "figures_generated": 4,
+    "full_campaign_reproduced": false,
+    "model_observations": 1271,
+    "network_access_required": false,
+    "new_training_or_solver_runs": 0,
+    "packages": {
+      "matplotlib": "3.10.8",
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "python": "3.12.14",
+    "seconds": 4.599798800998542,
+    "status": "passed",
+    "variant_summaries": 128
+  },
+  "frozen_analysis_files": 9,
+  "frozen_research_source_files": 338,
+  "full_campaign_reproduced": false,
+  "large_raw_assets_included": false,
+  "link_failures": [],
+  "live_Windows_repository_modified": false,
+  "new_numerical_experiments": 0,
+  "packages_installed_or_upgraded": false,
+  "passed": true,
+  "privacy_review_limit": "Finite allowlist and pattern/field inspection, not a proof that every possible secret pattern or third-party authorship issue is detectable.",
+  "private_auth_or_key_files_included": false,
+  "public_path_redactions": 3,
+  "public_privacy_pattern_findings": {
+    "credentials": [],
+    "email_addresses": [],
+    "personal_paths": [],
+    "private_drive_links": []
+  },
+  "published_to_GitHub": false,
+  "release_refusal_checks": {
+    "changed_input_refused": true,
+    "exit_code": 1,
+    "restored_release_passes": true,
+    "tracked_output_overwrite_refused": true
+  },
+  "remaining_publication_work": [
+    "Paper preparation",
+    "Add real repository/paper identifiers when available",
+    "Publish versioned repository and preprint",
+    "Announce after both links are live"
+  ],
+  "scientific_audits_repeated": false,
+  "scope_preserved": {
+    "B2_variants": 124,
+    "N": 10,
+    "O05_intact_not_detected": true,
+    "diagnostic_rows": 400,
+    "full_rows": 871,
+    "model_rows": 1271,
+    "variant_summaries": 128
+  },
+  "source_files_syntax_checked": 384,
+  "unchanged_research_source_files": 337
+}

@@ -1,0 +1,25 @@
+{
+  "added_historical_record": "provenance/EDITORIAL_RELEASE_VALIDATION_RC2.json",
+  "analysis_sha256": "6bbbdeee9daff3d986a17f41e587ff0820ad367efa86dca0794487ec52c5074c",
+  "baseline_archive_sha256": "03881a143fe6174e730cb15c70a1aa321e40e4bd228561fabb73cb44546b0c77",
+  "changed_existing_documents": [
+    "CITATION.cff",
+    "DATA_AVAILABILITY.md",
+    "README.md",
+    "docs/METHODS.md",
+    "docs/PAPER_AND_RELEASE.md",
+    "docs/RESULTS.md",
+    "docs/THREAT_MODEL_AND_BUDGETS.md"
+  ],
+  "manuscript_local_pdf_sha256": "943dd2dcc984d3ffd9509aa5fe374617a180670dd31a1a820d7b9e80775a9621",
+  "manuscript_tex_sha256": "a4cf7ccced9c7c65c07f02bf4bc351f6cbdbece44ad63aa50a1bfbbdfc737693",
+  "manuscript_version": "0.3",
+  "physical_or_formal_custody_acceptance": false,
+  "prior_numerical_reproduction_reused": true,
+  "published": false,
+  "revision": "1.0.0-rc3",
+  "science_and_analysis_execution_repeated": false,
+  "scope": "Editorial narrative and citation metadata aligned with manuscript v0.3; no scientific changes",
+  "unchanged_prior_files_excluding_manifests_and_editorial_validation": 430,
+  "verification": "Compared changed release paths with rc2, checked package membership and file hashes; no replay of frozen analysis."
+}

@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+build/
+artifacts/
+private/
+*.zip
+*.pt
+*.pth
+*.npy
+*.npz
+*.h5
+.env
+.env.*
+PRIVATE_SEEDS.json
+credentials*.json
+token*.json

@@ -1,6 +1,6 @@
 # Data availability and reproducibility boundary
 
-The versioned asset `OperatorMark_1.0.0-rc5.zip` on [GitHub Releases](https://github.com/Hc1012/OperatorMark/releases) contains the complete compact **saved-result analysis** artifact. Extract it to obtain the `OperatorMark` folder. This front-page repository provides access and citation information; all file paths below refer to the extracted release archive. It makes the reported statistical decisions and figures reproducible without a GPU. It is not a complete distribution of all raw data or a claim of independent end-to-end replication.
+The [`artifact/`](artifact) folder contains byte-identical copies of the files in the versioned release asset `OperatorMark_1.0.0-rc5.zip` on [GitHub Releases](https://github.com/Hc1012/OperatorMark/releases/tag/v1.0.0-rc5), which contains the compact **saved-result analysis** artifact. All file paths below are relative to `artifact/` (equivalently, the extracted archive's `OperatorMark` folder). It makes the reported statistical decisions and figures reproducible without a GPU. It is not a complete distribution of all raw data or a claim of independent end-to-end replication.
 
 | Available in the release archive | What it supports |
 | --- | --- |
@@ -19,7 +19,7 @@ Without those raw assets, a reader cannot independently re-evaluate the trained 
 
 The frozen scientific graph preserves historical private-artifact hashes, relative archive/member names and deliberate null bindings. A hash is a content identifier, not a public download link, proof of exclusive possession, or evidence of when an experiment happened. `provenance/CLAIM_EVIDENCE_INDEX.json` distinguishes public analysis pointers from original private source pointers. The compact-input hashes remain identical to the completed private analysis.
 
-No public raw-data hosting location, DOI, availability-on-request promise or future release date is invented. If a later paper or venue requires fuller raw-data reproducibility, a separately scoped data deposit would be needed; it must be described transparently rather than implied by this analysis package.
+No public raw-data hosting location, raw-data DOI, availability-on-request promise or future release date is invented. If a later paper or venue requires fuller raw-data reproducibility, a separately scoped data deposit would be needed; it must be described transparently rather than implied by this analysis package.
 
 ## Source and environment fidelity
 

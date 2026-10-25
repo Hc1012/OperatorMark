@@ -1,0 +1,293 @@
+{
+  "claim": "Archival implementation and saved historical outcomes; not a new live admission or a self-contained raw-campaign rerun.",
+  "files": [
+    {
+      "bytes_unchanged": true,
+      "member": "api_colab.py",
+      "public_file": "campaign_source/API/api_colab.py",
+      "sha256": "6ca5842f0e7445b166e69f580e110da43bb5725534c68b389083e8cad88149c4",
+      "source": "API_REVIEW_20261024T140425Z.zip"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "api_producer.py",
+      "public_file": "campaign_source/API/api_producer.py",
+      "sha256": "6cd2a5b5fb8372568881cc15493359487778e5cd8bbf0b8104efa10ad8330cbb",
+      "source": "API_REVIEW_20261024T140425Z.zip"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "api_remote.py",
+      "public_file": "campaign_source/API/api_remote.py",
+      "sha256": "2c2e30ad7c54d3206b97e4c40123aa44b86a6e6b88a3a1a0ff9a4425cf61c23d",
+      "source": "API_REVIEW_20261024T140425Z.zip"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "api_runtime.py",
+      "public_file": "campaign_source/API/api_runtime.py",
+      "sha256": "84916ed7116611b42a298c9ee0c0b03c2c614b48e2780a73258b46158c69dffc",
+      "source": "API_REVIEW_20261024T140425Z.zip"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "continuation_ops.py",
+      "public_file": "campaign_source/API/continuation_ops.py",
+      "sha256": "34d39356b8108b8341c31cdae9945e50084f898eb7b1e79c3b357ea9eba34bc8",
+      "source": "API_REVIEW_20261024T140425Z.zip"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "runtime_values.py",
+      "public_file": "campaign_source/API/runtime_values.py",
+      "sha256": "84eebaeff3c96228697510f16edb8814b8cf086be158caac758522287dc92a2d",
+      "source": "API_REVIEW_20261024T140425Z.zip"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "native_launch.py",
+      "public_file": "campaign_source/native/native_launch.py",
+      "sha256": "1189c7ac4cd5e95b7eac4d95d73da2c746703aebc092046aae79e08802dcd292",
+      "source": "NATIVE_F64_P256_RETURN_20261024T072602Z.zip"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "native_process_entry.py",
+      "public_file": "campaign_source/native/native_process_entry.py",
+      "sha256": "471ba9a97d6dc3943c351af3a79ce46988014d26c475b703a4c9e5d2bb709328",
+      "source": "NATIVE_F64_P256_RETURN_20261024T072602Z.zip"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "native_worker.py",
+      "public_file": "campaign_source/native/native_worker.py",
+      "sha256": "2bbdb0d7b48d76a3bb3ccebcc07a8b74e20968dde1cae77743392deef61c6aac",
+      "source": "NATIVE_F64_P256_RETURN_20261024T072602Z.zip"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "d2_selection/select_results_only.py",
+      "public_file": "campaign_source/D2_selection/d2_selection/select_results_only.py",
+      "sha256": "3995ebf818ff56f04a603172d3b66e5924e27709c8456fc9b090119644a4bac6",
+      "source": "OPERATOR_MARK_NATIVE_D2_RESULTS_20261024.zip"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "combined_colab.py",
+      "public_file": "campaign_source/null_noise_D2/combined_colab.py",
+      "sha256": "251ac968f922d4fd42f346a7161465fb077079e516f6f9c654c6080f37b004b8",
+      "source": "NULL_B2_CONTROL source package"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "combined_observe.py",
+      "public_file": "campaign_source/null_noise_D2/combined_observe.py",
+      "sha256": "6b20f8798cbb23362e2db396ce48fa19aa863f2abc1db086ead18add6de2cb94",
+      "source": "NULL_B2_CONTROL source package"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "combined_remote.py",
+      "public_file": "campaign_source/null_noise_D2/combined_remote.py",
+      "sha256": "d8a8ebf667ac63c547c083cbdf823c8645c3b0fa8a4db10874e1cd2f69f1f49c",
+      "source": "NULL_B2_CONTROL source package"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "compatibility_compare.py",
+      "public_file": "campaign_source/null_noise_D2/compatibility_compare.py",
+      "sha256": "1adde2362d158354f7b15a59023dd5bc34a0570e1ee079f34b8ff815511c92eb",
+      "source": "NULL_B2_CONTROL source package"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "compatibility_producer.py",
+      "public_file": "campaign_source/null_noise_D2/compatibility_producer.py",
+      "sha256": "875a65e31f0e036e1e60a93ee87631a7d938a7ce0c94fb9e537b994b312e548d",
+      "source": "NULL_B2_CONTROL source package"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "continuation_ops.py",
+      "public_file": "campaign_source/null_noise_D2/continuation_ops.py",
+      "sha256": "34d39356b8108b8341c31cdae9945e50084f898eb7b1e79c3b357ea9eba34bc8",
+      "source": "NULL_B2_CONTROL source package"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "d2_scoped_producer.py",
+      "public_file": "campaign_source/null_noise_D2/d2_scoped_producer.py",
+      "sha256": "64c50b2c7987e4d582f6882c7a16516d29c8bae07a3b0ec6d418443676c66739",
+      "source": "NULL_B2_CONTROL source package"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "healing_weight_observation.py",
+      "public_file": "campaign_source/null_noise_D2/healing_weight_observation.py",
+      "sha256": "e6b483ab570a02fd37d68429c5aa2ae17aa77f25dc7fe9093d58c68e55ca9898",
+      "source": "NULL_B2_CONTROL source package"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "noise_colab.py",
+      "public_file": "campaign_source/null_noise_D2/noise_colab.py",
+      "sha256": "62c23daeadc0ebfcc10ae888f6e8e50ac8e551dd7161e9db50cf1d97bb2c70ae",
+      "source": "NULL_B2_CONTROL source package"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "noise_cpu_export.py",
+      "public_file": "campaign_source/null_noise_D2/noise_cpu_export.py",
+      "sha256": "ece8ef7b918ee76ef732461e810c389d2210b868b4ab2dc5b8999235f7f0077e",
+      "source": "NULL_B2_CONTROL source package"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "noise_evaluate.py",
+      "public_file": "campaign_source/null_noise_D2/noise_evaluate.py",
+      "sha256": "422dd00c59b1688b4a36e70900e13f83289f314b7d1606901816d304daa67abf",
+      "source": "NULL_B2_CONTROL source package"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "noise_producer.py",
+      "public_file": "campaign_source/null_noise_D2/noise_producer.py",
+      "sha256": "3e1931d566590f2d1558789dd40e4704fc2bb3a3890ff3c82911d9dca49413ca",
+      "source": "NULL_B2_CONTROL source package"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "noise_remote.py",
+      "public_file": "campaign_source/null_noise_D2/noise_remote.py",
+      "sha256": "7ab4c133eca1d3a70ccd919ed2e385112df070aa459928cff83f3aecc74ec4a2",
+      "source": "NULL_B2_CONTROL source package"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "noise_runtime.py",
+      "public_file": "campaign_source/null_noise_D2/noise_runtime.py",
+      "sha256": "693fb89de57573fb71768d408112ed0e83036cdfd2ec62562471d350fbbb5a84",
+      "source": "NULL_B2_CONTROL source package"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "null_colab.py",
+      "public_file": "campaign_source/null_noise_D2/null_colab.py",
+      "sha256": "67a953c6e27634861a035d2b982a9ed31827846b39a79cfb1054b6fe406f0302",
+      "source": "NULL_B2_CONTROL source package"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "null_compute.py",
+      "public_file": "campaign_source/null_noise_D2/null_compute.py",
+      "sha256": "414d560253ac010a5d79c5e0fbcb0bae5222a00218757287867fa9359abe978d",
+      "source": "NULL_B2_CONTROL source package"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "null_io.py",
+      "public_file": "campaign_source/null_noise_D2/null_io.py",
+      "sha256": "3ea1634286becfde95fef29bc634ef18cc7abd8f9dcb9376e385e48054e19dab",
+      "source": "NULL_B2_CONTROL source package"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "null_producer.py",
+      "public_file": "campaign_source/null_noise_D2/null_producer.py",
+      "sha256": "f2dc44ff0fcaa9571074eb144e29d85f3e310e09202b652f1236b3070c54dcfe",
+      "source": "NULL_B2_CONTROL source package"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "null_reference.py",
+      "public_file": "campaign_source/null_noise_D2/null_reference.py",
+      "sha256": "bfada551d0a25657a88144e95b7a74129824057798b0e9b67775a6b48c3d798b",
+      "source": "NULL_B2_CONTROL source package"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "null_remote.py",
+      "public_file": "campaign_source/null_noise_D2/null_remote.py",
+      "sha256": "67137b9979495b2a18eb0dad7cc0566ec2c25eddb23bb52a33143a2f64889c36",
+      "source": "NULL_B2_CONTROL source package"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "null_runtime.py",
+      "public_file": "campaign_source/null_noise_D2/null_runtime.py",
+      "sha256": "43b421147ead4c35fc0f1e753236d28d36685de34a13804f5b951a1f087e0f91",
+      "source": "NULL_B2_CONTROL source package"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "runtime_observe_r4_corrected.py",
+      "public_file": "campaign_source/null_noise_D2/runtime_observe_r4_corrected.py",
+      "sha256": "1815d7329d9a245ff1641b18fdd6980fe2071433eaccc60989b9e0d003ca9926",
+      "source": "NULL_B2_CONTROL source package"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "runtime_values.py",
+      "public_file": "campaign_source/null_noise_D2/runtime_values.py",
+      "sha256": "84eebaeff3c96228697510f16edb8814b8cf086be158caac758522287dc92a2d",
+      "source": "NULL_B2_CONTROL source package"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "verify_bridge.py",
+      "public_file": "campaign_source/null_noise_D2/verify_bridge.py",
+      "sha256": "bc07ed2288ccd46df8b657014cf410af78cc8782166f26d151f5cbab74d0554e",
+      "source": "NULL_B2_CONTROL source package"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "payload/code/q5_colab_supervisor.py",
+      "public_file": "campaign_source/supervisor/q5_colab_supervisor.py",
+      "sha256": "98d93c5abddfbe96f2cfbb7634681260571554dabf4d5d6e440c23ab91770489",
+      "source": "NULL_B2_CONTROL source package"
+    },
+    {
+      "bytes_unchanged": false,
+      "changes": [
+        "Omitted historical supervisor command containing private Drive folder paths; all outcome, timing and closure fields retained."
+      ],
+      "member": "D3_OUTCOME.json",
+      "original_sha256": "562dafea1abf138bbc4f64dec14c846c0a8351025bfdf113fd3e73ff6cb9b761",
+      "public_file": "provenance/historical/D3_OUTCOME.json",
+      "public_sha256": "66cbafb814f14dac22e2177d148e5c514078c3cad32a2207365765d02c3b6da4",
+      "source": "retained historical evidence"
+    },
+    {
+      "bytes_unchanged": false,
+      "changes": [
+        "Omitted historical supervisor command containing private Drive folder paths; all outcome, timing and closure fields retained."
+      ],
+      "member": "PN_OUTCOME.json",
+      "original_sha256": "873b954c825d5a3990fb0b91c4e132489440f12738291aa40250c943245061e8",
+      "public_file": "provenance/historical/PN_OUTCOME.json",
+      "public_sha256": "4b6c3b748fd33f3d6910a1ad7806dc87e5fe722fbc0452dd9f9c5ed16946a759",
+      "source": "retained historical evidence"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "analysis.review.json",
+      "public_file": "provenance/historical/analysis.review.json",
+      "sha256": "2dbea04e98da400e79d3a46141e62a17b14b307b3dd59b5b2bc3a9c2a9c7883f",
+      "source": "retained historical evidence"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "RESULTS.review.json",
+      "public_file": "provenance/historical/RESULTS.review.json",
+      "sha256": "fdcc5f05afc1ef8a7a86ad5be2ed820cc024ee27c930f81d43fb93c92f56d646",
+      "source": "retained historical evidence"
+    },
+    {
+      "bytes_unchanged": true,
+      "member": "QUALIFICATION.review.json",
+      "public_file": "provenance/historical/QUALIFICATION.review.json",
+      "sha256": "872e618bc4004a7dec2fa03c6e4b2a1da1e5c0d73c721da4d4b39a478dc6c57e",
+      "source": "retained historical evidence"
+    }
+  ]
+}

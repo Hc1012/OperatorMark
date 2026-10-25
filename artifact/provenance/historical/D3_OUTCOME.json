@@ -1,0 +1,96 @@
+{
+  "closed": true,
+  "complete": true,
+  "follow_on_authorized": false,
+  "supervisor": {
+    "closure": {
+      "child_reaped": true,
+      "errors": [],
+      "initial_members": [],
+      "resolved": true,
+      "returncode": 0,
+      "signals": [],
+      "survivors": []
+    },
+    "returncode": 0,
+    "seconds": 284.73612236976624,
+    "started": 1791208596.0862117,
+    "stdout_closed": true,
+    "timed_out": false
+  },
+  "timed_out": false,
+  "worker": {
+    "arms": [
+      "B3_3_D3",
+      "B3_1.5_D3",
+      "S3"
+    ],
+    "classifications": [
+      {
+        "NS": 0.508600663113089,
+        "a_A": -0.35711889631554933,
+        "classification": "noise",
+        "crossings": 56,
+        "first_crossing_state": 1,
+        "interpretation": "descriptive trace classification only, not causal proof",
+        "median_step_over_T": 0.12932953494463567
+      },
+      {
+        "NS": 0.5051818139804998,
+        "a_A": -0.12270419998859955,
+        "classification": "noise",
+        "crossings": 57,
+        "first_crossing_state": 1,
+        "interpretation": "descriptive trace classification only, not causal proof",
+        "median_step_over_T": 0.3425626074763394
+      }
+    ],
+    "complete": true,
+    "decision": {
+      "classifications": [
+        "noise",
+        "noise"
+      ],
+      "descriptive_action": "P-N may be considered under separate authority",
+      "follow_on_authorized": false,
+      "qualification": false
+    },
+    "follow_on_authorized": false,
+    "original_qualification_unchanged": true,
+    "physical_qualification": false,
+    "reproduction": {
+      "B3_1.5_D3": {
+        "actual_last_objective": 0.07063224911689758,
+        "compared_final_state": 320,
+        "historical_last_objective": 0.07063224911689758,
+        "last_objective_equal": true,
+        "last_objective_pre_state": 319,
+        "meaning": "REPRODUCTION consistency only; not proof of freedom from bugs. File serialization bytes are not compared.",
+        "model_tensor_mismatches": [],
+        "passed": true
+      },
+      "B3_3_D3": {
+        "actual_last_objective": 0.05006180703639984,
+        "compared_final_state": 320,
+        "historical_last_objective": 0.05006180703639984,
+        "last_objective_equal": true,
+        "last_objective_pre_state": 319,
+        "meaning": "REPRODUCTION consistency only; not proof of freedom from bugs. File serialization bytes are not compared.",
+        "model_tensor_mismatches": [],
+        "passed": true
+      },
+      "S3": {
+        "actual_last_objective": 0.00010367876529926434,
+        "compared_final_state": 320,
+        "historical_last_objective": 0.00010367876529926434,
+        "last_objective_equal": true,
+        "last_objective_pre_state": 319,
+        "meaning": "REPRODUCTION consistency only; not proof of freedom from bugs. File serialization bytes are not compared.",
+        "model_tensor_mismatches": [],
+        "passed": true
+      }
+    },
+    "seconds": 278.6909532546997,
+    "updates": 960
+  }
+}

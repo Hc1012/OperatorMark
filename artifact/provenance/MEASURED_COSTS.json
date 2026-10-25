@@ -1,0 +1,115 @@
+{
+  "CPU_scoring_seconds_sum": 80310.2094122991,
+  "excluded": "Training, setup, failed attempts, downloads, idle connections, reference generation, other CPU work and metadata publication are not all represented in this subtotal.",
+  "latest_null_batch_timing": {
+    "activation_to_main_publisher_close_seconds": 2770.5763063430786,
+    "final_metadata_publish_time_excluded": true,
+    "observed_units_per_hour": 5.3,
+    "preactivation_connected_time_excluded": true,
+    "producer_seconds": 2156.712085008621,
+    "proxy_not_invoice": true,
+    "reference_material_native_seconds": 173.70831902400005,
+    "units_proxy_through_main_publisher_close": 4.078904006560643
+  },
+  "model_evaluation_CPU_batches": [
+    {
+      "CPU_scoring_seconds": 1885.1824487000704,
+      "P256_calls": 1280,
+      "T128_calls": 1280,
+      "batch": "Primary",
+      "field": "results/*/scoring_seconds",
+      "requests": 20,
+      "source": "evidence/completed_primary/FINAL_CPU_RETURN_VERIFIED.json"
+    },
+    {
+      "CPU_scoring_seconds": 8512.240529200179,
+      "P256_calls": 5824,
+      "T128_calls": 5824,
+      "batch": "Ordinary and controls",
+      "field": "per_request_seconds/mean * requests",
+      "requests": 91,
+      "source": "evidence/completed_ordinary/ORDINARY_CPU_RETURN_VERIFIED.json"
+    },
+    {
+      "CPU_scoring_seconds": 10976.544110199902,
+      "P256_calls": 7680,
+      "T128_calls": 7680,
+      "batch": "A4/A5",
+      "field": "per_request_seconds/mean * requests",
+      "requests": 120,
+      "source": "evidence/completed_A4_A5/ATTACKS_CPU_RETURN_VERIFIED.json"
+    },
+    {
+      "CPU_scoring_seconds": 12928.81576829951,
+      "P256_calls": 8960,
+      "T128_calls": 8960,
+      "batch": "Terminal students",
+      "field": "per_request_seconds/mean * requests",
+      "requests": 140,
+      "source": "evidence/completed_terminal_students/STUDENTS_CPU_RETURN_VERIFIED.json"
+    },
+    {
+      "CPU_scoring_seconds": 18740.96488999983,
+      "P256_calls": 12800,
+      "T128_calls": 12800,
+      "batch": "Weights and healing",
+      "field": "per_request_seconds/mean * requests",
+      "requests": 200,
+      "source": "evidence/completed_weights/WEIGHTS_CPU_RETURN_VERIFIED.json"
+    },
+    {
+      "CPU_scoring_seconds": 17873.1855848009,
+      "P256_calls": 12800,
+      "T128_calls": 12800,
+      "batch": "Transforms",
+      "field": "per_request_seconds/mean * requests",
+      "requests": 200,
+      "source": "evidence/completed_transforms/TRANSFORMS_CPU_RETURN_VERIFIED.json"
+    },
+    {
+      "CPU_scoring_seconds": 3748.041759699816,
+      "P256_calls": 2560,
+      "T128_calls": 2560,
+      "batch": "Jacobi16",
+      "field": "per_request_seconds/mean * requests",
+      "requests": 40,
+      "source": "evidence/completed_Jacobi16/JACOBI16_CPU_RETURN_VERIFIED.json"
+    },
+    {
+      "CPU_scoring_seconds": 3746.0847512993496,
+      "P256_calls": 2560,
+      "T128_calls": 2560,
+      "batch": "Jacobi256",
+      "field": "per_request_seconds/mean * requests",
+      "requests": 40,
+      "source": "evidence/completed_Jacobi256/JACOBI256_CPU_RETURN_VERIFIED.json"
+    },
+    {
+      "CPU_scoring_seconds": 1899.1495700995438,
+      "P256_calls": 1280,
+      "T128_calls": 1280,
+      "batch": "Noise",
+      "field": "O*/noise_*/timing/CPU_scoring_seconds",
+      "requests": 20,
+      "source": "MODEL_ANALYSIS_INPUTS.json"
+    }
+  ],
+  "native_challenger_counts": {
+    "F64": {
+      "adjoint": 7680,
+      "completed_targets": 64,
+      "forward": 7744,
+      "scoring_p256": 64,
+      "scoring_t128": 64
+    },
+    "P256": {
+      "P256_adjoint": 7680,
+      "P256_optimization_forward": 7744,
+      "P256_scoring": 64,
+      "T128_scoring": 64,
+      "per_target_inverse_updates": 7680
+    }
+  },
+  "whole_project_billable_units": null,
+  "whole_project_money_spent": null
+}

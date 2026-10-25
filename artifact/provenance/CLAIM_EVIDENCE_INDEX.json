@@ -1,0 +1,68 @@
+{
+  "API_only_observed_service": {
+    "analysis": "analysis/expected/FINAL_ANALYSIS.json#/API",
+    "original": "API_REVIEW_20261024T140425Z.zip::output/owners/<owner>/<variant>/REVIEW.json",
+    "original_availability": "Source identity only: the named private archive is not shipped in this public release."
+  },
+  "B2_lineage": {
+    "analysis": "analysis/expected/FINAL_ANALYSIS.json#/B2",
+    "original": "NULL_B2_REVIEW_20261024T231513Z.zip::output/b2/<owner>/<variant>.json",
+    "original_availability": "Source identity only: the named private archive is not shipped in this public release."
+  },
+  "D2_deliberately_unmeasured": {
+    "analysis": "analysis/expected/FINAL_ANALYSIS.json#/D2",
+    "original": "OPERATOR_MARK_NATIVE_D2_RESULTS_20261024.zip::d2_selection/{D2_READOUT_SUMMARY.json,decisions/<cell>/DECISION.json,unmeasured/<owner>/<variant>/TASK_STATUS.json}",
+    "original_availability": "Source identity only: the named private archive is not shipped in this public release."
+  },
+  "adaptive_accuser": {
+    "analysis": "analysis/expected/FINAL_ANALYSIS.json#/adaptive",
+    "original": "FINAL_EVAL_REVIEW_20261019T164654Z.zip::output/adaptive/<owner>/RESULT.json; ordinary/ADAPTIVE_CALIBRATION_SCOPE_REVIEW.json",
+    "original_availability": "Source identity only: the named private archive is not shipped in this public release."
+  },
+  "bound_130_contract_slots": {
+    "analysis": "provenance/SCOPE_AT_ANALYSIS_COMPLETION.json",
+    "original": "ordinary/admission/FINAL_CONTRACT_BINDINGS.json#/slots_bound",
+    "original_availability": "Source identity only: the named private archive is not shipped in this public release."
+  },
+  "costs": {
+    "analysis": "provenance/MEASURED_COSTS.json",
+    "original": "Per-batch source/field pointers inside that file",
+    "original_availability": "Source identity only: the named private archive is not shipped in this public release."
+  },
+  "earlier_TPFA32": {
+    "analysis": "provenance/HISTORICAL_CONTEXT.json#/TPFA32",
+    "original": "OperatorMark_Complete_Handover_20261012_PRIVATE.zip::evidence/00_original_20261005/evidence/02_tpfa32/analysis.review.json",
+    "original_availability": "Source identity only: the named private archive is not shipped in this public release."
+  },
+  "fixed_keyed_nulls": {
+    "analysis": "analysis/expected/FINAL_ANALYSIS.json#/nulls",
+    "original": "NULL_B2_REVIEW_20261024T231513Z.zip::output/nulls/<owner>/KEYED_NULLS.json",
+    "original_availability": "Source identity only: the named private archive is not shipped in this public release."
+  },
+  "intact_O05_not_detected": {
+    "analysis": "analysis/expected/FINAL_ANALYSIS.json#/intact/O05",
+    "original": "FINAL_EVAL_REVIEW_20261019T164654Z.zip::output/evaluations/O05/M3/evaluation/RESULT.json; FINAL_CPU_RETURN_VERIFIED.json#/results/O05/M3",
+    "original_availability": "Source identity only: the named private archive is not shipped in this public release."
+  },
+  "native_tasks": {
+    "analysis": "analysis/expected/FINAL_ANALYSIS.json#/native",
+    "original": "NATIVE_F64_P256_RETURN_20261024T072602Z.zip::output/{F64,P256}/RESULT.json",
+    "original_availability": "Source identity only: the named private archive is not shipped in this public release."
+  },
+  "physical_and_provenance_limits": {
+    "analysis": "docs/LIMITATIONS_AND_HISTORY.md",
+    "original": "OperatorMark_Complete_Handover_20261012_PRIVATE.zip::PROJECT_HANDOVER.txt sections 4.3, 4.10, 5; EVIDENCE_GUIDE.txt E03, E17",
+    "original_availability": "Source identity only: the named private archive is not shipped in this public release."
+  },
+  "primary_copy_advantage": {
+    "analysis": "analysis/expected/FINAL_ANALYSIS.json#/primary",
+    "input": "analysis/inputs/MODEL_ANALYSIS_INPUTS.json#/O01..O10/{Aord_M3_raw1920,Rstar}",
+    "original": "ORDINARY_CPU_RETURN_REVIEW.zip::merged/<owner>/<variant>/RESULT.json",
+    "original_availability": "Source identity only: the named private archive is not shipped in this public release."
+  },
+  "qualified_removal_A4_A5": {
+    "analysis": "analysis/expected/FINAL_ANALYSIS.json#/cohorts/cohorts/{A4_M3,A5B3_M3}",
+    "original": "ATTACKS_CPU_RETURN_REVIEW.zip::merged/<owner>/<variant>/RESULT.json",
+    "original_availability": "Source identity only: the named private archive is not shipped in this public release."
+  }
+}

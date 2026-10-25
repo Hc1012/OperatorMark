@@ -1,0 +1,42 @@
+{
+  "analysis_sha256": "6bbbdeee9daff3d986a17f41e587ff0820ad367efa86dca0794487ec52c5074c",
+  "artifact_role": "initial public artifact deposit",
+  "author_readthrough_complete": true,
+  "baseline_manifest_sha256": "5c5fda43e490538e8d6d25c9cd26bbdecb8b8d5b0582c85b553ac7ba121fb940",
+  "baseline_release": "1.0.0-rc4",
+  "changed_existing_documents": [
+    "CITATION.cff",
+    "DATA_AVAILABILITY.md",
+    "README.md",
+    "RELEASE_STATUS.json",
+    "docs/PAPER_AND_RELEASE.md",
+    "docs/RESULTS.md"
+  ],
+  "commit_identifier_recorded": false,
+  "date": "2026-10-25",
+  "github_repository_id": 1433318222,
+  "main_announcement_complete": false,
+  "manuscript_version": "0.4",
+  "paper_included_in_repository": false,
+  "paper_license": "undecided",
+  "physical_or_formal_custody_acceptance": false,
+  "preprint_deposited": false,
+  "preprint_submitted": false,
+  "preserved_records": {
+    "provenance/EDITORIAL_RELEASE_VALIDATION_RC4.json": "0566dcf14c28dee56a9a1789c74eb4ab0b226a66314ca0a539895e35ecbd8af2",
+    "provenance/RELEASE_STATUS_RC4.json": "6f55c930676ebea8627e92ec232b8d0ab6b4de1bc26fe871a19c2323917ba183"
+  },
+  "prior_numerical_reproduction_reused": true,
+  "public_repository_exists": true,
+  "publication_format_preprint_prepared": true,
+  "remote_artifact_upload_verified_by_this_record": false,
+  "repository_identity_verification": "Authenticated GitHub/browser verification reported by parent before this metadata preparation",
+  "repository_license_unchanged": true,
+  "repository_url": "https://github.com/Hc1012/OperatorMark",
+  "revision": "1.0.0-rc5",
+  "science_and_analysis_execution_repeated": false,
+  "scope": "Publication metadata for initial public artifact deposit; no scientific changes",
+  "unchanged_prior_files_excluding_manifest_and_current_editorial_validation": 434,
+  "unchanged_scientific_analysis_and_figure_files": 402,
+  "verification": "Byte comparison and SHA-256 inventory only. No analysis, tests, model execution, solvers or paid work rerun."
+}

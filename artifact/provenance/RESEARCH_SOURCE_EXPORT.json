@@ -1,0 +1,2377 @@
+{
+  "files": {
+    "AGENTS.md": {
+      "bytes_unchanged": true,
+      "changes": [
+        "Renamed historical instructions as an archival text; contents unchanged."
+      ],
+      "original_sha256": "4c71d66d11e9ff8aa591f26c6b2e3251e3b7531c3b86358e967d61811935de96",
+      "public_file": "research_source/ARCHIVED_AGENT_INSTRUCTIONS.txt",
+      "public_sha256": "4c71d66d11e9ff8aa591f26c6b2e3251e3b7531c3b86358e967d61811935de96"
+    },
+    "experiments/tpfa32_copy_study/analyze.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "17ba591d06f81349ac53321d6a759d5392060dfb01702cc513c3d1bd20b0eeed",
+      "public_file": "research_source/experiments/tpfa32_copy_study/analyze.py",
+      "public_sha256": "17ba591d06f81349ac53321d6a759d5392060dfb01702cc513c3d1bd20b0eeed"
+    },
+    "experiments/tpfa32_copy_study/campaign.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "9de57313cd5ed9236017bc0ad369527e5a1548cb18941ec483c3e5294a1ba2b8",
+      "public_file": "research_source/experiments/tpfa32_copy_study/campaign.py",
+      "public_sha256": "9de57313cd5ed9236017bc0ad369527e5a1548cb18941ec483c3e5294a1ba2b8"
+    },
+    "experiments/tpfa32_copy_study/core.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "5cbba5344796c93f06f1430b757502e7925250cd69b26548d5b57b931e95476d",
+      "public_file": "research_source/experiments/tpfa32_copy_study/core.py",
+      "public_sha256": "5cbba5344796c93f06f1430b757502e7925250cd69b26548d5b57b931e95476d"
+    },
+    "experiments/tpfa32_copy_study/cost_fixture.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "f0b7ba4d6d0cdcebecd4a9b735f420ea91726d525eed88072f56914369adf7d9",
+      "public_file": "research_source/experiments/tpfa32_copy_study/cost_fixture.py",
+      "public_sha256": "f0b7ba4d6d0cdcebecd4a9b735f420ea91726d525eed88072f56914369adf7d9"
+    },
+    "experiments/tpfa32_copy_study/cost_recovery_supervise.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "d893775a9c1465b273624e84848a0a72f0c99ccfbcf78e8ffa60d3441a2e69c2",
+      "public_file": "research_source/experiments/tpfa32_copy_study/cost_recovery_supervise.py",
+      "public_sha256": "d893775a9c1465b273624e84848a0a72f0c99ccfbcf78e8ffa60d3441a2e69c2"
+    },
+    "experiments/tpfa32_copy_study/cost_supervise.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "c1421cd0ac5c770cc98c3767207a8693eadd1c5301fddce4f11503a438468f71",
+      "public_file": "research_source/experiments/tpfa32_copy_study/cost_supervise.py",
+      "public_sha256": "c1421cd0ac5c770cc98c3767207a8693eadd1c5301fddce4f11503a438468f71"
+    },
+    "experiments/tpfa32_copy_study/dev_campaign.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "07eabbc1af47ec9cca8df3b6b450bdfd8104ba048cf31c4d91b8467dcd640130",
+      "public_file": "research_source/experiments/tpfa32_copy_study/dev_campaign.py",
+      "public_sha256": "07eabbc1af47ec9cca8df3b6b450bdfd8104ba048cf31c4d91b8467dcd640130"
+    },
+    "experiments/tpfa32_copy_study/dev_cost.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "2c15536bd3a590dd0c1d84437854844e1c3fc06a5d91ed503975f5f58c1ee8aa",
+      "public_file": "research_source/experiments/tpfa32_copy_study/dev_cost.py",
+      "public_sha256": "2c15536bd3a590dd0c1d84437854844e1c3fc06a5d91ed503975f5f58c1ee8aa"
+    },
+    "experiments/tpfa32_copy_study/dev_fixture.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "136ed3a3f30d9dff640372ef62f733931491cafb3d3c1c2bf35b0026039768ce",
+      "public_file": "research_source/experiments/tpfa32_copy_study/dev_fixture.py",
+      "public_sha256": "136ed3a3f30d9dff640372ef62f733931491cafb3d3c1c2bf35b0026039768ce"
+    },
+    "experiments/tpfa32_copy_study/dev_process.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "bd67ddb42b3f00a8919dec36c948c3fdfa0854c877ae927925b424fd15fb4978",
+      "public_file": "research_source/experiments/tpfa32_copy_study/dev_process.py",
+      "public_sha256": "bd67ddb42b3f00a8919dec36c948c3fdfa0854c877ae927925b424fd15fb4978"
+    },
+    "experiments/tpfa32_copy_study/dev_state.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "eaac3fb6ffbdb91d1932c7c9f51f0debbd4db796a023a96e66cd52021806ca9a",
+      "public_file": "research_source/experiments/tpfa32_copy_study/dev_state.py",
+      "public_sha256": "eaac3fb6ffbdb91d1932c7c9f51f0debbd4db796a023a96e66cd52021806ca9a"
+    },
+    "experiments/tpfa32_copy_study/dev_supervise.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "3315d9bb1e773e4987c2c895f1e07a0776c1a2ba2b128b2871148514a3f2aa00",
+      "public_file": "research_source/experiments/tpfa32_copy_study/dev_supervise.py",
+      "public_sha256": "3315d9bb1e773e4987c2c895f1e07a0776c1a2ba2b128b2871148514a3f2aa00"
+    },
+    "experiments/tpfa32_copy_study/dev_verify_supervise.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "5e222e9706c6f8fa0449f4457c2fad81c66552301219e75c8c03abfd552b1750",
+      "public_file": "research_source/experiments/tpfa32_copy_study/dev_verify_supervise.py",
+      "public_sha256": "5e222e9706c6f8fa0449f4457c2fad81c66552301219e75c8c03abfd552b1750"
+    },
+    "experiments/tpfa32_copy_study/dev_worker.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "2155b0923c2ea511b26963eeb5d957ba3d3d6a2172652b9ace2d01f5b4ab742b",
+      "public_file": "research_source/experiments/tpfa32_copy_study/dev_worker.py",
+      "public_sha256": "2155b0923c2ea511b26963eeb5d957ba3d3d6a2172652b9ace2d01f5b4ab742b"
+    },
+    "experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/analyze.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "6e2cc0c40e1dddb945d51207c0053839a220ec7ec5a34280f9afa7136cfbe9c7",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/analyze.py",
+      "public_sha256": "6e2cc0c40e1dddb945d51207c0053839a220ec7ec5a34280f9afa7136cfbe9c7"
+    },
+    "experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/campaign.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "a369887a47890edcfcecd73086ca4bafd1853bce7fa83a63b3e67439e5378392",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/campaign.py",
+      "public_sha256": "a369887a47890edcfcecd73086ca4bafd1853bce7fa83a63b3e67439e5378392"
+    },
+    "experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/core.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "96c11122ff93e74642d9553bdc5a49286ea08a38b215495084e3eeb04220c26b",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/core.py",
+      "public_sha256": "96c11122ff93e74642d9553bdc5a49286ea08a38b215495084e3eeb04220c26b"
+    },
+    "experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/cost_fixture.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "f0b7ba4d6d0cdcebecd4a9b735f420ea91726d525eed88072f56914369adf7d9",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/cost_fixture.py",
+      "public_sha256": "f0b7ba4d6d0cdcebecd4a9b735f420ea91726d525eed88072f56914369adf7d9"
+    },
+    "experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/cost_recovery_supervise.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "d893775a9c1465b273624e84848a0a72f0c99ccfbcf78e8ffa60d3441a2e69c2",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/cost_recovery_supervise.py",
+      "public_sha256": "d893775a9c1465b273624e84848a0a72f0c99ccfbcf78e8ffa60d3441a2e69c2"
+    },
+    "experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/cost_supervise.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "c1421cd0ac5c770cc98c3767207a8693eadd1c5301fddce4f11503a438468f71",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/cost_supervise.py",
+      "public_sha256": "c1421cd0ac5c770cc98c3767207a8693eadd1c5301fddce4f11503a438468f71"
+    },
+    "experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/numerics.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "84f353f612cd973e5015a41551a6a582b5494c653897b34189227469f96797e1",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/numerics.py",
+      "public_sha256": "84f353f612cd973e5015a41551a6a582b5494c653897b34189227469f96797e1"
+    },
+    "experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/outcomes.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "b572801dae404a08623921314130cb3cbd304bcfd6f9859132c0310d0288c502",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/outcomes.py",
+      "public_sha256": "b572801dae404a08623921314130cb3cbd304bcfd6f9859132c0310d0288c502"
+    },
+    "experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/smoke.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "86eabc8695258fde06ac3b6fc71fc24bce956f8b139bc28e8ea64fb9f38ab0ed",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/smoke.py",
+      "public_sha256": "86eabc8695258fde06ac3b6fc71fc24bce956f8b139bc28e8ea64fb9f38ab0ed"
+    },
+    "experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/stage0.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "3b19e19e63fc088189c56fdbde65d03c22402141788e37f488afd097e3a28240",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/stage0.py",
+      "public_sha256": "3b19e19e63fc088189c56fdbde65d03c22402141788e37f488afd097e3a28240"
+    },
+    "experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/study.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "55ae351689c0bd2639797a6d1e56b8d2261c3195f48edec7165244b617e968b3",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/study.py",
+      "public_sha256": "55ae351689c0bd2639797a6d1e56b8d2261c3195f48edec7165244b617e968b3"
+    },
+    "experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/supervise.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "ae34199d5304c374871f01a7bb524bfce4f073e6c6964ce4f7fe545083169f02",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/supervise.py",
+      "public_sha256": "ae34199d5304c374871f01a7bb524bfce4f073e6c6964ce4f7fe545083169f02"
+    },
+    "experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/test_amendment.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "8e1383b4d979189da56d1f01adf49399be0c2d79714175b99fc356287870eb95",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/test_amendment.py",
+      "public_sha256": "8e1383b4d979189da56d1f01adf49399be0c2d79714175b99fc356287870eb95"
+    },
+    "experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/test_contracts.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "b8076f5f96b4498f27488de12eff0df28c067c1b452395c013847cb442c0bd08",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/test_contracts.py",
+      "public_sha256": "b8076f5f96b4498f27488de12eff0df28c067c1b452395c013847cb442c0bd08"
+    },
+    "experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/test_persistence.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "11b5535d8711445174661a30f474d72a89a05ed35bb97bf85c784cdc139e368b",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/test_persistence.py",
+      "public_sha256": "11b5535d8711445174661a30f474d72a89a05ed35bb97bf85c784cdc139e368b"
+    },
+    "experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/test_readiness.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "36ba3e4a5ee00b86aa068f978fa78fda0105f873ade03c1c86d13fecf50c0ffa",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/test_readiness.py",
+      "public_sha256": "36ba3e4a5ee00b86aa068f978fa78fda0105f873ade03c1c86d13fecf50c0ffa"
+    },
+    "experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/test_workflows.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "4b851d25215b76d673c50064c210c73602e8d917c3c8ba30775f0f6a9ca512bc",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/test_workflows.py",
+      "public_sha256": "4b851d25215b76d673c50064c210c73602e8d917c3c8ba30775f0f6a9ca512bc"
+    },
+    "experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/training.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "d5d7b3c25623515cfca4a5dc48a948bb915c732b262224c33e53cdb77cd08f22",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/development_r2_20260930/before/training.py",
+      "public_sha256": "d5d7b3c25623515cfca4a5dc48a948bb915c732b262224c33e53cdb77cd08f22"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/after/analyze.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "17ba591d06f81349ac53321d6a759d5392060dfb01702cc513c3d1bd20b0eeed",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/after/analyze.py",
+      "public_sha256": "17ba591d06f81349ac53321d6a759d5392060dfb01702cc513c3d1bd20b0eeed"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/after/final_campaign.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "4e3bfcb0a469d23d60ee9f393b9ea1255ba6cd74b97732fd874ae02a81a58de0",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/after/final_campaign.py",
+      "public_sha256": "4e3bfcb0a469d23d60ee9f393b9ea1255ba6cd74b97732fd874ae02a81a58de0"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/after/final_contract.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "0fad288d70242c9c41a0285b5429330e7b00335f785a0da7122c626b5e6978ab",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/after/final_contract.py",
+      "public_sha256": "0fad288d70242c9c41a0285b5429330e7b00335f785a0da7122c626b5e6978ab"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/after/final_fixture.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "5698f22ca0ec488e6195b6a5c341148556a5dcdbdbf0a958cfbb6ea7321ca02c",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/after/final_fixture.py",
+      "public_sha256": "5698f22ca0ec488e6195b6a5c341148556a5dcdbdbf0a958cfbb6ea7321ca02c"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/after/final_summary.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "ac5ef8e7be8c6c8a5843a881c8c59b917a94138b204215314e0e8b3fb2004418",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/after/final_summary.py",
+      "public_sha256": "ac5ef8e7be8c6c8a5843a881c8c59b917a94138b204215314e0e8b3fb2004418"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/after/final_supervise.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "ed907b4f3cda1e75a45691bbb36068dc81226f21f8e75652bc2e25da56691e52",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/after/final_supervise.py",
+      "public_sha256": "ed907b4f3cda1e75a45691bbb36068dc81226f21f8e75652bc2e25da56691e52"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/after/final_verify_supervise.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "69e4610ad64aade769fdb755df2885ac08bf394fd11603d31f37c34d22bc892c",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/after/final_verify_supervise.py",
+      "public_sha256": "69e4610ad64aade769fdb755df2885ac08bf394fd11603d31f37c34d22bc892c"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/after/final_worker.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "dca2435bc2897cc4fbba80bb7b2722c0833bf83dc6933c2e5eb6aea5c29f0f6e",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/after/final_worker.py",
+      "public_sha256": "dca2435bc2897cc4fbba80bb7b2722c0833bf83dc6933c2e5eb6aea5c29f0f6e"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/after/test_final_study.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "df8e555fc9ddcbe3bb84cdb463536d9f57fba1afdac4cb50859496abb04835c5",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/after/test_final_study.py",
+      "public_sha256": "df8e555fc9ddcbe3bb84cdb463536d9f57fba1afdac4cb50859496abb04835c5"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/before/analyze.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "6e2cc0c40e1dddb945d51207c0053839a220ec7ec5a34280f9afa7136cfbe9c7",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/before/analyze.py",
+      "public_sha256": "6e2cc0c40e1dddb945d51207c0053839a220ec7ec5a34280f9afa7136cfbe9c7"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/before/campaign.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "9de57313cd5ed9236017bc0ad369527e5a1548cb18941ec483c3e5294a1ba2b8",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/before/campaign.py",
+      "public_sha256": "9de57313cd5ed9236017bc0ad369527e5a1548cb18941ec483c3e5294a1ba2b8"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/before/core.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "5cbba5344796c93f06f1430b757502e7925250cd69b26548d5b57b931e95476d",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/before/core.py",
+      "public_sha256": "5cbba5344796c93f06f1430b757502e7925250cd69b26548d5b57b931e95476d"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/before/cost_fixture.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "f0b7ba4d6d0cdcebecd4a9b735f420ea91726d525eed88072f56914369adf7d9",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/before/cost_fixture.py",
+      "public_sha256": "f0b7ba4d6d0cdcebecd4a9b735f420ea91726d525eed88072f56914369adf7d9"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/before/cost_recovery_supervise.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "d893775a9c1465b273624e84848a0a72f0c99ccfbcf78e8ffa60d3441a2e69c2",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/before/cost_recovery_supervise.py",
+      "public_sha256": "d893775a9c1465b273624e84848a0a72f0c99ccfbcf78e8ffa60d3441a2e69c2"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/before/cost_supervise.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "c1421cd0ac5c770cc98c3767207a8693eadd1c5301fddce4f11503a438468f71",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/before/cost_supervise.py",
+      "public_sha256": "c1421cd0ac5c770cc98c3767207a8693eadd1c5301fddce4f11503a438468f71"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/before/dev_campaign.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "07eabbc1af47ec9cca8df3b6b450bdfd8104ba048cf31c4d91b8467dcd640130",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/before/dev_campaign.py",
+      "public_sha256": "07eabbc1af47ec9cca8df3b6b450bdfd8104ba048cf31c4d91b8467dcd640130"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/before/dev_cost.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "2c15536bd3a590dd0c1d84437854844e1c3fc06a5d91ed503975f5f58c1ee8aa",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/before/dev_cost.py",
+      "public_sha256": "2c15536bd3a590dd0c1d84437854844e1c3fc06a5d91ed503975f5f58c1ee8aa"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/before/dev_fixture.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "136ed3a3f30d9dff640372ef62f733931491cafb3d3c1c2bf35b0026039768ce",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/before/dev_fixture.py",
+      "public_sha256": "136ed3a3f30d9dff640372ef62f733931491cafb3d3c1c2bf35b0026039768ce"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/before/dev_process.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "bd67ddb42b3f00a8919dec36c948c3fdfa0854c877ae927925b424fd15fb4978",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/before/dev_process.py",
+      "public_sha256": "bd67ddb42b3f00a8919dec36c948c3fdfa0854c877ae927925b424fd15fb4978"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/before/dev_state.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "eaac3fb6ffbdb91d1932c7c9f51f0debbd4db796a023a96e66cd52021806ca9a",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/before/dev_state.py",
+      "public_sha256": "eaac3fb6ffbdb91d1932c7c9f51f0debbd4db796a023a96e66cd52021806ca9a"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/before/dev_supervise.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "3315d9bb1e773e4987c2c895f1e07a0776c1a2ba2b128b2871148514a3f2aa00",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/before/dev_supervise.py",
+      "public_sha256": "3315d9bb1e773e4987c2c895f1e07a0776c1a2ba2b128b2871148514a3f2aa00"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/before/dev_verify_supervise.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "5e222e9706c6f8fa0449f4457c2fad81c66552301219e75c8c03abfd552b1750",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/before/dev_verify_supervise.py",
+      "public_sha256": "5e222e9706c6f8fa0449f4457c2fad81c66552301219e75c8c03abfd552b1750"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/before/dev_worker.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "2155b0923c2ea511b26963eeb5d957ba3d3d6a2172652b9ace2d01f5b4ab742b",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/before/dev_worker.py",
+      "public_sha256": "2155b0923c2ea511b26963eeb5d957ba3d3d6a2172652b9ace2d01f5b4ab742b"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/before/numerics.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "84f353f612cd973e5015a41551a6a582b5494c653897b34189227469f96797e1",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/before/numerics.py",
+      "public_sha256": "84f353f612cd973e5015a41551a6a582b5494c653897b34189227469f96797e1"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/before/outcomes.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "b572801dae404a08623921314130cb3cbd304bcfd6f9859132c0310d0288c502",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/before/outcomes.py",
+      "public_sha256": "b572801dae404a08623921314130cb3cbd304bcfd6f9859132c0310d0288c502"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/before/smoke.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "86eabc8695258fde06ac3b6fc71fc24bce956f8b139bc28e8ea64fb9f38ab0ed",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/before/smoke.py",
+      "public_sha256": "86eabc8695258fde06ac3b6fc71fc24bce956f8b139bc28e8ea64fb9f38ab0ed"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/before/stage0.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "3b19e19e63fc088189c56fdbde65d03c22402141788e37f488afd097e3a28240",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/before/stage0.py",
+      "public_sha256": "3b19e19e63fc088189c56fdbde65d03c22402141788e37f488afd097e3a28240"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/before/study.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "1e3279151038540aaeb026a7ef62e024ea8cb1e257671787a2393c2f51ba4800",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/before/study.py",
+      "public_sha256": "1e3279151038540aaeb026a7ef62e024ea8cb1e257671787a2393c2f51ba4800"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/before/supervise.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "ae34199d5304c374871f01a7bb524bfce4f073e6c6964ce4f7fe545083169f02",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/before/supervise.py",
+      "public_sha256": "ae34199d5304c374871f01a7bb524bfce4f073e6c6964ce4f7fe545083169f02"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/before/test_amendment.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "8e1383b4d979189da56d1f01adf49399be0c2d79714175b99fc356287870eb95",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/before/test_amendment.py",
+      "public_sha256": "8e1383b4d979189da56d1f01adf49399be0c2d79714175b99fc356287870eb95"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/before/test_contracts.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "b8076f5f96b4498f27488de12eff0df28c067c1b452395c013847cb442c0bd08",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/before/test_contracts.py",
+      "public_sha256": "b8076f5f96b4498f27488de12eff0df28c067c1b452395c013847cb442c0bd08"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/before/test_development_r2.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "3a9dacdf94495d23cf6824c71a0549b323cf6c433d7fdba73d42c366f37557d5",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/before/test_development_r2.py",
+      "public_sha256": "3a9dacdf94495d23cf6824c71a0549b323cf6c433d7fdba73d42c366f37557d5"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/before/test_persistence.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "11b5535d8711445174661a30f474d72a89a05ed35bb97bf85c784cdc139e368b",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/before/test_persistence.py",
+      "public_sha256": "11b5535d8711445174661a30f474d72a89a05ed35bb97bf85c784cdc139e368b"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/before/test_readiness.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "36ba3e4a5ee00b86aa068f978fa78fda0105f873ade03c1c86d13fecf50c0ffa",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/before/test_readiness.py",
+      "public_sha256": "36ba3e4a5ee00b86aa068f978fa78fda0105f873ade03c1c86d13fecf50c0ffa"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/before/test_workflows.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "be3371dc8a29f7e172524c5baab9dcb0ea8d4f5cb3de2bd541ac6db5e6b1eb96",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/before/test_workflows.py",
+      "public_sha256": "be3371dc8a29f7e172524c5baab9dcb0ea8d4f5cb3de2bd541ac6db5e6b1eb96"
+    },
+    "experiments/tpfa32_copy_study/evidence/final_study_20260930/before/training.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "8c066676cc3dd9afcdcb8092981f6648bd63fc530b2a629eab7b978cce811f43",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/final_study_20260930/before/training.py",
+      "public_sha256": "8c066676cc3dd9afcdcb8092981f6648bd63fc530b2a629eab7b978cce811f43"
+    },
+    "experiments/tpfa32_copy_study/evidence/friend_amendment_20260930/before/analyze.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "238068e44fa1ea831b8c4ecec9b6ec37029f3fb1fac5302b0548d81b52b6f4a6",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/friend_amendment_20260930/before/analyze.py",
+      "public_sha256": "238068e44fa1ea831b8c4ecec9b6ec37029f3fb1fac5302b0548d81b52b6f4a6"
+    },
+    "experiments/tpfa32_copy_study/evidence/friend_amendment_20260930/before/campaign.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "714906bd1706ea4fdf2b9ee2467508d5ef6986e040f963f30b37b7fe1dae2a00",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/friend_amendment_20260930/before/campaign.py",
+      "public_sha256": "714906bd1706ea4fdf2b9ee2467508d5ef6986e040f963f30b37b7fe1dae2a00"
+    },
+    "experiments/tpfa32_copy_study/evidence/friend_amendment_20260930/before/core.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "c5129db698746b13b21c9fc5d71ade24c8846ff5d7c2d6a1872ce830c810897f",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/friend_amendment_20260930/before/core.py",
+      "public_sha256": "c5129db698746b13b21c9fc5d71ade24c8846ff5d7c2d6a1872ce830c810897f"
+    },
+    "experiments/tpfa32_copy_study/evidence/friend_amendment_20260930/before/numerics.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "55d909df11aab9c4d3fb918d1364a047d96a11d8eb9e3e5e55c50b26f9095089",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/friend_amendment_20260930/before/numerics.py",
+      "public_sha256": "55d909df11aab9c4d3fb918d1364a047d96a11d8eb9e3e5e55c50b26f9095089"
+    },
+    "experiments/tpfa32_copy_study/evidence/friend_amendment_20260930/before/smoke.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "86eabc8695258fde06ac3b6fc71fc24bce956f8b139bc28e8ea64fb9f38ab0ed",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/friend_amendment_20260930/before/smoke.py",
+      "public_sha256": "86eabc8695258fde06ac3b6fc71fc24bce956f8b139bc28e8ea64fb9f38ab0ed"
+    },
+    "experiments/tpfa32_copy_study/evidence/friend_amendment_20260930/before/stage0.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "3b19e19e63fc088189c56fdbde65d03c22402141788e37f488afd097e3a28240",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/friend_amendment_20260930/before/stage0.py",
+      "public_sha256": "3b19e19e63fc088189c56fdbde65d03c22402141788e37f488afd097e3a28240"
+    },
+    "experiments/tpfa32_copy_study/evidence/friend_amendment_20260930/before/study.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "55ae351689c0bd2639797a6d1e56b8d2261c3195f48edec7165244b617e968b3",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/friend_amendment_20260930/before/study.py",
+      "public_sha256": "55ae351689c0bd2639797a6d1e56b8d2261c3195f48edec7165244b617e968b3"
+    },
+    "experiments/tpfa32_copy_study/evidence/friend_amendment_20260930/before/supervise.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "ae34199d5304c374871f01a7bb524bfce4f073e6c6964ce4f7fe545083169f02",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/friend_amendment_20260930/before/supervise.py",
+      "public_sha256": "ae34199d5304c374871f01a7bb524bfce4f073e6c6964ce4f7fe545083169f02"
+    },
+    "experiments/tpfa32_copy_study/evidence/friend_amendment_20260930/before/test_contracts.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "761ecfb1b11263fad9c97232c7c587b25afd4021647193c1bb669205c52a19e5",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/friend_amendment_20260930/before/test_contracts.py",
+      "public_sha256": "761ecfb1b11263fad9c97232c7c587b25afd4021647193c1bb669205c52a19e5"
+    },
+    "experiments/tpfa32_copy_study/evidence/friend_amendment_20260930/before/test_workflows.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "b72b917f69b92dd4b7eb35725920ec1c574585b56b5ab1b844b1956f900a7109",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/friend_amendment_20260930/before/test_workflows.py",
+      "public_sha256": "b72b917f69b92dd4b7eb35725920ec1c574585b56b5ab1b844b1956f900a7109"
+    },
+    "experiments/tpfa32_copy_study/evidence/friend_amendment_20260930/before/training.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "d5d7b3c25623515cfca4a5dc48a948bb915c732b262224c33e53cdb77cd08f22",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/friend_amendment_20260930/before/training.py",
+      "public_sha256": "d5d7b3c25623515cfca4a5dc48a948bb915c732b262224c33e53cdb77cd08f22"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/before/analyze.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "bf05509fe84ad387fb8c257ef601ab48a7884df804508bb1a201b5b389154abc",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/before/analyze.py",
+      "public_sha256": "bf05509fe84ad387fb8c257ef601ab48a7884df804508bb1a201b5b389154abc"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/before/campaign.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "e80fc3ba85d24f3e0afed125123cbfec4a7b9c08ad1e2b29d8baf587a99f81a8",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/before/campaign.py",
+      "public_sha256": "e80fc3ba85d24f3e0afed125123cbfec4a7b9c08ad1e2b29d8baf587a99f81a8"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/before/core.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "50a22c899d4bddf9203795dbe80adda4aa62d6953f98b16d52a6a93f33354065",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/before/core.py",
+      "public_sha256": "50a22c899d4bddf9203795dbe80adda4aa62d6953f98b16d52a6a93f33354065"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/before/numerics.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "e1b7f1d9c93f89deccfc22b3c046418c28b4090c8ad9a8f3ad68ac0e0eea2874",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/before/numerics.py",
+      "public_sha256": "e1b7f1d9c93f89deccfc22b3c046418c28b4090c8ad9a8f3ad68ac0e0eea2874"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/before/smoke.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "86eabc8695258fde06ac3b6fc71fc24bce956f8b139bc28e8ea64fb9f38ab0ed",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/before/smoke.py",
+      "public_sha256": "86eabc8695258fde06ac3b6fc71fc24bce956f8b139bc28e8ea64fb9f38ab0ed"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/before/stage0.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "3b19e19e63fc088189c56fdbde65d03c22402141788e37f488afd097e3a28240",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/before/stage0.py",
+      "public_sha256": "3b19e19e63fc088189c56fdbde65d03c22402141788e37f488afd097e3a28240"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/before/study.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "55ae351689c0bd2639797a6d1e56b8d2261c3195f48edec7165244b617e968b3",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/before/study.py",
+      "public_sha256": "55ae351689c0bd2639797a6d1e56b8d2261c3195f48edec7165244b617e968b3"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/before/supervise.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "ae34199d5304c374871f01a7bb524bfce4f073e6c6964ce4f7fe545083169f02",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/before/supervise.py",
+      "public_sha256": "ae34199d5304c374871f01a7bb524bfce4f073e6c6964ce4f7fe545083169f02"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/before/test_amendment.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "0639a21a64b917695ea1a63432b156fa4285e44c2f7bd2a7620722c9b4893c09",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/before/test_amendment.py",
+      "public_sha256": "0639a21a64b917695ea1a63432b156fa4285e44c2f7bd2a7620722c9b4893c09"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/before/test_contracts.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "c3b52bc0079ac96d108e756a279f32589015dde9cb190a7851829c72829cc360",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/before/test_contracts.py",
+      "public_sha256": "c3b52bc0079ac96d108e756a279f32589015dde9cb190a7851829c72829cc360"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/before/test_workflows.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "9d45571924455873bfec1baccf32d84e437d8dad302c0fecbf9026ac81198bac",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/before/test_workflows.py",
+      "public_sha256": "9d45571924455873bfec1baccf32d84e437d8dad302c0fecbf9026ac81198bac"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/before/training.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "d5d7b3c25623515cfca4a5dc48a948bb915c732b262224c33e53cdb77cd08f22",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/before/training.py",
+      "public_sha256": "d5d7b3c25623515cfca4a5dc48a948bb915c732b262224c33e53cdb77cd08f22"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/analyze.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "6e2cc0c40e1dddb945d51207c0053839a220ec7ec5a34280f9afa7136cfbe9c7",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/analyze.py",
+      "public_sha256": "6e2cc0c40e1dddb945d51207c0053839a220ec7ec5a34280f9afa7136cfbe9c7"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/campaign.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "a369887a47890edcfcecd73086ca4bafd1853bce7fa83a63b3e67439e5378392",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/campaign.py",
+      "public_sha256": "a369887a47890edcfcecd73086ca4bafd1853bce7fa83a63b3e67439e5378392"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/core.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "50a22c899d4bddf9203795dbe80adda4aa62d6953f98b16d52a6a93f33354065",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/core.py",
+      "public_sha256": "50a22c899d4bddf9203795dbe80adda4aa62d6953f98b16d52a6a93f33354065"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/cost_fixture.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "742ed5dab9211d55e52944b8d9f43732704bfaa01c9a57881cb2b4be883c9758",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/cost_fixture.py",
+      "public_sha256": "742ed5dab9211d55e52944b8d9f43732704bfaa01c9a57881cb2b4be883c9758"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/cost_supervise.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "c1421cd0ac5c770cc98c3767207a8693eadd1c5301fddce4f11503a438468f71",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/cost_supervise.py",
+      "public_sha256": "c1421cd0ac5c770cc98c3767207a8693eadd1c5301fddce4f11503a438468f71"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/numerics.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "84f353f612cd973e5015a41551a6a582b5494c653897b34189227469f96797e1",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/numerics.py",
+      "public_sha256": "84f353f612cd973e5015a41551a6a582b5494c653897b34189227469f96797e1"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/outcomes.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "b572801dae404a08623921314130cb3cbd304bcfd6f9859132c0310d0288c502",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/outcomes.py",
+      "public_sha256": "b572801dae404a08623921314130cb3cbd304bcfd6f9859132c0310d0288c502"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/smoke.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "86eabc8695258fde06ac3b6fc71fc24bce956f8b139bc28e8ea64fb9f38ab0ed",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/smoke.py",
+      "public_sha256": "86eabc8695258fde06ac3b6fc71fc24bce956f8b139bc28e8ea64fb9f38ab0ed"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/stage0.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "3b19e19e63fc088189c56fdbde65d03c22402141788e37f488afd097e3a28240",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/stage0.py",
+      "public_sha256": "3b19e19e63fc088189c56fdbde65d03c22402141788e37f488afd097e3a28240"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/study.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "55ae351689c0bd2639797a6d1e56b8d2261c3195f48edec7165244b617e968b3",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/study.py",
+      "public_sha256": "55ae351689c0bd2639797a6d1e56b8d2261c3195f48edec7165244b617e968b3"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/supervise.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "ae34199d5304c374871f01a7bb524bfce4f073e6c6964ce4f7fe545083169f02",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/supervise.py",
+      "public_sha256": "ae34199d5304c374871f01a7bb524bfce4f073e6c6964ce4f7fe545083169f02"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/test_amendment.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "8e1383b4d979189da56d1f01adf49399be0c2d79714175b99fc356287870eb95",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/test_amendment.py",
+      "public_sha256": "8e1383b4d979189da56d1f01adf49399be0c2d79714175b99fc356287870eb95"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/test_contracts.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "b8076f5f96b4498f27488de12eff0df28c067c1b452395c013847cb442c0bd08",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/test_contracts.py",
+      "public_sha256": "b8076f5f96b4498f27488de12eff0df28c067c1b452395c013847cb442c0bd08"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/test_readiness.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "36ba3e4a5ee00b86aa068f978fa78fda0105f873ade03c1c86d13fecf50c0ffa",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/test_readiness.py",
+      "public_sha256": "36ba3e4a5ee00b86aa068f978fa78fda0105f873ade03c1c86d13fecf50c0ffa"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/test_workflows.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "4b851d25215b76d673c50064c210c73602e8d917c3c8ba30775f0f6a9ca512bc",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/test_workflows.py",
+      "public_sha256": "4b851d25215b76d673c50064c210c73602e8d917c3c8ba30775f0f6a9ca512bc"
+    },
+    "experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/training.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "d5d7b3c25623515cfca4a5dc48a948bb915c732b262224c33e53cdb77cd08f22",
+      "public_file": "research_source/experiments/tpfa32_copy_study/evidence/readiness_cost_20260930/recovery_20260930/before/training.py",
+      "public_sha256": "d5d7b3c25623515cfca4a5dc48a948bb915c732b262224c33e53cdb77cd08f22"
+    },
+    "experiments/tpfa32_copy_study/final_campaign.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "4e3bfcb0a469d23d60ee9f393b9ea1255ba6cd74b97732fd874ae02a81a58de0",
+      "public_file": "research_source/experiments/tpfa32_copy_study/final_campaign.py",
+      "public_sha256": "4e3bfcb0a469d23d60ee9f393b9ea1255ba6cd74b97732fd874ae02a81a58de0"
+    },
+    "experiments/tpfa32_copy_study/final_contract.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "0fad288d70242c9c41a0285b5429330e7b00335f785a0da7122c626b5e6978ab",
+      "public_file": "research_source/experiments/tpfa32_copy_study/final_contract.py",
+      "public_sha256": "0fad288d70242c9c41a0285b5429330e7b00335f785a0da7122c626b5e6978ab"
+    },
+    "experiments/tpfa32_copy_study/final_fixture.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "5698f22ca0ec488e6195b6a5c341148556a5dcdbdbf0a958cfbb6ea7321ca02c",
+      "public_file": "research_source/experiments/tpfa32_copy_study/final_fixture.py",
+      "public_sha256": "5698f22ca0ec488e6195b6a5c341148556a5dcdbdbf0a958cfbb6ea7321ca02c"
+    },
+    "experiments/tpfa32_copy_study/final_summary.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "ac5ef8e7be8c6c8a5843a881c8c59b917a94138b204215314e0e8b3fb2004418",
+      "public_file": "research_source/experiments/tpfa32_copy_study/final_summary.py",
+      "public_sha256": "ac5ef8e7be8c6c8a5843a881c8c59b917a94138b204215314e0e8b3fb2004418"
+    },
+    "experiments/tpfa32_copy_study/final_supervise.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "ed907b4f3cda1e75a45691bbb36068dc81226f21f8e75652bc2e25da56691e52",
+      "public_file": "research_source/experiments/tpfa32_copy_study/final_supervise.py",
+      "public_sha256": "ed907b4f3cda1e75a45691bbb36068dc81226f21f8e75652bc2e25da56691e52"
+    },
+    "experiments/tpfa32_copy_study/final_verify_supervise.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "69e4610ad64aade769fdb755df2885ac08bf394fd11603d31f37c34d22bc892c",
+      "public_file": "research_source/experiments/tpfa32_copy_study/final_verify_supervise.py",
+      "public_sha256": "69e4610ad64aade769fdb755df2885ac08bf394fd11603d31f37c34d22bc892c"
+    },
+    "experiments/tpfa32_copy_study/final_worker.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "dca2435bc2897cc4fbba80bb7b2722c0833bf83dc6933c2e5eb6aea5c29f0f6e",
+      "public_file": "research_source/experiments/tpfa32_copy_study/final_worker.py",
+      "public_sha256": "dca2435bc2897cc4fbba80bb7b2722c0833bf83dc6933c2e5eb6aea5c29f0f6e"
+    },
+    "experiments/tpfa32_copy_study/numerics.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "84f353f612cd973e5015a41551a6a582b5494c653897b34189227469f96797e1",
+      "public_file": "research_source/experiments/tpfa32_copy_study/numerics.py",
+      "public_sha256": "84f353f612cd973e5015a41551a6a582b5494c653897b34189227469f96797e1"
+    },
+    "experiments/tpfa32_copy_study/outcomes.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "b572801dae404a08623921314130cb3cbd304bcfd6f9859132c0310d0288c502",
+      "public_file": "research_source/experiments/tpfa32_copy_study/outcomes.py",
+      "public_sha256": "b572801dae404a08623921314130cb3cbd304bcfd6f9859132c0310d0288c502"
+    },
+    "experiments/tpfa32_copy_study/smoke.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "86eabc8695258fde06ac3b6fc71fc24bce956f8b139bc28e8ea64fb9f38ab0ed",
+      "public_file": "research_source/experiments/tpfa32_copy_study/smoke.py",
+      "public_sha256": "86eabc8695258fde06ac3b6fc71fc24bce956f8b139bc28e8ea64fb9f38ab0ed"
+    },
+    "experiments/tpfa32_copy_study/stage0.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "3b19e19e63fc088189c56fdbde65d03c22402141788e37f488afd097e3a28240",
+      "public_file": "research_source/experiments/tpfa32_copy_study/stage0.py",
+      "public_sha256": "3b19e19e63fc088189c56fdbde65d03c22402141788e37f488afd097e3a28240"
+    },
+    "experiments/tpfa32_copy_study/study.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "1e3279151038540aaeb026a7ef62e024ea8cb1e257671787a2393c2f51ba4800",
+      "public_file": "research_source/experiments/tpfa32_copy_study/study.py",
+      "public_sha256": "1e3279151038540aaeb026a7ef62e024ea8cb1e257671787a2393c2f51ba4800"
+    },
+    "experiments/tpfa32_copy_study/supervise.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "ae34199d5304c374871f01a7bb524bfce4f073e6c6964ce4f7fe545083169f02",
+      "public_file": "research_source/experiments/tpfa32_copy_study/supervise.py",
+      "public_sha256": "ae34199d5304c374871f01a7bb524bfce4f073e6c6964ce4f7fe545083169f02"
+    },
+    "experiments/tpfa32_copy_study/test_amendment.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "8e1383b4d979189da56d1f01adf49399be0c2d79714175b99fc356287870eb95",
+      "public_file": "research_source/experiments/tpfa32_copy_study/test_amendment.py",
+      "public_sha256": "8e1383b4d979189da56d1f01adf49399be0c2d79714175b99fc356287870eb95"
+    },
+    "experiments/tpfa32_copy_study/test_contracts.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "b8076f5f96b4498f27488de12eff0df28c067c1b452395c013847cb442c0bd08",
+      "public_file": "research_source/experiments/tpfa32_copy_study/test_contracts.py",
+      "public_sha256": "b8076f5f96b4498f27488de12eff0df28c067c1b452395c013847cb442c0bd08"
+    },
+    "experiments/tpfa32_copy_study/test_development_r2.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "3a9dacdf94495d23cf6824c71a0549b323cf6c433d7fdba73d42c366f37557d5",
+      "public_file": "research_source/experiments/tpfa32_copy_study/test_development_r2.py",
+      "public_sha256": "3a9dacdf94495d23cf6824c71a0549b323cf6c433d7fdba73d42c366f37557d5"
+    },
+    "experiments/tpfa32_copy_study/test_final_study.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "df8e555fc9ddcbe3bb84cdb463536d9f57fba1afdac4cb50859496abb04835c5",
+      "public_file": "research_source/experiments/tpfa32_copy_study/test_final_study.py",
+      "public_sha256": "df8e555fc9ddcbe3bb84cdb463536d9f57fba1afdac4cb50859496abb04835c5"
+    },
+    "experiments/tpfa32_copy_study/test_persistence.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "11b5535d8711445174661a30f474d72a89a05ed35bb97bf85c784cdc139e368b",
+      "public_file": "research_source/experiments/tpfa32_copy_study/test_persistence.py",
+      "public_sha256": "11b5535d8711445174661a30f474d72a89a05ed35bb97bf85c784cdc139e368b"
+    },
+    "experiments/tpfa32_copy_study/test_readiness.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "36ba3e4a5ee00b86aa068f978fa78fda0105f873ade03c1c86d13fecf50c0ffa",
+      "public_file": "research_source/experiments/tpfa32_copy_study/test_readiness.py",
+      "public_sha256": "36ba3e4a5ee00b86aa068f978fa78fda0105f873ade03c1c86d13fecf50c0ffa"
+    },
+    "experiments/tpfa32_copy_study/test_workflows.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "be3371dc8a29f7e172524c5baab9dcb0ea8d4f5cb3de2bd541ac6db5e6b1eb96",
+      "public_file": "research_source/experiments/tpfa32_copy_study/test_workflows.py",
+      "public_sha256": "be3371dc8a29f7e172524c5baab9dcb0ea8d4f5cb3de2bd541ac6db5e6b1eb96"
+    },
+    "experiments/tpfa32_copy_study/training.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "8c066676cc3dd9afcdcb8092981f6648bd63fc530b2a629eab7b978cce811f43",
+      "public_file": "research_source/experiments/tpfa32_copy_study/training.py",
+      "public_sha256": "8c066676cc3dd9afcdcb8092981f6648bd63fc530b2a629eab7b978cce811f43"
+    },
+    "operatormark/__init__.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+      "public_file": "research_source/operatormark/__init__.py",
+      "public_sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed"
+    },
+    "operatormark/benchmarks/__init__.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "26f0dbfd42d2ec0cea538d942a672e103d8bd93a9326bad54b183dd27cbeb431",
+      "public_file": "research_source/operatormark/benchmarks/__init__.py",
+      "public_sha256": "26f0dbfd42d2ec0cea538d942a672e103d8bd93a9326bad54b183dd27cbeb431"
+    },
+    "operatormark/benchmarks/darcy_spec.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "03253a6a09d259ed0bfc8ba87c3ded12965d77c934548a928b5edc8e8f5d1c51",
+      "public_file": "research_source/operatormark/benchmarks/darcy_spec.py",
+      "public_sha256": "03253a6a09d259ed0bfc8ba87c3ded12965d77c934548a928b5edc8e8f5d1c51"
+    },
+    "operatormark/corpus/__init__.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "b5132f0d992dc42c4ccfb7687dd2d387dbdcec2511c0ec809faa17a85c10bd0c",
+      "public_file": "research_source/operatormark/corpus/__init__.py",
+      "public_sha256": "b5132f0d992dc42c4ccfb7687dd2d387dbdcec2511c0ec809faa17a85c10bd0c"
+    },
+    "operatormark/corpus/base_imports.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "6a7a687ce7545b813f02095154137f65c82a467a5fd58b5b5ade720213be7cc3",
+      "public_file": "research_source/operatormark/corpus/base_imports.py",
+      "public_sha256": "6a7a687ce7545b813f02095154137f65c82a467a5fd58b5b5ade720213be7cc3"
+    },
+    "operatormark/corpus/bounded_exception.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "745d53b5d52c2723e379beec008ee6fc67985bc92d3c0988a6e3ea056f08de58",
+      "public_file": "research_source/operatormark/corpus/bounded_exception.py",
+      "public_sha256": "745d53b5d52c2723e379beec008ee6fc67985bc92d3c0988a6e3ea056f08de58"
+    },
+    "operatormark/corpus/bounded_stream.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "5ca4b41654983af7c912c1931b69da015ba467870ddfeffe257c2e3812eaba21",
+      "public_file": "research_source/operatormark/corpus/bounded_stream.py",
+      "public_sha256": "5ca4b41654983af7c912c1931b69da015ba467870ddfeffe257c2e3812eaba21"
+    },
+    "operatormark/corpus/canonical.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "7c90315043028e99924cf55074f98622b55871b1c5d4a17d39e5ee2747126d8b",
+      "public_file": "research_source/operatormark/corpus/canonical.py",
+      "public_sha256": "7c90315043028e99924cf55074f98622b55871b1c5d4a17d39e5ee2747126d8b"
+    },
+    "operatormark/corpus/child_controller.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "15f2cf640e5be54c3e835bcb8ac50d2e52cf299b0fe11ef8fe5af908754bc23f",
+      "public_file": "research_source/operatormark/corpus/child_controller.py",
+      "public_sha256": "15f2cf640e5be54c3e835bcb8ac50d2e52cf299b0fe11ef8fe5af908754bc23f"
+    },
+    "operatormark/corpus/corpus_format.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "4e7be5a4b63169c8c3572fb57d5c7cb57fdfb411276351ed42a2628aac97c607",
+      "public_file": "research_source/operatormark/corpus/corpus_format.py",
+      "public_sha256": "4e7be5a4b63169c8c3572fb57d5c7cb57fdfb411276351ed42a2628aac97c607"
+    },
+    "operatormark/corpus/corpus_publication.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "df03fdc32b968d3944872183ba06cacd506f058dd612ec2e6f9855e28e38637b",
+      "public_file": "research_source/operatormark/corpus/corpus_publication.py",
+      "public_sha256": "df03fdc32b968d3944872183ba06cacd506f058dd612ec2e6f9855e28e38637b"
+    },
+    "operatormark/corpus/corpus_publication_verify.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "b213f90b837628e6ae2e89fc330562ffb082f167d12c892e5b5956d73c88b0c0",
+      "public_file": "research_source/operatormark/corpus/corpus_publication_verify.py",
+      "public_sha256": "b213f90b837628e6ae2e89fc330562ffb082f167d12c892e5b5956d73c88b0c0"
+    },
+    "operatormark/corpus/corpus_retention.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "2ac380a93c58c5ad5f3ff1f86723ae6fc269c4c2e403487fbf6d277da7e40e4d",
+      "public_file": "research_source/operatormark/corpus/corpus_retention.py",
+      "public_sha256": "2ac380a93c58c5ad5f3ff1f86723ae6fc269c4c2e403487fbf6d277da7e40e4d"
+    },
+    "operatormark/corpus/corpus_v2_custody.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "4bb67bf933e65a062c4a9f58647bf1c5ce562ccb40eb81cb4da99374e3f423d8",
+      "public_file": "research_source/operatormark/corpus/corpus_v2_custody.py",
+      "public_sha256": "4bb67bf933e65a062c4a9f58647bf1c5ce562ccb40eb81cb4da99374e3f423d8"
+    },
+    "operatormark/corpus/corpus_v2_schema.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "8285b4a0f90d0fc7a278292b40678bb7843b263fc252069b050d515b50989bec",
+      "public_file": "research_source/operatormark/corpus/corpus_v2_schema.py",
+      "public_sha256": "8285b4a0f90d0fc7a278292b40678bb7843b263fc252069b050d515b50989bec"
+    },
+    "operatormark/corpus/final_evidence_records.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "e26d559e56d8c664f6f7570c73e9609809f4cf1d4564596d04d8ac29d1e1d644",
+      "public_file": "research_source/operatormark/corpus/final_evidence_records.py",
+      "public_sha256": "e26d559e56d8c664f6f7570c73e9609809f4cf1d4564596d04d8ac29d1e1d644"
+    },
+    "operatormark/corpus/final_evidence_verify.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "86c5971e2deccbefd2fdf62b4ddee05e3e9b256501d2c14654df33d66498c109",
+      "public_file": "research_source/operatormark/corpus/final_evidence_verify.py",
+      "public_sha256": "86c5971e2deccbefd2fdf62b4ddee05e3e9b256501d2c14654df33d66498c109"
+    },
+    "operatormark/corpus/final_records.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "12d76c9bc1c63774cdc586f5a0936748d24be4b17aa749a6110fe15a15a86ff4",
+      "public_file": "research_source/operatormark/corpus/final_records.py",
+      "public_sha256": "12d76c9bc1c63774cdc586f5a0936748d24be4b17aa749a6110fe15a15a86ff4"
+    },
+    "operatormark/corpus/final_scientific_verify.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "7fda0dbc8580fe75a93ef6d2f5dd7ec2e36ebb12e32fa68f43e0a4ae7c567ad0",
+      "public_file": "research_source/operatormark/corpus/final_scientific_verify.py",
+      "public_sha256": "7fda0dbc8580fe75a93ef6d2f5dd7ec2e36ebb12e32fa68f43e0a4ae7c567ad0"
+    },
+    "operatormark/corpus/final_verify.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "07e48b132999d340a7e04ee875cc09057efca095be49c60479ed3776846803ea",
+      "public_file": "research_source/operatormark/corpus/final_verify.py",
+      "public_sha256": "07e48b132999d340a7e04ee875cc09057efca095be49c60479ed3776846803ea"
+    },
+    "operatormark/corpus/launcher.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "f18432e05ef05efd607330bb954af6ebdda144709b3180ff18c5583738874eab",
+      "public_file": "research_source/operatormark/corpus/launcher.py",
+      "public_sha256": "f18432e05ef05efd607330bb954af6ebdda144709b3180ff18c5583738874eab"
+    },
+    "operatormark/corpus/microbenchmark.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "d5ffd330373ee48553b06506c1fd4550cac08e8a67cb4a56f9427e81ee956368",
+      "public_file": "research_source/operatormark/corpus/microbenchmark.py",
+      "public_sha256": "d5ffd330373ee48553b06506c1fd4550cac08e8a67cb4a56f9427e81ee956368"
+    },
+    "operatormark/corpus/permission_approval_resolver.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "5088fb559bcc54795c494e6032ebb2658832bff0f3036a810ad471f24822ce9e",
+      "public_file": "research_source/operatormark/corpus/permission_approval_resolver.py",
+      "public_sha256": "5088fb559bcc54795c494e6032ebb2658832bff0f3036a810ad471f24822ce9e"
+    },
+    "operatormark/corpus/permission_assessment.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "f59f6d374f920448d0a53ec13098af4e93d10a78c3586077086d03fd0c20d1d5",
+      "public_file": "research_source/operatormark/corpus/permission_assessment.py",
+      "public_sha256": "f59f6d374f920448d0a53ec13098af4e93d10a78c3586077086d03fd0c20d1d5"
+    },
+    "operatormark/corpus/permission_authority.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "198bb6ca0ad0d8817a90a11665088f3731c22bbcd6fe32c355088dfe43aa7e3e",
+      "public_file": "research_source/operatormark/corpus/permission_authority.py",
+      "public_sha256": "198bb6ca0ad0d8817a90a11665088f3731c22bbcd6fe32c355088dfe43aa7e3e"
+    },
+    "operatormark/corpus/permission_authority_journal.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "c9dc844e966c93e569490e8b991dbda558105574accb7029bc056ff4b045553f",
+      "public_file": "research_source/operatormark/corpus/permission_authority_journal.py",
+      "public_sha256": "c9dc844e966c93e569490e8b991dbda558105574accb7029bc056ff4b045553f"
+    },
+    "operatormark/corpus/permission_authz_evidence_verifier.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "cc02f4046817efba240fb65762d8ff9a031e40d73ddc8c4a04909d23dfc685dd",
+      "public_file": "research_source/operatormark/corpus/permission_authz_evidence_verifier.py",
+      "public_sha256": "cc02f4046817efba240fb65762d8ff9a031e40d73ddc8c4a04909d23dfc685dd"
+    },
+    "operatormark/corpus/permission_authz_records.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "7ac3c29c0bf0514b800e6f1b78bab9ce4a49eec85f4702d0970d3bb77753fdf6",
+      "public_file": "research_source/operatormark/corpus/permission_authz_records.py",
+      "public_sha256": "7ac3c29c0bf0514b800e6f1b78bab9ce4a49eec85f4702d0970d3bb77753fdf6"
+    },
+    "operatormark/corpus/permission_controller.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "a3190ffb0a3927434f1de4a7feda80ac36a3bedbc058ec7c03b0614b0e378eea",
+      "public_file": "research_source/operatormark/corpus/permission_controller.py",
+      "public_sha256": "a3190ffb0a3927434f1de4a7feda80ac36a3bedbc058ec7c03b0614b0e378eea"
+    },
+    "operatormark/corpus/permission_dacl_policy.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "9fb56ab1a40f5fc875835de0f6ceea4b9f5231da00e5aa2965daa0d674427f13",
+      "public_file": "research_source/operatormark/corpus/permission_dacl_policy.py",
+      "public_sha256": "9fb56ab1a40f5fc875835de0f6ceea4b9f5231da00e5aa2965daa0d674427f13"
+    },
+    "operatormark/corpus/permission_evidence_verifier.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "697aa59175ee64872a947981d934b19784db75e4b397d3d142f82552c6cbe346",
+      "public_file": "research_source/operatormark/corpus/permission_evidence_verifier.py",
+      "public_sha256": "697aa59175ee64872a947981d934b19784db75e4b397d3d142f82552c6cbe346"
+    },
+    "operatormark/corpus/permission_handoff_administration.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "17d886fd1757263cf605b42bb1225fc391d060362c6fad68ee8b7246887f93b8",
+      "public_file": "research_source/operatormark/corpus/permission_handoff_administration.py",
+      "public_sha256": "17d886fd1757263cf605b42bb1225fc391d060362c6fad68ee8b7246887f93b8"
+    },
+    "operatormark/corpus/permission_handoff_administration_journal.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "fc5dd647d8bbb7a130aded6a4e2690ca40806e8c934fb623307dd2687fdba022",
+      "public_file": "research_source/operatormark/corpus/permission_handoff_administration_journal.py",
+      "public_sha256": "fc5dd647d8bbb7a130aded6a4e2690ca40806e8c934fb623307dd2687fdba022"
+    },
+    "operatormark/corpus/permission_handoff_administration_records.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "8fcd30176a1a20170b3b81a2687d54f386b8d3e27e10720f041a56fddf8df1a4",
+      "public_file": "research_source/operatormark/corpus/permission_handoff_administration_records.py",
+      "public_sha256": "8fcd30176a1a20170b3b81a2687d54f386b8d3e27e10720f041a56fddf8df1a4"
+    },
+    "operatormark/corpus/permission_handoff_administration_windows.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "17990fbff5d30bb1f900301247eec5d958cf3262c2fec1fba8e1bc3850ac26dc",
+      "public_file": "research_source/operatormark/corpus/permission_handoff_administration_windows.py",
+      "public_sha256": "17990fbff5d30bb1f900301247eec5d958cf3262c2fec1fba8e1bc3850ac26dc"
+    },
+    "operatormark/corpus/permission_handoff_capture.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "f5a8db18a0f17b98624ccb667aff8dc177fd03a5ee7c740a30babf60935666dc",
+      "public_file": "research_source/operatormark/corpus/permission_handoff_capture.py",
+      "public_sha256": "f5a8db18a0f17b98624ccb667aff8dc177fd03a5ee7c740a30babf60935666dc"
+    },
+    "operatormark/corpus/permission_handoff_deployment.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "5d69631c98a7e57bbd81671db53f3fc84b80c9240984dec2f13e7bbd72c5ba82",
+      "public_file": "research_source/operatormark/corpus/permission_handoff_deployment.py",
+      "public_sha256": "5d69631c98a7e57bbd81671db53f3fc84b80c9240984dec2f13e7bbd72c5ba82"
+    },
+    "operatormark/corpus/permission_handoff_reader_windows.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "efdf676aa2c8cdfedfe5c48d011f10eb138d2952b2c812abc6ae4351a1a3a0e9",
+      "public_file": "research_source/operatormark/corpus/permission_handoff_reader_windows.py",
+      "public_sha256": "efdf676aa2c8cdfedfe5c48d011f10eb138d2952b2c812abc6ae4351a1a3a0e9"
+    },
+    "operatormark/corpus/permission_handoff_records.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "1f93b52bb03856d149c1391870fb77c28bf00a47ebd59e46487973cccc0d7185",
+      "public_file": "research_source/operatormark/corpus/permission_handoff_records.py",
+      "public_sha256": "1f93b52bb03856d149c1391870fb77c28bf00a47ebd59e46487973cccc0d7185"
+    },
+    "operatormark/corpus/permission_handoff_restart.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "b862a534fb2813960de61ac08154964f71b375aeaa66c1ec74de21e083788bae",
+      "public_file": "research_source/operatormark/corpus/permission_handoff_restart.py",
+      "public_sha256": "b862a534fb2813960de61ac08154964f71b375aeaa66c1ec74de21e083788bae"
+    },
+    "operatormark/corpus/permission_handoff_sizing.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "4d5201b3bab7ab26ee859aa0056bed4c4d84b697f9671f54da09f339e6e848eb",
+      "public_file": "research_source/operatormark/corpus/permission_handoff_sizing.py",
+      "public_sha256": "4d5201b3bab7ab26ee859aa0056bed4c4d84b697f9671f54da09f339e6e848eb"
+    },
+    "operatormark/corpus/permission_handoff_sources.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "8e1ffb65967e9437374aacb88315f1bf31f562490c01cbee48daa427e12bfef6",
+      "public_file": "research_source/operatormark/corpus/permission_handoff_sources.py",
+      "public_sha256": "8e1ffb65967e9437374aacb88315f1bf31f562490c01cbee48daa427e12bfef6"
+    },
+    "operatormark/corpus/permission_handoff_verify.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "a721bcbc46a29bb41e9d4f010c8f4e699e85116226e9cc982aad4863fc96835b",
+      "public_file": "research_source/operatormark/corpus/permission_handoff_verify.py",
+      "public_sha256": "a721bcbc46a29bb41e9d4f010c8f4e699e85116226e9cc982aad4863fc96835b"
+    },
+    "operatormark/corpus/permission_handoff_windows.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "d59b9f39a60f06464f173162a8ab523d53b568b6b2d839546ab67477028e8225",
+      "public_file": "research_source/operatormark/corpus/permission_handoff_windows.py",
+      "public_sha256": "d59b9f39a60f06464f173162a8ab523d53b568b6b2d839546ab67477028e8225"
+    },
+    "operatormark/corpus/permission_handoff_witness_windows.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "3e71923734caac1b90b7316422965afe39fcc1061b692a641f15006b9044db52",
+      "public_file": "research_source/operatormark/corpus/permission_handoff_witness_windows.py",
+      "public_sha256": "3e71923734caac1b90b7316422965afe39fcc1061b692a641f15006b9044db52"
+    },
+    "operatormark/corpus/permission_native_win32.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "35aa1ca07bc189adf726eee7ff98b60fb70cd2172eeacafbb589ebf0e6a6da7f",
+      "public_file": "research_source/operatormark/corpus/permission_native_win32.py",
+      "public_sha256": "35aa1ca07bc189adf726eee7ff98b60fb70cd2172eeacafbb589ebf0e6a6da7f"
+    },
+    "operatormark/corpus/permission_observation_windows.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "26f9f1466aaab0c8089282808b107593af0fb98ae7499319f091068ddafe6267",
+      "public_file": "research_source/operatormark/corpus/permission_observation_windows.py",
+      "public_sha256": "26f9f1466aaab0c8089282808b107593af0fb98ae7499319f091068ddafe6267"
+    },
+    "operatormark/corpus/permission_principal_authz_windows.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "49d5a90d706e943f809a52097f867c8d5e0a5ceb5a02d49de946552037d0fd43",
+      "public_file": "research_source/operatormark/corpus/permission_principal_authz_windows.py",
+      "public_sha256": "49d5a90d706e943f809a52097f867c8d5e0a5ceb5a02d49de946552037d0fd43"
+    },
+    "operatormark/corpus/permission_store_native_win32.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "c39bc65f72415e7e3bfadd778bbf8f532611479b1be427f4c45c7aef657a9ae6",
+      "public_file": "research_source/operatormark/corpus/permission_store_native_win32.py",
+      "public_sha256": "c39bc65f72415e7e3bfadd778bbf8f532611479b1be427f4c45c7aef657a9ae6"
+    },
+    "operatormark/corpus/permission_store_windows.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "555dcbf7b7cc33c6124da8d2340765f9ab19657ba4aff831e94e60b2b2cf2f2a",
+      "public_file": "research_source/operatormark/corpus/permission_store_windows.py",
+      "public_sha256": "555dcbf7b7cc33c6124da8d2340765f9ab19657ba4aff831e94e60b2b2cf2f2a"
+    },
+    "operatormark/corpus/private_permission_evidence.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "1e180d23937dd9c9f26fa64eccd61638941a3a75e79fbc948c9a253694070cb8",
+      "public_file": "research_source/operatormark/corpus/private_permission_evidence.py",
+      "public_sha256": "1e180d23937dd9c9f26fa64eccd61638941a3a75e79fbc948c9a253694070cb8"
+    },
+    "operatormark/corpus/publication_flow.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "4bd16fb97b8f63108f4164987defdf58bfd02a5795f5b0e2f8796b2915b12f55",
+      "public_file": "research_source/operatormark/corpus/publication_flow.py",
+      "public_sha256": "4bd16fb97b8f63108f4164987defdf58bfd02a5795f5b0e2f8796b2915b12f55"
+    },
+    "operatormark/corpus/publication_native_win32.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "58031e26fc84137fe6d06910cbb0a4f5b98d015489f05a1ebb5fe841bd076b63",
+      "public_file": "research_source/operatormark/corpus/publication_native_win32.py",
+      "public_sha256": "58031e26fc84137fe6d06910cbb0a4f5b98d015489f05a1ebb5fe841bd076b63"
+    },
+    "operatormark/corpus/publication_physical_records.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "f64ed2f39debddf3e7fb0bed083fdee07f418bf9498f363a047eef1300111dee",
+      "public_file": "research_source/operatormark/corpus/publication_physical_records.py",
+      "public_sha256": "f64ed2f39debddf3e7fb0bed083fdee07f418bf9498f363a047eef1300111dee"
+    },
+    "operatormark/corpus/publication_physical_verify.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "937ba60e44fad3e7059dad8e05665627c6529c8eb0d309749b0dd25ff219c7c5",
+      "public_file": "research_source/operatormark/corpus/publication_physical_verify.py",
+      "public_sha256": "937ba60e44fad3e7059dad8e05665627c6529c8eb0d309749b0dd25ff219c7c5"
+    },
+    "operatormark/corpus/publication_windows.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "50c0d8a507087103ae698a3bf36779fa698aefb71dc8c300fbc75e11d2b59aa0",
+      "public_file": "research_source/operatormark/corpus/publication_windows.py",
+      "public_sha256": "50c0d8a507087103ae698a3bf36779fa698aefb71dc8c300fbc75e11d2b59aa0"
+    },
+    "operatormark/corpus/rng_guard.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "b903598316eb197b7d94c6238fa159ff528c40814e4c035115eb7d981cff7437",
+      "public_file": "research_source/operatormark/corpus/rng_guard.py",
+      "public_sha256": "b903598316eb197b7d94c6238fa159ff528c40814e4c035115eb7d981cff7437"
+    },
+    "operatormark/corpus/runtime.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "73f415973bdef068043e228280b11ad2fdd81d3ca3067f3307b517232f80b2d4",
+      "public_file": "research_source/operatormark/corpus/runtime.py",
+      "public_sha256": "73f415973bdef068043e228280b11ad2fdd81d3ca3067f3307b517232f80b2d4"
+    },
+    "operatormark/corpus/source_binding.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "eac25917bbcacd5313e6905cd11f5d4446eb5e576d6d75395df1de07f08bb870",
+      "public_file": "research_source/operatormark/corpus/source_binding.py",
+      "public_sha256": "eac25917bbcacd5313e6905cd11f5d4446eb5e576d6d75395df1de07f08bb870"
+    },
+    "operatormark/corpus/source_import_guard.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "bac2624f26bf44a36da8a7e15ceb5b9e7d650d96fb85ddfb77d6ea43aa903f3d",
+      "public_file": "research_source/operatormark/corpus/source_import_guard.py",
+      "public_sha256": "bac2624f26bf44a36da8a7e15ceb5b9e7d650d96fb85ddfb77d6ea43aa903f3d"
+    },
+    "operatormark/corpus/state3_audit.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "a26a0a3246527899d913da861a620239ebc1818bb3a33bfa0d8b00f863a09fc8",
+      "public_file": "research_source/operatormark/corpus/state3_audit.py",
+      "public_sha256": "a26a0a3246527899d913da861a620239ebc1818bb3a33bfa0d8b00f863a09fc8"
+    },
+    "operatormark/corpus/state3_audit_verify.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "cc7ee5a8e82a3f58fccf3cefebca757e585b30697c3198f3b8d4bfc5a69ec010",
+      "public_file": "research_source/operatormark/corpus/state3_audit_verify.py",
+      "public_sha256": "cc7ee5a8e82a3f58fccf3cefebca757e585b30697c3198f3b8d4bfc5a69ec010"
+    },
+    "operatormark/corpus/state3_workflow.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "2fdccd2ebe8419992b5930b8f8741eef1260d8f4f8a4d1d57abee47b8e35472d",
+      "public_file": "research_source/operatormark/corpus/state3_workflow.py",
+      "public_sha256": "2fdccd2ebe8419992b5930b8f8741eef1260d8f4f8a4d1d57abee47b8e35472d"
+    },
+    "operatormark/corpus/state4.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "f691896c7c14247728a189d6296d759a316a9d3ebf68838d2f9faad68e66343b",
+      "public_file": "research_source/operatormark/corpus/state4.py",
+      "public_sha256": "f691896c7c14247728a189d6296d759a316a9d3ebf68838d2f9faad68e66343b"
+    },
+    "operatormark/corpus/state4_acceptance_verify.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "c5007ec3e7f46dd595f88cc15c919d9d8ee737a63d6be932c62da44f25fb3794",
+      "public_file": "research_source/operatormark/corpus/state4_acceptance_verify.py",
+      "public_sha256": "c5007ec3e7f46dd595f88cc15c919d9d8ee737a63d6be932c62da44f25fb3794"
+    },
+    "operatormark/corpus/state4_workflow.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "6efcc9b8c2050a9b216b44d96662dba0e90e7738d1eab98163f0a74fd8b9510f",
+      "public_file": "research_source/operatormark/corpus/state4_workflow.py",
+      "public_sha256": "6efcc9b8c2050a9b216b44d96662dba0e90e7738d1eab98163f0a74fd8b9510f"
+    },
+    "operatormark/corpus/state5_workflow.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "390343697e0fce7c9c15a0086671a1887bd87838eccdc1b04adbffd189314517",
+      "public_file": "research_source/operatormark/corpus/state5_workflow.py",
+      "public_sha256": "390343697e0fce7c9c15a0086671a1887bd87838eccdc1b04adbffd189314517"
+    },
+    "operatormark/corpus/state6_workflow.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "5ef6c5a94c695ed73f235c2ae928686372e0c7efb6ac8349907234879b492d9c",
+      "public_file": "research_source/operatormark/corpus/state6_workflow.py",
+      "public_sha256": "5ef6c5a94c695ed73f235c2ae928686372e0c7efb6ac8349907234879b492d9c"
+    },
+    "operatormark/corpus/state_child_guard.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "f9a8e08d703d593f68c24236afe68925622d533a82d74808e55b0d78d8cb125b",
+      "public_file": "research_source/operatormark/corpus/state_child_guard.py",
+      "public_sha256": "f9a8e08d703d593f68c24236afe68925622d533a82d74808e55b0d78d8cb125b"
+    },
+    "operatormark/corpus/state_custody_admission.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "98d081191910a658671a6efa98359897a0546d9be95f7cf297f5ac5de58bc23e",
+      "public_file": "research_source/operatormark/corpus/state_custody_admission.py",
+      "public_sha256": "98d081191910a658671a6efa98359897a0546d9be95f7cf297f5ac5de58bc23e"
+    },
+    "operatormark/corpus/state_evidence_windows.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "1e0fe10843446f961a135bfd71ef766c0ab8008eead9a2f5bc490d58d19708f4",
+      "public_file": "research_source/operatormark/corpus/state_evidence_windows.py",
+      "public_sha256": "1e0fe10843446f961a135bfd71ef766c0ab8008eead9a2f5bc490d58d19708f4"
+    },
+    "operatormark/corpus/state_execution.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "24c77fea450618424deabdf4e5ab9e1db24e80fe0be51ac3f06c1ab392e986aa",
+      "public_file": "research_source/operatormark/corpus/state_execution.py",
+      "public_sha256": "24c77fea450618424deabdf4e5ab9e1db24e80fe0be51ac3f06c1ab392e986aa"
+    },
+    "operatormark/corpus/state_execution_authority.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "619e0c0b3fce398fbd1489d7048d9a7b2f320e4b9b657998a537f1c348196f1a",
+      "public_file": "research_source/operatormark/corpus/state_execution_authority.py",
+      "public_sha256": "619e0c0b3fce398fbd1489d7048d9a7b2f320e4b9b657998a537f1c348196f1a"
+    },
+    "operatormark/corpus/state_execution_windows.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "020db3231e67d98972877dd9e86006368e83f1cdb52af5f99b1cbb06b737d8d5",
+      "public_file": "research_source/operatormark/corpus/state_execution_windows.py",
+      "public_sha256": "020db3231e67d98972877dd9e86006368e83f1cdb52af5f99b1cbb06b737d8d5"
+    },
+    "operatormark/corpus/state_guard_capture.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "435ca33ac7d866e0d1193bfaf00d3746460fce5ee32c2ef2ee9a384730434fee",
+      "public_file": "research_source/operatormark/corpus/state_guard_capture.py",
+      "public_sha256": "435ca33ac7d866e0d1193bfaf00d3746460fce5ee32c2ef2ee9a384730434fee"
+    },
+    "operatormark/corpus/state_host_native_win32.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "46e40033eb611bb9f4c68020b26f04664847476dafe1bfd70847cb6bec804bc1",
+      "public_file": "research_source/operatormark/corpus/state_host_native_win32.py",
+      "public_sha256": "46e40033eb611bb9f4c68020b26f04664847476dafe1bfd70847cb6bec804bc1"
+    },
+    "operatormark/corpus/state_host_sizing.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "54150cc9a136a6eb6e35ea94e73ae832c241ef33ccc65bd08c1a7942d2d426e7",
+      "public_file": "research_source/operatormark/corpus/state_host_sizing.py",
+      "public_sha256": "54150cc9a136a6eb6e35ea94e73ae832c241ef33ccc65bd08c1a7942d2d426e7"
+    },
+    "operatormark/corpus/state_host_windows.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "40c2947f75efca02b84f80244f37f57e2e393e41eae7d03211b7fe77f4911559",
+      "public_file": "research_source/operatormark/corpus/state_host_windows.py",
+      "public_sha256": "40c2947f75efca02b84f80244f37f57e2e393e41eae7d03211b7fe77f4911559"
+    },
+    "operatormark/corpus/state_phase_adapters.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "c9d11be173adac9bbd94ca15eeb424772128b310c68588ffc951476ff936f89d",
+      "public_file": "research_source/operatormark/corpus/state_phase_adapters.py",
+      "public_sha256": "c9d11be173adac9bbd94ca15eeb424772128b310c68588ffc951476ff936f89d"
+    },
+    "operatormark/corpus/state_provider_bindings.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "847a9d86996bd6328a071d8af881623952f22fe2589ea80561c80dfaecc3ac27",
+      "public_file": "research_source/operatormark/corpus/state_provider_bindings.py",
+      "public_sha256": "847a9d86996bd6328a071d8af881623952f22fe2589ea80561c80dfaecc3ac27"
+    },
+    "operatormark/corpus/state_scientific_adapters.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "6503a6b3a428136845069dcf5db023f4667379202f12b08b4f713ea367122bb4",
+      "public_file": "research_source/operatormark/corpus/state_scientific_adapters.py",
+      "public_sha256": "6503a6b3a428136845069dcf5db023f4667379202f12b08b4f713ea367122bb4"
+    },
+    "operatormark/corpus/state_storage_records.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "8254f2ae3d6a0a0727e41a11e78a27997025fa92c61772f19735d8a449dae2cd",
+      "public_file": "research_source/operatormark/corpus/state_storage_records.py",
+      "public_sha256": "8254f2ae3d6a0a0727e41a11e78a27997025fa92c61772f19735d8a449dae2cd"
+    },
+    "operatormark/corpus/state_storage_verify.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "f5a2ec984a789129bb58b958296e1e94c9536bd58670b4c160262a64e5192427",
+      "public_file": "research_source/operatormark/corpus/state_storage_verify.py",
+      "public_sha256": "f5a2ec984a789129bb58b958296e1e94c9536bd58670b4c160262a64e5192427"
+    },
+    "operatormark/corpus/state_storage_windows.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "5ae8167c8df4ff2fbc1e55e579f6bbdba73c5f33e6a88b95f88414d3a6b1e6ea",
+      "public_file": "research_source/operatormark/corpus/state_storage_windows.py",
+      "public_sha256": "5ae8167c8df4ff2fbc1e55e579f6bbdba73c5f33e6a88b95f88414d3a6b1e6ea"
+    },
+    "operatormark/corpus/state_v2_prerequisites.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "216567b53a667bf04e57762275cfa645844f614bec8f0bd4c292cf6cf777b698",
+      "public_file": "research_source/operatormark/corpus/state_v2_prerequisites.py",
+      "public_sha256": "216567b53a667bf04e57762275cfa645844f614bec8f0bd4c292cf6cf777b698"
+    },
+    "operatormark/corpus/state_v2_storage.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "530e1699f8300c5e1431e92c622445c703414e33bcf7c348fcd15576e4d7f349",
+      "public_file": "research_source/operatormark/corpus/state_v2_storage.py",
+      "public_sha256": "530e1699f8300c5e1431e92c622445c703414e33bcf7c348fcd15576e4d7f349"
+    },
+    "operatormark/corpus/state_v2_support.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "cfdd7217db650206ed112821e4c2a5c598d6ee76a24af27e823d1e726d76145f",
+      "public_file": "research_source/operatormark/corpus/state_v2_support.py",
+      "public_sha256": "cfdd7217db650206ed112821e4c2a5c598d6ee76a24af27e823d1e726d76145f"
+    },
+    "operatormark/corpus/state_v2_workflow.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "a26d9ea2087174678e1d7da4089a3f6af8b4a255666db4fd455bb1420a048def",
+      "public_file": "research_source/operatormark/corpus/state_v2_workflow.py",
+      "public_sha256": "a26d9ea2087174678e1d7da4089a3f6af8b4a255666db4fd455bb1420a048def"
+    },
+    "operatormark/corpus/state_v2_writer_bounds.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "eb0d92b501a81f284c2c8a7927febd6c3dcf4a4ef9246179d6f8e871dc2de948",
+      "public_file": "research_source/operatormark/corpus/state_v2_writer_bounds.py",
+      "public_sha256": "eb0d92b501a81f284c2c8a7927febd6c3dcf4a4ef9246179d6f8e871dc2de948"
+    },
+    "operatormark/corpus/storage.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "a2dbb812d4a6236b8a0b715fe336d009095267d516471e8c72f1ad18832185b3",
+      "public_file": "research_source/operatormark/corpus/storage.py",
+      "public_sha256": "a2dbb812d4a6236b8a0b715fe336d009095267d516471e8c72f1ad18832185b3"
+    },
+    "operatormark/corpus/storage_binding_verify.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "d6f9f08f34ae7d8c5228497a1b2606d8252dea1f4056038c53a6839e32ef5939",
+      "public_file": "research_source/operatormark/corpus/storage_binding_verify.py",
+      "public_sha256": "d6f9f08f34ae7d8c5228497a1b2606d8252dea1f4056038c53a6839e32ef5939"
+    },
+    "operatormark/corpus/writer_sizing.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "deb57a9aea06b71c2f0a4683cf4121b7dbc51238c4917996615716c3e926fec0",
+      "public_file": "research_source/operatormark/corpus/writer_sizing.py",
+      "public_sha256": "deb57a9aea06b71c2f0a4683cf4121b7dbc51238c4917996615716c3e926fec0"
+    },
+    "operatormark/solvers/__init__.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "db12bc2a9d9865a25a34ddabec3594026bea637ddd87e6eeeb723cd113718c8f",
+      "public_file": "research_source/operatormark/solvers/__init__.py",
+      "public_sha256": "db12bc2a9d9865a25a34ddabec3594026bea637ddd87e6eeeb723cd113718c8f"
+    },
+    "operatormark/solvers/darcy_p1.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "6d97cbd7349b6f665496d452d436d1c3b0684f8dd07897baaf27fda6f9818a6d",
+      "public_file": "research_source/operatormark/solvers/darcy_p1.py",
+      "public_sha256": "6d97cbd7349b6f665496d452d436d1c3b0684f8dd07897baaf27fda6f9818a6d"
+    },
+    "operatormark/solvers/darcy_tpfa.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "f40897db7974c8ef6cc043ed01c701cdfa467af102eae9db702ffd22ba302aa1",
+      "public_file": "research_source/operatormark/solvers/darcy_tpfa.py",
+      "public_sha256": "f40897db7974c8ef6cc043ed01c701cdfa467af102eae9db702ffd22ba302aa1"
+    },
+    "operatormark_corpus_v2/__init__.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_file": "research_source/operatormark_corpus_v2/__init__.py",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "operatormark_corpus_v2/anomaly.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "a0e5f71ebae7977927e967636fae0e052cbd5b5f0f0b7cc1716a42a4f223d987",
+      "public_file": "research_source/operatormark_corpus_v2/anomaly.py",
+      "public_sha256": "a0e5f71ebae7977927e967636fae0e052cbd5b5f0f0b7cc1716a42a4f223d987"
+    },
+    "operatormark_corpus_v2/cli.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "db51a5490e5e4a8657e4d8ba842c3b36021fb50853c9aca3b0de429eb6013663",
+      "public_file": "research_source/operatormark_corpus_v2/cli.py",
+      "public_sha256": "db51a5490e5e4a8657e4d8ba842c3b36021fb50853c9aca3b0de429eb6013663"
+    },
+    "operatormark_corpus_v2/config.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "a0580c314e621136148a7e73908f9bf92daffd6b21b921b8371f23eb4e4c25a1",
+      "public_file": "research_source/operatormark_corpus_v2/config.py",
+      "public_sha256": "a0580c314e621136148a7e73908f9bf92daffd6b21b921b8371f23eb4e4c25a1"
+    },
+    "operatormark_corpus_v2/d10.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "cef3635c20cf677a77be8ad1faa4c769b8a22ec01255105440db9563f348dc68",
+      "public_file": "research_source/operatormark_corpus_v2/d10.py",
+      "public_sha256": "cef3635c20cf677a77be8ad1faa4c769b8a22ec01255105440db9563f348dc68"
+    },
+    "operatormark_corpus_v2/d7.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "7dddd3863c04e7e608c3663bab6044fff1e54230fb06f63db72adff06a330d2b",
+      "public_file": "research_source/operatormark_corpus_v2/d7.py",
+      "public_sha256": "7dddd3863c04e7e608c3663bab6044fff1e54230fb06f63db72adff06a330d2b"
+    },
+    "operatormark_corpus_v2/d8.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "9259eac585852ce1a2286986af773945310fb2bf2944e2097f90bea8e362b92d",
+      "public_file": "research_source/operatormark_corpus_v2/d8.py",
+      "public_sha256": "9259eac585852ce1a2286986af773945310fb2bf2944e2097f90bea8e362b92d"
+    },
+    "operatormark_corpus_v2/generator.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "699693dc734c0180cd0905e8a8305de5174300e2145c550f36aa378620aac4b1",
+      "public_file": "research_source/operatormark_corpus_v2/generator.py",
+      "public_sha256": "699693dc734c0180cd0905e8a8305de5174300e2145c550f36aa378620aac4b1"
+    },
+    "operatormark_corpus_v2/input_bindings.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "baf67a405757f605de443f87fc9de8f8f2004e2440eec1e7d91182e36640449b",
+      "public_file": "research_source/operatormark_corpus_v2/input_bindings.py",
+      "public_sha256": "baf67a405757f605de443f87fc9de8f8f2004e2440eec1e7d91182e36640449b"
+    },
+    "operatormark_corpus_v2/layout.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "3a9c20fdb6711ffde0e3ff1742191abfd5ee8eeeb1607e425627a8973f842c01",
+      "public_file": "research_source/operatormark_corpus_v2/layout.py",
+      "public_sha256": "3a9c20fdb6711ffde0e3ff1742191abfd5ee8eeeb1607e425627a8973f842c01"
+    },
+    "operatormark_corpus_v2/native.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "e8630b97062e464f9660fdc70199faa24e72af3f586ab09b86dce4e2d47d692b",
+      "public_file": "research_source/operatormark_corpus_v2/native.py",
+      "public_sha256": "e8630b97062e464f9660fdc70199faa24e72af3f586ab09b86dce4e2d47d692b"
+    },
+    "operatormark_corpus_v2/pins.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "d61031d8aac33a2349e765276abce88bd39610230536364ec04f9761e8989b36",
+      "public_file": "research_source/operatormark_corpus_v2/pins.py",
+      "public_sha256": "d61031d8aac33a2349e765276abce88bd39610230536364ec04f9761e8989b36"
+    },
+    "operatormark_corpus_v2/readback.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "64191469e15aebb81378f874b9c31a437c2aa54106214c4e1eef5d776f743d13",
+      "public_file": "research_source/operatormark_corpus_v2/readback.py",
+      "public_sha256": "64191469e15aebb81378f874b9c31a437c2aa54106214c4e1eef5d776f743d13"
+    },
+    "operatormark_corpus_v2/records.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "aa090efe3b98a72baa96e940a661c757957b21d7611252be83401888feea4c34",
+      "public_file": "research_source/operatormark_corpus_v2/records.py",
+      "public_sha256": "aa090efe3b98a72baa96e940a661c757957b21d7611252be83401888feea4c34"
+    },
+    "operatormark_corpus_v2/scientific.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "1f3e8df302e87791c67deaf61f75c1498d2a7ea436a5f8a9ac1501f882872ac9",
+      "public_file": "research_source/operatormark_corpus_v2/scientific.py",
+      "public_sha256": "1f3e8df302e87791c67deaf61f75c1498d2a7ea436a5f8a9ac1501f882872ac9"
+    },
+    "operatormark_corpus_v2/sizing.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "396bfe78d92abe8c62849056b12789548f4c1c21a3b0a8bc2486e7483b106911",
+      "public_file": "research_source/operatormark_corpus_v2/sizing.py",
+      "public_sha256": "396bfe78d92abe8c62849056b12789548f4c1c21a3b0a8bc2486e7483b106911"
+    },
+    "operatormark_numerics_v2/__init__.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "85f6d689bb173bb535922c782cca0b2dc218df2984c7d54d6e0c7e8e3a63a8ca",
+      "public_file": "research_source/operatormark_numerics_v2/__init__.py",
+      "public_sha256": "85f6d689bb173bb535922c782cca0b2dc218df2984c7d54d6e0c7e8e3a63a8ca"
+    },
+    "operatormark_numerics_v2/api.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "df219fb633bb6d16d3ded3b0f8b79265de5fc6de757d6fb26dbdcad75e5311ef",
+      "public_file": "research_source/operatormark_numerics_v2/api.py",
+      "public_sha256": "df219fb633bb6d16d3ded3b0f8b79265de5fc6de757d6fb26dbdcad75e5311ef"
+    },
+    "operatormark_numerics_v2/directions.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "5428068cff57767bb5757b5c484638a282a95045afb5ff7fdc6ddcc65465dcb3",
+      "public_file": "research_source/operatormark_numerics_v2/directions.py",
+      "public_sha256": "5428068cff57767bb5757b5c484638a282a95045afb5ff7fdc6ddcc65465dcb3"
+    },
+    "operatormark_numerics_v2/ladder.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "5cfeb63bd67ffe7a8e6c2aec2c1e086dd91b35324e151546e7fa62dc34907052",
+      "public_file": "research_source/operatormark_numerics_v2/ladder.py",
+      "public_sha256": "5cfeb63bd67ffe7a8e6c2aec2c1e086dd91b35324e151546e7fa62dc34907052"
+    },
+    "operatormark_numerics_v2/lock.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "9603ad42cf61fbf1ccdeaa0fbf962bc7517779855fea3beefa0eeed7b2fcd77a",
+      "public_file": "research_source/operatormark_numerics_v2/lock.py",
+      "public_sha256": "9603ad42cf61fbf1ccdeaa0fbf962bc7517779855fea3beefa0eeed7b2fcd77a"
+    },
+    "operatormark_numerics_v2/lock_cli.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "f2f16092234aae0f08272969a0a83bf73d8ce48ba9a55453272842821d7a9fe3",
+      "public_file": "research_source/operatormark_numerics_v2/lock_cli.py",
+      "public_sha256": "f2f16092234aae0f08272969a0a83bf73d8ce48ba9a55453272842821d7a9fe3"
+    },
+    "operatormark_numerics_v2/p1_family.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "ad8eff0754015bec1f89e4d875211d99ba19be3484b51d09753c338ba217c0e8",
+      "public_file": "research_source/operatormark_numerics_v2/p1_family.py",
+      "public_sha256": "ad8eff0754015bec1f89e4d875211d99ba19be3484b51d09753c338ba217c0e8"
+    },
+    "operatormark_numerics_v2/payload.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "2b99bd7a1b99753ca165bddbe9784e844932fd7229dd267cccb34af120665212",
+      "public_file": "research_source/operatormark_numerics_v2/payload.py",
+      "public_sha256": "2b99bd7a1b99753ca165bddbe9784e844932fd7229dd267cccb34af120665212"
+    },
+    "operatormark_numerics_v2/pins.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "e3debed9c38eb9fb4539504858e9a9d8b7d1233de7a2b536f428e953944d2e00",
+      "public_file": "research_source/operatormark_numerics_v2/pins.py",
+      "public_sha256": "e3debed9c38eb9fb4539504858e9a9d8b7d1233de7a2b536f428e953944d2e00"
+    },
+    "operatormark_numerics_v2/resources.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "16e186d570cca55a59a22601bbe10effb8bc67d8bf3e3fc824568e488acdb995",
+      "public_file": "research_source/operatormark_numerics_v2/resources.py",
+      "public_sha256": "16e186d570cca55a59a22601bbe10effb8bc67d8bf3e3fc824568e488acdb995"
+    },
+    "operatormark_numerics_v2/runners/__init__.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "5b209bcdf406e04b89c21f5f891732adec8366ef12eac437d852df71a39b60ab",
+      "public_file": "research_source/operatormark_numerics_v2/runners/__init__.py",
+      "public_sha256": "5b209bcdf406e04b89c21f5f891732adec8366ef12eac437d852df71a39b60ab"
+    },
+    "operatormark_numerics_v2/runners/cli.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "c2186d218e89bc5e4cc4c422bb2b2eec03b358a16190dd8aed4388b78ea5316c",
+      "public_file": "research_source/operatormark_numerics_v2/runners/cli.py",
+      "public_sha256": "c2186d218e89bc5e4cc4c422bb2b2eec03b358a16190dd8aed4388b78ea5316c"
+    },
+    "operatormark_numerics_v2/runners/common.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "ae940b2026f19329d07975d67421fc0e82b18d530046b3a855ea6319e1d2c7d8",
+      "public_file": "research_source/operatormark_numerics_v2/runners/common.py",
+      "public_sha256": "ae940b2026f19329d07975d67421fc0e82b18d530046b3a855ea6319e1d2c7d8"
+    },
+    "operatormark_numerics_v2/runners/envcheck.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "9ab62507ba4edc1212c7301a4df2c6e69081b7778cd25cae5a3503eed8ec4061",
+      "public_file": "research_source/operatormark_numerics_v2/runners/envcheck.py",
+      "public_sha256": "9ab62507ba4edc1212c7301a4df2c6e69081b7778cd25cae5a3503eed8ec4061"
+    },
+    "operatormark_numerics_v2/runners/stages.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "05b15c6f906ceba4c5eb5893c2f09ff974875508f29088adeeaca0322744dea7",
+      "public_file": "research_source/operatormark_numerics_v2/runners/stages.py",
+      "public_sha256": "05b15c6f906ceba4c5eb5893c2f09ff974875508f29088adeeaca0322744dea7"
+    },
+    "operatormark_numerics_v2/scope.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "72abe66eb9eb9e2423f03e31150f96dc443b8de5800e374147d4059cf8d3ca2e",
+      "public_file": "research_source/operatormark_numerics_v2/scope.py",
+      "public_sha256": "72abe66eb9eb9e2423f03e31150f96dc443b8de5800e374147d4059cf8d3ca2e"
+    },
+    "operatormark_numerics_v2/task.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "c3d0eaf2279d529bb90036750ae4435999cf84613d2292ebacbd7b2708ae9adc",
+      "public_file": "research_source/operatormark_numerics_v2/task.py",
+      "public_sha256": "c3d0eaf2279d529bb90036750ae4435999cf84613d2292ebacbd7b2708ae9adc"
+    },
+    "operatormark_numerics_v2/tpfa_family.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "e800e91e39863eb00569646431ffadecbc3a5ac1b18195c09993a5fad3a01bc9",
+      "public_file": "research_source/operatormark_numerics_v2/tpfa_family.py",
+      "public_sha256": "e800e91e39863eb00569646431ffadecbc3a5ac1b18195c09993a5fad3a01bc9"
+    },
+    "operatormark_numerics_v2/views.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "2f95a0e662c8f165f6c5f7f42078d146d6238b2107145b2cadd791ac268a3650",
+      "public_file": "research_source/operatormark_numerics_v2/views.py",
+      "public_sha256": "2f95a0e662c8f165f6c5f7f42078d146d6238b2107145b2cadd791ac268a3650"
+    },
+    "tools/msdev/__init__.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "37b9c7ce30a73d8257f48cf9f2821f82077612ba2f067613fdb0eade2496be97",
+      "public_file": "research_source/tools/msdev/__init__.py",
+      "public_sha256": "37b9c7ce30a73d8257f48cf9f2821f82077612ba2f067613fdb0eade2496be97"
+    },
+    "tools/msdev/backend.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "0be27420b981b111c7a21411723fa05939025d77c101611ac4f93d82c26c3f25",
+      "public_file": "research_source/tools/msdev/backend.py",
+      "public_sha256": "0be27420b981b111c7a21411723fa05939025d77c101611ac4f93d82c26c3f25"
+    },
+    "tools/msdev/bounded_capture.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "889474e7f2902d538f08d4c47df3fcf9051d4f0db18db4416cc57fd13ac8ec66",
+      "public_file": "research_source/tools/msdev/bounded_capture.py",
+      "public_sha256": "889474e7f2902d538f08d4c47df3fcf9051d4f0db18db4416cc57fd13ac8ec66"
+    },
+    "tools/msdev/campaign.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "1e35d8928ca11c1d6456c9a61f4005ec592085e5905072cda880566b7d337507",
+      "public_file": "research_source/tools/msdev/campaign.py",
+      "public_sha256": "1e35d8928ca11c1d6456c9a61f4005ec592085e5905072cda880566b7d337507"
+    },
+    "tools/msdev/cli.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "85a372f94327dde33b88c4f52093e11c38a4ac4d9ea2dbc9b7ebda6f0cb46589",
+      "public_file": "research_source/tools/msdev/cli.py",
+      "public_sha256": "85a372f94327dde33b88c4f52093e11c38a4ac4d9ea2dbc9b7ebda6f0cb46589"
+    },
+    "tools/msdev/colab_environment.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "b7a2df206b983167c1db546df347177ca7fa8641d61c48c0c4a3d07b24cf5293",
+      "public_file": "research_source/tools/msdev/colab_environment.py",
+      "public_sha256": "b7a2df206b983167c1db546df347177ca7fa8641d61c48c0c4a3d07b24cf5293"
+    },
+    "tools/msdev/costs.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "0dbe0687115b0c3dde11b2754d96cd4ce2255b71a7096f1b22a27d36ed329f66",
+      "public_file": "research_source/tools/msdev/costs.py",
+      "public_sha256": "0dbe0687115b0c3dde11b2754d96cd4ce2255b71a7096f1b22a27d36ed329f66"
+    },
+    "tools/msdev/d3_replay.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "d9a6608f8f29428f595cd6bffea41d8e76f0a449af8c70abdf6d74ea5acaaebc",
+      "public_file": "research_source/tools/msdev/d3_replay.py",
+      "public_sha256": "d9a6608f8f29428f595cd6bffea41d8e76f0a449af8c70abdf6d74ea5acaaebc"
+    },
+    "tools/msdev/graph.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "8d7fb8af07b650a7fdd91feb6338304e8acaaf110986de4705d1c5f8123ad977",
+      "public_file": "research_source/tools/msdev/graph.py",
+      "public_sha256": "8d7fb8af07b650a7fdd91feb6338304e8acaaf110986de4705d1c5f8123ad977"
+    },
+    "tools/msdev/handoff.py": {
+      "bytes_unchanged": false,
+      "changes": [
+        "Replaced three personal Windows path strings with LOCAL_PROJECT/LOCAL_ARCHIVE placeholders. This archived launcher is not a public quickstart."
+      ],
+      "original_sha256": "6883fd159686a528d9878cbe5a514d62294a447188bece431aca0ffced52e9e9",
+      "public_file": "research_source/tools/msdev/handoff.py",
+      "public_sha256": "92a54b804bd4d47c7082c03d5ac39790110b9e29214a1e06513344b7548d3bba"
+    },
+    "tools/msdev/kernels.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "3f158e01cb68c5bd7c823388e2793c93d8eef873f4bb88440a91f53afd20c4f7",
+      "public_file": "research_source/tools/msdev/kernels.py",
+      "public_sha256": "3f158e01cb68c5bd7c823388e2793c93d8eef873f4bb88440a91f53afd20c4f7"
+    },
+    "tools/msdev/marking_diagnostic.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "959331502324aa2bd381703ff8f0f6db7058d7e29c20c8a0e2f5d4cda20b3d5e",
+      "public_file": "research_source/tools/msdev/marking_diagnostic.py",
+      "public_sha256": "959331502324aa2bd381703ff8f0f6db7058d7e29c20c8a0e2f5d4cda20b3d5e"
+    },
+    "tools/msdev/marking_handoff.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "724fbdbb6c05a33c70a6694fc8f45c4e0842e81bc41a10346bcccd46c4500699",
+      "public_file": "research_source/tools/msdev/marking_handoff.py",
+      "public_sha256": "724fbdbb6c05a33c70a6694fc8f45c4e0842e81bc41a10346bcccd46c4500699"
+    },
+    "tools/msdev/pn_development.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "fe32f6ba5d989bf84b7e44aab8fc4d22c654dc1eb049d43d43208e9104077932",
+      "public_file": "research_source/tools/msdev/pn_development.py",
+      "public_sha256": "fe32f6ba5d989bf84b7e44aab8fc4d22c654dc1eb049d43d43208e9104077932"
+    },
+    "tools/msdev/pn_marked_closure.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "8499bc4d041aa0b3a50af9e328c626bfacc03a7fdc480c0e56eefb6054b7cd65",
+      "public_file": "research_source/tools/msdev/pn_marked_closure.py",
+      "public_sha256": "8499bc4d041aa0b3a50af9e328c626bfacc03a7fdc480c0e56eefb6054b7cd65"
+    },
+    "tools/msdev/pn_runtime_migration.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "0d938d6db607840d79d7a6571b4190c02c5ae37cee0ab48a4cb7eef1f450115c",
+      "public_file": "research_source/tools/msdev/pn_runtime_migration.py",
+      "public_sha256": "0d938d6db607840d79d7a6571b4190c02c5ae37cee0ab48a4cb7eef1f450115c"
+    },
+    "tools/msdev/prepare.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "a8957c40a4793eff38e134404682f26df849619dd3072d9fce288fd6f474a175",
+      "public_file": "research_source/tools/msdev/prepare.py",
+      "public_sha256": "a8957c40a4793eff38e134404682f26df849619dd3072d9fce288fd6f474a175"
+    },
+    "tools/msdev/records.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "b73d71a9ce7f0d724da91136719a7c18f8b97d5213f2b9dba452bab651db5e22",
+      "public_file": "research_source/tools/msdev/records.py",
+      "public_sha256": "b73d71a9ce7f0d724da91136719a7c18f8b97d5213f2b9dba452bab651db5e22"
+    },
+    "tools/msdev/rules.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "a963d6541c5a109511322625facd220aeadea994ea25c6aa765262fd1c67951f",
+      "public_file": "research_source/tools/msdev/rules.py",
+      "public_sha256": "a963d6541c5a109511322625facd220aeadea994ea25c6aa765262fd1c67951f"
+    },
+    "tools/msdev/scoring.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "332e1ba446a30422c06278304c09d74985a815e575dedb043230839815dd40d0",
+      "public_file": "research_source/tools/msdev/scoring.py",
+      "public_sha256": "332e1ba446a30422c06278304c09d74985a815e575dedb043230839815dd40d0"
+    },
+    "tools/msdev/unmarked.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "40256a5de9c790a948d44564d2810365e1723e3d7e7c14f04957f3fe911b8ef5",
+      "public_file": "research_source/tools/msdev/unmarked.py",
+      "public_sha256": "40256a5de9c790a948d44564d2810365e1723e3d7e7c14f04957f3fe911b8ef5"
+    },
+    "tools/msdev/unmarked_handoff.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "e117e9c5bb45b2e555945a0ab48b46b10c2e895ca340a172da002c014379924b",
+      "public_file": "research_source/tools/msdev/unmarked_handoff.py",
+      "public_sha256": "e117e9c5bb45b2e555945a0ab48b46b10c2e895ca340a172da002c014379924b"
+    },
+    "tools/msfinal/__init__.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "c7b5f03ac5017dd32e9b7fe677c27a24771a0a54ce8cb31a793a7e62694592ca",
+      "public_file": "research_source/tools/msfinal/__init__.py",
+      "public_sha256": "c7b5f03ac5017dd32e9b7fe677c27a24771a0a54ce8cb31a793a7e62694592ca"
+    },
+    "tools/msfinal/analysis.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "3722ac10b4658b5f696e9b43c5fc9477b0d986571913fcb6d7c88c70783262e3",
+      "public_file": "research_source/tools/msfinal/analysis.py",
+      "public_sha256": "3722ac10b4658b5f696e9b43c5fc9477b0d986571913fcb6d7c88c70783262e3"
+    },
+    "tools/msfinal/archive_custody.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "815cf9992f42d498844325b199d2f74fa9f8c688f205f3cb4d3195b3d7c16ebb",
+      "public_file": "research_source/tools/msfinal/archive_custody.py",
+      "public_sha256": "815cf9992f42d498844325b199d2f74fa9f8c688f205f3cb4d3195b3d7c16ebb"
+    },
+    "tools/msfinal/attacks.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "8cf18b479c7153d113bcc4cdc61c503b467cfbec08997f11e2b108b979b95070",
+      "public_file": "research_source/tools/msfinal/attacks.py",
+      "public_sha256": "8cf18b479c7153d113bcc4cdc61c503b467cfbec08997f11e2b108b979b95070"
+    },
+    "tools/msfinal/backend.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "9e8c7a6854361fb28fa6a3db6bf4a23eaf097fb3f4c0720937103190a76c381a",
+      "public_file": "research_source/tools/msfinal/backend.py",
+      "public_sha256": "9e8c7a6854361fb28fa6a3db6bf4a23eaf097fb3f4c0720937103190a76c381a"
+    },
+    "tools/msfinal/bounded_stage.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "e40c802aff8fe6f3a698b65aa43668efc9d9d6ca0ec8e6eca1b03d1adc7740ee",
+      "public_file": "research_source/tools/msfinal/bounded_stage.py",
+      "public_sha256": "e40c802aff8fe6f3a698b65aa43668efc9d9d6ca0ec8e6eca1b03d1adc7740ee"
+    },
+    "tools/msfinal/contract_arms.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "939526620e04b302b6f059fbf0a0ea6c3835d6132938f30e89e16c0689471568",
+      "public_file": "research_source/tools/msfinal/contract_arms.py",
+      "public_sha256": "939526620e04b302b6f059fbf0a0ea6c3835d6132938f30e89e16c0689471568"
+    },
+    "tools/msfinal/contract_inputs.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "dc3121b770c1b65c6e3c9a03a9a7954841b42af6db3b148745ca9241f5093d5b",
+      "public_file": "research_source/tools/msfinal/contract_inputs.py",
+      "public_sha256": "dc3121b770c1b65c6e3c9a03a9a7954841b42af6db3b148745ca9241f5093d5b"
+    },
+    "tools/msfinal/contract_verification.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "181d649f52492801354859b995f02f7fb4bee9f0343819c892469b48bb1f8c2d",
+      "public_file": "research_source/tools/msfinal/contract_verification.py",
+      "public_sha256": "181d649f52492801354859b995f02f7fb4bee9f0343819c892469b48bb1f8c2d"
+    },
+    "tools/msfinal/cpu_batch_entry.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "d8a3a5f47f6ba815bf6f381577b60439bdaf35fbbb48170c1cf05ef87ba70ab1",
+      "public_file": "research_source/tools/msfinal/cpu_batch_entry.py",
+      "public_sha256": "d8a3a5f47f6ba815bf6f381577b60439bdaf35fbbb48170c1cf05ef87ba70ab1"
+    },
+    "tools/msfinal/cpu_batches.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "f0a6eb193180c04c0dc66c9e3506b179add90afaa33f46f9344c9db895a90a22",
+      "public_file": "research_source/tools/msfinal/cpu_batches.py",
+      "public_sha256": "f0a6eb193180c04c0dc66c9e3506b179add90afaa33f46f9344c9db895a90a22"
+    },
+    "tools/msfinal/cpu_score_entry.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "820d1dad9ba2526c2a8630cf359d19704f535c4f22619c58dbc322c014960844",
+      "public_file": "research_source/tools/msfinal/cpu_score_entry.py",
+      "public_sha256": "820d1dad9ba2526c2a8630cf359d19704f535c4f22619c58dbc322c014960844"
+    },
+    "tools/msfinal/cpu_scoring.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "4f0728eb73d89b550714008e29bad351d6847d7daeace3cc0112e1ac6a0d8a30",
+      "public_file": "research_source/tools/msfinal/cpu_scoring.py",
+      "public_sha256": "4f0728eb73d89b550714008e29bad351d6847d7daeace3cc0112e1ac6a0d8a30"
+    },
+    "tools/msfinal/d2.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "79fbb9b47f346eb8419a270998e5ab8b85d6d5f63364147fa531b6b39148b5f4",
+      "public_file": "research_source/tools/msfinal/d2.py",
+      "public_sha256": "79fbb9b47f346eb8419a270998e5ab8b85d6d5f63364147fa531b6b39148b5f4"
+    },
+    "tools/msfinal/development_check.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "48165da7d346eb6ed55530d54b5e3b89f26f573d69a91ad531da7eb9703b78d9",
+      "public_file": "research_source/tools/msfinal/development_check.py",
+      "public_sha256": "48165da7d346eb6ed55530d54b5e3b89f26f573d69a91ad531da7eb9703b78d9"
+    },
+    "tools/msfinal/development_evaluator.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "d2e46d04c075cef73b631b9ea1db411aa3b5169a3b6a8fc31b884acad9dc1bb1",
+      "public_file": "research_source/tools/msfinal/development_evaluator.py",
+      "public_sha256": "d2e46d04c075cef73b631b9ea1db411aa3b5169a3b6a8fc31b884acad9dc1bb1"
+    },
+    "tools/msfinal/development_inputs.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "896689271ee7f7db4ae6f05b1b6c9cb825c81b2ee2990f6c6ae488df99efa158",
+      "public_file": "research_source/tools/msfinal/development_inputs.py",
+      "public_sha256": "896689271ee7f7db4ae6f05b1b6c9cb825c81b2ee2990f6c6ae488df99efa158"
+    },
+    "tools/msfinal/development_matrix.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "7c6ba4fc448611f3343af4aa565f54ecce028922d1ad57703dde61c6833babc3",
+      "public_file": "research_source/tools/msfinal/development_matrix.py",
+      "public_sha256": "7c6ba4fc448611f3343af4aa565f54ecce028922d1ad57703dde61c6833babc3"
+    },
+    "tools/msfinal/drive_transport.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "bd83c9ae40d2a7aecf22206496b6b9ebfb49d9bae542232442438bfa5d9cbe6a",
+      "public_file": "research_source/tools/msfinal/drive_transport.py",
+      "public_sha256": "bd83c9ae40d2a7aecf22206496b6b9ebfb49d9bae542232442438bfa5d9cbe6a"
+    },
+    "tools/msfinal/evaluation.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "02c710b57d74735d34ebb712fc7a220d136f07441da4432ad23d409d34dad912",
+      "public_file": "research_source/tools/msfinal/evaluation.py",
+      "public_sha256": "02c710b57d74735d34ebb712fc7a220d136f07441da4432ad23d409d34dad912"
+    },
+    "tools/msfinal/expanded.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "bcb536d3fee0f682e84eea96fd5daabbd286f088686b4a8dc77904b8f1ac8563",
+      "public_file": "research_source/tools/msfinal/expanded.py",
+      "public_sha256": "bcb536d3fee0f682e84eea96fd5daabbd286f088686b4a8dc77904b8f1ac8563"
+    },
+    "tools/msfinal/export.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "0ca039c773195861cc5fc637778233c113668e2c709aec20b741c72eab2d014b",
+      "public_file": "research_source/tools/msfinal/export.py",
+      "public_sha256": "0ca039c773195861cc5fc637778233c113668e2c709aec20b741c72eab2d014b"
+    },
+    "tools/msfinal/final_contracts.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "6018733c58726e538de3244e5b885448c461e55f978f53aa78eec62fccd1ad29",
+      "public_file": "research_source/tools/msfinal/final_contracts.py",
+      "public_sha256": "6018733c58726e538de3244e5b885448c461e55f978f53aa78eec62fccd1ad29"
+    },
+    "tools/msfinal/first_stage_materials.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "892a6aff09514cc0ff44f64356dd2f5f43b60e448bd1554f19c7ae4ad02f475d",
+      "public_file": "research_source/tools/msfinal/first_stage_materials.py",
+      "public_sha256": "892a6aff09514cc0ff44f64356dd2f5f43b60e448bd1554f19c7ae4ad02f475d"
+    },
+    "tools/msfinal/first_stage_return.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "284e79126549e8fff44574b5cf66e4111b4933432d0372a43aead9d2a3507543",
+      "public_file": "research_source/tools/msfinal/first_stage_return.py",
+      "public_sha256": "284e79126549e8fff44574b5cf66e4111b4933432d0372a43aead9d2a3507543"
+    },
+    "tools/msfinal/graph.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "eee551dd0ee5d79b1c22dd90b1800823c91057b9ba9010a9aba88355afdc96e9",
+      "public_file": "research_source/tools/msfinal/graph.py",
+      "public_sha256": "eee551dd0ee5d79b1c22dd90b1800823c91057b9ba9010a9aba88355afdc96e9"
+    },
+    "tools/msfinal/marking.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "5210a75a230aeaa2c39b62af86ad6ee38640d317dded73546675e2a9326d2de6",
+      "public_file": "research_source/tools/msfinal/marking.py",
+      "public_sha256": "5210a75a230aeaa2c39b62af86ad6ee38640d317dded73546675e2a9326d2de6"
+    },
+    "tools/msfinal/materials.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "7fc336f486e57f74b9479c5f61f4f1e45365bcd490778a1d8e0e350c68a2d949",
+      "public_file": "research_source/tools/msfinal/materials.py",
+      "public_sha256": "7fc336f486e57f74b9479c5f61f4f1e45365bcd490778a1d8e0e350c68a2d949"
+    },
+    "tools/msfinal/models.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "94dfbd0cc5fda5126b5149f76ae641733dc0dafa31dbd507700dd54e5b46e410",
+      "public_file": "research_source/tools/msfinal/models.py",
+      "public_sha256": "94dfbd0cc5fda5126b5149f76ae641733dc0dafa31dbd507700dd54e5b46e410"
+    },
+    "tools/msfinal/nulls.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "44fb466d5226e3a0dae54c9c056b3d6afcc02cbd900bd17db28943fb70fff44d",
+      "public_file": "research_source/tools/msfinal/nulls.py",
+      "public_sha256": "44fb466d5226e3a0dae54c9c056b3d6afcc02cbd900bd17db28943fb70fff44d"
+    },
+    "tools/msfinal/operating_entry.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "291034f07a059b2d0d7fd5dd975db4ae63d7156651ee1db4d09adccaefd634d1",
+      "public_file": "research_source/tools/msfinal/operating_entry.py",
+      "public_sha256": "291034f07a059b2d0d7fd5dd975db4ae63d7156651ee1db4d09adccaefd634d1"
+    },
+    "tools/msfinal/operations.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "2208731ecae9bf431ece8724d0e33fa714ac5278cb073b146cdf755c37a572d3",
+      "public_file": "research_source/tools/msfinal/operations.py",
+      "public_sha256": "2208731ecae9bf431ece8724d0e33fa714ac5278cb073b146cdf755c37a572d3"
+    },
+    "tools/msfinal/orchestration.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "54763fb4b95a592d439018874bb93890b0b9de6c7b62d8cf16414a9c6a5ba979",
+      "public_file": "research_source/tools/msfinal/orchestration.py",
+      "public_sha256": "54763fb4b95a592d439018874bb93890b0b9de6c7b62d8cf16414a9c6a5ba979"
+    },
+    "tools/msfinal/owners.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "d96ebbf358a2a44d4a088c9f75b51a44e905e461a3da839d404fd5d02cbf2f91",
+      "public_file": "research_source/tools/msfinal/owners.py",
+      "public_sha256": "d96ebbf358a2a44d4a088c9f75b51a44e905e461a3da839d404fd5d02cbf2f91"
+    },
+    "tools/msfinal/p256_adjoint.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "7856b0f9bc2925c4401565694f91b54fc59c922650baed9476c619d6e5d4e368",
+      "public_file": "research_source/tools/msfinal/p256_adjoint.py",
+      "public_sha256": "7856b0f9bc2925c4401565694f91b54fc59c922650baed9476c619d6e5d4e368"
+    },
+    "tools/msfinal/p256_tasks.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "0decbed8ae45a43ea3147f65ee5b3cc6c8057b0cac280148d42129ca24775e91",
+      "public_file": "research_source/tools/msfinal/p256_tasks.py",
+      "public_sha256": "0decbed8ae45a43ea3147f65ee5b3cc6c8057b0cac280148d42129ca24775e91"
+    },
+    "tools/msfinal/p256_verification.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "4cb23e5313d9f6cd28b2e2fd063f90f43aaf73e889989a0c090330dbe246ce5d",
+      "public_file": "research_source/tools/msfinal/p256_verification.py",
+      "public_sha256": "4cb23e5313d9f6cd28b2e2fd063f90f43aaf73e889989a0c090330dbe246ce5d"
+    },
+    "tools/msfinal/phase_storage.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "6198b2e92d6678bd0320597689079ed273fce33e0271125942c1a46d3d01bb44",
+      "public_file": "research_source/tools/msfinal/phase_storage.py",
+      "public_sha256": "6198b2e92d6678bd0320597689079ed273fce33e0271125942c1a46d3d01bb44"
+    },
+    "tools/msfinal/portable_corpus.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "0e1f0e3d2247e28415226c881f5481ac20c8474ee602a9aef9bf07764cd2ac1b",
+      "public_file": "research_source/tools/msfinal/portable_corpus.py",
+      "public_sha256": "0e1f0e3d2247e28415226c881f5481ac20c8474ee602a9aef9bf07764cd2ac1b"
+    },
+    "tools/msfinal/prospective_contracts.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "2a90f431a49ec7072567454fb5ecf1353957d2376684e4129e91cf5669ae37ad",
+      "public_file": "research_source/tools/msfinal/prospective_contracts.py",
+      "public_sha256": "2a90f431a49ec7072567454fb5ecf1353957d2376684e4129e91cf5669ae37ad"
+    },
+    "tools/msfinal/readback.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "aec0b8d73921141e4fc26ac87eed2cd7050e14fcef7c65564f212652b5b4955d",
+      "public_file": "research_source/tools/msfinal/readback.py",
+      "public_sha256": "aec0b8d73921141e4fc26ac87eed2cd7050e14fcef7c65564f212652b5b4955d"
+    },
+    "tools/msfinal/resources.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "6d3c19d582aca554c3f5c0c223a0f913ed5c4b9417ce39b3b23cbf36a7af8124",
+      "public_file": "research_source/tools/msfinal/resources.py",
+      "public_sha256": "6d3c19d582aca554c3f5c0c223a0f913ed5c4b9417ce39b3b23cbf36a7af8124"
+    },
+    "tools/msfinal/routing.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "5367c17649941c1085ce85b4ae7a55fdd5926b318070ea9a91deca2cf38cc9d5",
+      "public_file": "research_source/tools/msfinal/routing.py",
+      "public_sha256": "5367c17649941c1085ce85b4ae7a55fdd5926b318070ea9a91deca2cf38cc9d5"
+    },
+    "tools/msfinal/scientific_admission.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "2d1f1d5c9ed7183a0dd79289e0ea436e34ba457103397be40dfa7f0d1c79c1d0",
+      "public_file": "research_source/tools/msfinal/scientific_admission.py",
+      "public_sha256": "2d1f1d5c9ed7183a0dd79289e0ea436e34ba457103397be40dfa7f0d1c79c1d0"
+    },
+    "tools/msfinal/session.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "b8d269cd75351605af657db6390c5499e8269fe3ef0c6af904b85464578fcc2f",
+      "public_file": "research_source/tools/msfinal/session.py",
+      "public_sha256": "b8d269cd75351605af657db6390c5499e8269fe3ef0c6af904b85464578fcc2f"
+    },
+    "tools/msfinal/stage_publication.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "71561edd7817e5e85726d47781ba40c001149500e33d143b00cf843cf3d9832f",
+      "public_file": "research_source/tools/msfinal/stage_publication.py",
+      "public_sha256": "71561edd7817e5e85726d47781ba40c001149500e33d143b00cf843cf3d9832f"
+    },
+    "tools/msfinal/staged_transfer.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "ce54ecf3e28cd362c2ec38027b56773df82ba57f680fbda60a73c24f28cc4196",
+      "public_file": "research_source/tools/msfinal/staged_transfer.py",
+      "public_sha256": "ce54ecf3e28cd362c2ec38027b56773df82ba57f680fbda60a73c24f28cc4196"
+    },
+    "tools/msfinal/staged_verification.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "2b60a68c9fd7a25b78966722846c3aa0c49a8f27959a5e828dffe5b5b7f89eed",
+      "public_file": "research_source/tools/msfinal/staged_verification.py",
+      "public_sha256": "2b60a68c9fd7a25b78966722846c3aa0c49a8f27959a5e828dffe5b5b7f89eed"
+    },
+    "tools/msfinal/storage_plan.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "607d72cddee168f517e61c0d0a2b0e5ca4f7c2683b443b235703491f5305b5df",
+      "public_file": "research_source/tools/msfinal/storage_plan.py",
+      "public_sha256": "607d72cddee168f517e61c0d0a2b0e5ca4f7c2683b443b235703491f5305b5df"
+    },
+    "tools/msfinal/update_journal.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "4d94d762526232b4abdeb604a7b13fa2b2f34b208083381d76838ed994fc14e6",
+      "public_file": "research_source/tools/msfinal/update_journal.py",
+      "public_sha256": "4d94d762526232b4abdeb604a7b13fa2b2f34b208083381d76838ed994fc14e6"
+    },
+    "tools/msfinal/variants.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "1cea81e4dc03d961f78310f107309fb63003acc20b9a27e3430943378436d1e4",
+      "public_file": "research_source/tools/msfinal/variants.py",
+      "public_sha256": "1cea81e4dc03d961f78310f107309fb63003acc20b9a27e3430943378436d1e4"
+    },
+    "tools/msfinal/verification_plan.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "906520e8e28630f55830d3dcc6b6c29a84fbf92c4b75fb068a7ce3e8e6626c9f",
+      "public_file": "research_source/tools/msfinal/verification_plan.py",
+      "public_sha256": "906520e8e28630f55830d3dcc6b6c29a84fbf92c4b75fb068a7ce3e8e6626c9f"
+    },
+    "tools/msfinal/worker.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "28a95998d43f0b1a6f1a84a4b3bf5ac1935a2a39850acf7134669fb1fd7de425",
+      "public_file": "research_source/tools/msfinal/worker.py",
+      "public_sha256": "28a95998d43f0b1a6f1a84a4b3bf5ac1935a2a39850acf7134669fb1fd7de425"
+    },
+    "tools/q5_model.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "6647012ddf98c8ef0f0cacda131420ac8fa23d945a20348005dbae4e3c457e15",
+      "public_file": "research_source/tools/q5_model.py",
+      "public_sha256": "6647012ddf98c8ef0f0cacda131420ac8fa23d945a20348005dbae4e3c457e15"
+    },
+    "tools/q6_common.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "bd5096e8654d9d1b0dc229dc8c5b817e84e4f4547a7c99a00ef355237a658b9d",
+      "public_file": "research_source/tools/q6_common.py",
+      "public_sha256": "bd5096e8654d9d1b0dc229dc8c5b817e84e4f4547a7c99a00ef355237a658b9d"
+    },
+    "tools/q6_train.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "de4d4b5608dbcc3ff8d9512e42922f49435af9ef3aece940dbf54d113d600d66",
+      "public_file": "research_source/tools/q6_train.py",
+      "public_sha256": "de4d4b5608dbcc3ff8d9512e42922f49435af9ef3aece940dbf54d113d600d66"
+    },
+    "tools/scientific_corpus.py": {
+      "bytes_unchanged": true,
+      "changes": [],
+      "original_sha256": "ba07c382b1ec17cbcb16c95e444915506e0f15352c1703e8deea60066621c33e",
+      "public_file": "research_source/tools/scientific_corpus.py",
+      "public_sha256": "ba07c382b1ec17cbcb16c95e444915506e0f15352c1703e8deea60066621c33e"
+    }
+  },
+  "original_policy": "NULL_B2_POLICY.json",
+  "original_policy_sha256": "8f7ff493a7cf28d369ae71317a9e472cd200de30936fb021882277ff38b81e95",
+  "source_count": 338
+}

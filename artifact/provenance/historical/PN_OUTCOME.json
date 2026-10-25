@@ -1,0 +1,581 @@
+{
+  "closed": true,
+  "complete": true,
+  "counts": {
+    "completed_candidates": 9,
+    "meaning": "committed records; interruption can leave an unreceipted in-flight operation, never refundable or retryable",
+    "per_arm": {
+      "PN_B3_1.5_D1": 320,
+      "PN_B3_1.5_D2": 320,
+      "PN_B3_1.5_D3": 320,
+      "PN_B3_2_D1": 320,
+      "PN_B3_2_D2": 320,
+      "PN_B3_2_D3": 320,
+      "PN_B3_3_D1": 320,
+      "PN_B3_3_D2": 320,
+      "PN_B3_3_D3": 320
+    },
+    "unreceipted_update_possible": false,
+    "updates": 2880,
+    "worker_counts_match": true
+  },
+  "follow_on_authorized": false,
+  "supervisor": {
+    "closure": {
+      "child_reaped": true,
+      "errors": [],
+      "initial_members": [],
+      "resolved": true,
+      "returncode": 0,
+      "signals": [],
+      "survivors": []
+    },
+    "returncode": 0,
+    "seconds": 2378.0425238609314,
+    "started": 1791218377.4528813,
+    "stdout_closed": true,
+    "timed_out": false
+  },
+  "timed_out": false,
+  "worker": {
+    "complete": true,
+    "completed_candidates": 9,
+    "follow_on_authorized": false,
+    "inverse_input_updates": 1080,
+    "native_forward_calls": 288,
+    "original_0_of_18_unchanged": true,
+    "products": [
+      {
+        "detector_seconds": 75.09141993522644,
+        "evaluation_seconds": 27.796563386917114,
+        "factor": 1.5,
+        "id": "PN_B3_1.5_D1",
+        "metrics": {
+          "F": 0.00293944922755255,
+          "J": 0.026062163243912834,
+          "K": 0.029578609477343136,
+          "P256": 0.011559435981268547,
+          "T": 0.011615320267688434
+        },
+        "model_sha256": "c5b7445f13d1316e58a8d987d096df9bbdcf83b909d780acac1c0ec5914834cd",
+        "owner": 0,
+        "peak_gpu_allocated": 726539264,
+        "peak_gpu_reserved": 786432000,
+        "qualification": {
+          "complete": true,
+          "gates": {
+            "F": {
+              "candidate": 0.00293944922755255,
+              "owner": 0.0026352792413866194,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.0032940990517332743
+            },
+            "J": {
+              "candidate": 0.026062163243912834,
+              "owner": 0.025298981545292955,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.03162372693161619
+            },
+            "K": {
+              "candidate": 0.029578609477343136,
+              "owner": 0.028637711710016844,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.035797139637521055
+            },
+            "T": {
+              "candidate": 0.011615320267688434,
+              "owner": 0.011517359022278077,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.014396698777847595
+            }
+          },
+          "margin": -0.0015380438859003934,
+          "qualified": false,
+          "theta": 0.0029459997389964,
+          "true_score": 0.0014079558530960066,
+          "wrong_max": 0.00278705626643745
+        },
+        "state_sha256": "330b6b9f3f5f7fb20e85b5ec8d2f1736526b692ea0a686f75a54068d83f457ce",
+        "train_seconds": 161.78404426574707,
+        "updates": 320
+      },
+      {
+        "detector_seconds": 75.67386245727539,
+        "evaluation_seconds": 25.786743879318237,
+        "factor": 1.5,
+        "id": "PN_B3_1.5_D2",
+        "metrics": {
+          "F": 0.0028166218980161927,
+          "J": 0.026257061387341185,
+          "K": 0.025391233862003385,
+          "P256": 0.011563466725049473,
+          "T": 0.01159157421608786
+        },
+        "model_sha256": "ee47374e92b31c688c4804df07a62f61d132f932640b27f933c81d018fefb0da",
+        "owner": 1,
+        "peak_gpu_allocated": 726539264,
+        "peak_gpu_reserved": 788529152,
+        "qualification": {
+          "complete": true,
+          "gates": {
+            "F": {
+              "candidate": 0.0028166218980161927,
+              "owner": 0.0026683576245480705,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.003335447030685088
+            },
+            "J": {
+              "candidate": 0.026257061387341185,
+              "owner": 0.02616409058416923,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.03270511323021154
+            },
+            "K": {
+              "candidate": 0.025391233862003385,
+              "owner": 0.02488566766952528,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.0311070845869066
+            },
+            "T": {
+              "candidate": 0.01159157421608786,
+              "owner": 0.01151719555664673,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.014396494445808412
+            }
+          },
+          "margin": -0.0005395675732071672,
+          "qualified": false,
+          "theta": 0.0021031062286676703,
+          "true_score": 0.001563538655460503,
+          "wrong_max": 0.0019441627561087203
+        },
+        "state_sha256": "6ebc761acc0a1c9c3141213eb682f9d07967f0a3b2def9774bdc28c5c40a1df6",
+        "train_seconds": 161.89755725860596,
+        "updates": 320
+      },
+      {
+        "detector_seconds": 76.30070567131042,
+        "evaluation_seconds": 25.15341830253601,
+        "factor": 1.5,
+        "id": "PN_B3_1.5_D3",
+        "metrics": {
+          "F": 0.002847761314032543,
+          "J": 0.02582085572312549,
+          "K": 0.022289014291754453,
+          "P256": 0.011646799185807745,
+          "T": 0.011637886334325649
+        },
+        "model_sha256": "aae54ab1797e663224ef58d0e46d62792d45e5fc8e35b3c42cb6239db6488a93",
+        "owner": 2,
+        "peak_gpu_allocated": 726539264,
+        "peak_gpu_reserved": 788529152,
+        "qualification": {
+          "complete": true,
+          "gates": {
+            "F": {
+              "candidate": 0.002847761314032543,
+              "owner": 0.002657029779524647,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.003321287224405809
+            },
+            "J": {
+              "candidate": 0.02582085572312549,
+              "owner": 0.025776079568292393,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.03222009946036549
+            },
+            "K": {
+              "candidate": 0.022289014291754453,
+              "owner": 0.022361546840546954,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.02795193355068369
+            },
+            "T": {
+              "candidate": 0.011637886334325649,
+              "owner": 0.01155269815193352,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.0144408726899169
+            }
+          },
+          "margin": -0.00038176105739251586,
+          "qualified": false,
+          "theta": 0.0018445087651783813,
+          "true_score": 0.0014627477077858654,
+          "wrong_max": 0.001685565292619431
+        },
+        "state_sha256": "75cf2c9f9faf42a8914db3339e6b66e9e418a7bae7010c798f8c908837614d60",
+        "train_seconds": 162.2016122341156,
+        "updates": 320
+      },
+      {
+        "detector_seconds": 75.69410920143127,
+        "evaluation_seconds": 24.62235450744629,
+        "factor": 2.0,
+        "id": "PN_B3_2_D1",
+        "metrics": {
+          "F": 0.0029554473161223327,
+          "J": 0.026237090943081177,
+          "K": 0.030069985149035312,
+          "P256": 0.011562515132161055,
+          "T": 0.011623830034314088
+        },
+        "model_sha256": "cecebbba6c34662fef571d492798efbe59801ec16f068ecf9ac664ef271ee6ea",
+        "owner": 0,
+        "peak_gpu_allocated": 726539264,
+        "peak_gpu_reserved": 788529152,
+        "qualification": {
+          "complete": true,
+          "gates": {
+            "F": {
+              "candidate": 0.0029554473161223327,
+              "owner": 0.0026352792413866194,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.0032940990517332743
+            },
+            "J": {
+              "candidate": 0.026237090943081177,
+              "owner": 0.025298981545292955,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.03162372693161619
+            },
+            "K": {
+              "candidate": 0.030069985149035312,
+              "owner": 0.028637711710016844,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.035797139637521055
+            },
+            "T": {
+              "candidate": 0.011623830034314088,
+              "owner": 0.011517359022278077,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.014396698777847595
+            }
+          },
+          "margin": -0.0009525527025818763,
+          "qualified": false,
+          "theta": 0.002823629005007438,
+          "true_score": 0.0018710763024255615,
+          "wrong_max": 0.0026646855324484876
+        },
+        "state_sha256": "2ebef1232301be691c4c4a6e6574432b81d063aa0c082620153a9cab2a44c7f3",
+        "train_seconds": 162.9796657562256,
+        "updates": 320
+      },
+      {
+        "detector_seconds": 75.73293471336365,
+        "evaluation_seconds": 24.81092882156372,
+        "factor": 2.0,
+        "id": "PN_B3_2_D2",
+        "metrics": {
+          "F": 0.002849050472426051,
+          "J": 0.026265981408531206,
+          "K": 0.026056130240030447,
+          "P256": 0.011561882684402414,
+          "T": 0.01160377464771467
+        },
+        "model_sha256": "18b7ffa3d55a90e7b4481dfe7156020dfbea1b3a2607a43469db4b9f9d2fa010",
+        "owner": 1,
+        "peak_gpu_allocated": 726539264,
+        "peak_gpu_reserved": 788529152,
+        "qualification": {
+          "complete": true,
+          "gates": {
+            "F": {
+              "candidate": 0.002849050472426051,
+              "owner": 0.0026683576245480705,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.003335447030685088
+            },
+            "J": {
+              "candidate": 0.026265981408531206,
+              "owner": 0.02616409058416923,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.03270511323021154
+            },
+            "K": {
+              "candidate": 0.026056130240030447,
+              "owner": 0.02488566766952528,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.0311070845869066
+            },
+            "T": {
+              "candidate": 0.01160377464771467,
+              "owner": 0.01151719555664673,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.014396494445808412
+            }
+          },
+          "margin": -0.0004203146400417494,
+          "qualified": false,
+          "theta": 0.0024922370348674622,
+          "true_score": 0.002071922394825713,
+          "wrong_max": 0.002333293562308512
+        },
+        "state_sha256": "7c93e90a8440f7b4387e2c5a3c7b0a66b8ee2b5a641828464dea0caafe1aa93e",
+        "train_seconds": 162.25409150123596,
+        "updates": 320
+      },
+      {
+        "detector_seconds": 75.78017020225525,
+        "evaluation_seconds": 25.174887657165527,
+        "factor": 2.0,
+        "id": "PN_B3_2_D3",
+        "metrics": {
+          "F": 0.0028759494865824528,
+          "J": 0.025938417575595864,
+          "K": 0.022334351826788307,
+          "P256": 0.011646107724470207,
+          "T": 0.01165325011495654
+        },
+        "model_sha256": "8bf8569800e8825565edd41f07574363a6a4da488124cb1ce26837360869e4ec",
+        "owner": 2,
+        "peak_gpu_allocated": 726539264,
+        "peak_gpu_reserved": 788529152,
+        "qualification": {
+          "complete": true,
+          "gates": {
+            "F": {
+              "candidate": 0.0028759494865824528,
+              "owner": 0.002657029779524647,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.003321287224405809
+            },
+            "J": {
+              "candidate": 0.025938417575595864,
+              "owner": 0.025776079568292393,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.03222009946036549
+            },
+            "K": {
+              "candidate": 0.022334351826788307,
+              "owner": 0.022361546840546954,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.02795193355068369
+            },
+            "T": {
+              "candidate": 0.01165325011495654,
+              "owner": 0.01155269815193352,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.0144408726899169
+            }
+          },
+          "margin": -0.00042313774725294103,
+          "qualified": false,
+          "theta": 0.0024155643196193503,
+          "true_score": 0.0019924265723664093,
+          "wrong_max": 0.0022566208470604
+        },
+        "state_sha256": "43c46fece12e930b5887e6ff45b5464d7741d197af71595e011e2231c7c3c038",
+        "train_seconds": 162.17033982276917,
+        "updates": 320
+      },
+      {
+        "detector_seconds": 75.94366121292114,
+        "evaluation_seconds": 25.61019277572632,
+        "factor": 3.0,
+        "id": "PN_B3_3_D1",
+        "metrics": {
+          "F": 0.0029660485600072413,
+          "J": 0.026429739648978576,
+          "K": 0.03110194845856762,
+          "P256": 0.011558637437631464,
+          "T": 0.011620107118607108
+        },
+        "model_sha256": "44bd5f4ff9ad0f2dcda349d764fe5efd67fbc28244a9be0b7f51acf95c92e1fa",
+        "owner": 0,
+        "peak_gpu_allocated": 726539264,
+        "peak_gpu_reserved": 788529152,
+        "qualification": {
+          "complete": true,
+          "gates": {
+            "F": {
+              "candidate": 0.0029660485600072413,
+              "owner": 0.0026352792413866194,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.0032940990517332743
+            },
+            "J": {
+              "candidate": 0.026429739648978576,
+              "owner": 0.025298981545292955,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.03162372693161619
+            },
+            "K": {
+              "candidate": 0.03110194845856762,
+              "owner": 0.028637711710016844,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.035797139637521055
+            },
+            "T": {
+              "candidate": 0.011620107118607108,
+              "owner": 0.011517359022278077,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.014396698777847595
+            }
+          },
+          "margin": 0.00012219444177217608,
+          "qualified": true,
+          "theta": 0.0026929343531686637,
+          "true_score": 0.00281512879494084,
+          "wrong_max": 0.0025339908806097135
+        },
+        "state_sha256": "c100ff5d04837852a7371c4a57580ec723e05eb260681cb70c70416a597d7ce3",
+        "train_seconds": 161.96293807029724,
+        "updates": 320
+      },
+      {
+        "detector_seconds": 75.73639273643494,
+        "evaluation_seconds": 24.392523050308228,
+        "factor": 3.0,
+        "id": "PN_B3_3_D2",
+        "metrics": {
+          "F": 0.0028769096611385193,
+          "J": 0.026473106139891817,
+          "K": 0.027560602014064496,
+          "P256": 0.011535971013078955,
+          "T": 0.01159389040715622
+        },
+        "model_sha256": "751326c965cd5ba2d5d7ffe8cc0fc13e3879626a996ac66e85102ccadbde55b6",
+        "owner": 1,
+        "peak_gpu_allocated": 726539264,
+        "peak_gpu_reserved": 788529152,
+        "qualification": {
+          "complete": true,
+          "gates": {
+            "F": {
+              "candidate": 0.0028769096611385193,
+              "owner": 0.0026683576245480705,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.003335447030685088
+            },
+            "J": {
+              "candidate": 0.026473106139891817,
+              "owner": 0.02616409058416923,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.03270511323021154
+            },
+            "K": {
+              "candidate": 0.027560602014064496,
+              "owner": 0.02488566766952528,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.0311070845869066
+            },
+            "T": {
+              "candidate": 0.01159389040715622,
+              "owner": 0.01151719555664673,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.014396494445808412
+            }
+          },
+          "margin": 0.0005262324837278409,
+          "qualified": true,
+          "theta": 0.002535274682296677,
+          "true_score": 0.003061507166024518,
+          "wrong_max": 0.002376331209737727
+        },
+        "state_sha256": "23a61d72395f98b6a774cf84fff13531dd4d3dc8a42dd71628ae96dbad0cde36",
+        "train_seconds": 161.5556514263153,
+        "updates": 320
+      },
+      {
+        "detector_seconds": 75.94955372810364,
+        "evaluation_seconds": 25.545782327651978,
+        "factor": 3.0,
+        "id": "PN_B3_3_D3",
+        "metrics": {
+          "F": 0.0029092613224116623,
+          "J": 0.026145915726397878,
+          "K": 0.022894230869184126,
+          "P256": 0.011615696528544243,
+          "T": 0.011639040734541459
+        },
+        "model_sha256": "d269c4a3b7e029c82d5ce08eebe82e93d50415b3b2bb24dac35687e1bdaa86ee",
+        "owner": 2,
+        "peak_gpu_allocated": 726539264,
+        "peak_gpu_reserved": 788529152,
+        "qualification": {
+          "complete": true,
+          "gates": {
+            "F": {
+              "candidate": 0.0029092613224116623,
+              "owner": 0.002657029779524647,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.003321287224405809
+            },
+            "J": {
+              "candidate": 0.026145915726397878,
+              "owner": 0.025776079568292393,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.03222009946036549
+            },
+            "K": {
+              "candidate": 0.022894230869184126,
+              "owner": 0.022361546840546954,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.02795193355068369
+            },
+            "T": {
+              "candidate": 0.011639040734541459,
+              "owner": 0.01155269815193352,
+              "passed": true,
+              "status": "complete",
+              "threshold": 0.0144408726899169
+            }
+          },
+          "margin": 0.00010988363071492676,
+          "qualified": true,
+          "theta": 0.0028814570144543353,
+          "true_score": 0.002991340645169262,
+          "wrong_max": 0.002722513541895385
+        },
+        "state_sha256": "ffa5756cf7c1d30d489930a51d9a2cf0063be75251e59c71aa8b10bf3e64b7dd",
+        "train_seconds": 162.18906998634338,
+        "updates": 320
+      }
+    ],
+    "scientific_pass": true,
+    "scientific_stop": null,
+    "seconds": 2374.2432413101196,
+    "selection": {
+      "factor": 3.0,
+      "insufficient": false,
+      "qualified_count": 3
+    },
+    "updates": 2880
+  }
+}

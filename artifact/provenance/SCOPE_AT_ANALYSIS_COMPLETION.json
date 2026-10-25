@@ -1,0 +1,539 @@
+{
+  "N": 10,
+  "amended_programme_numerical_work_complete": true,
+  "canonical_worker_advanced": false,
+  "current_bound_contract_slots": 130,
+  "formal_custody_assurance": false,
+  "historical_deferred_contract_slots": 130,
+  "kappa": 0.25,
+  "obligations": [
+    {
+      "current_analysis_disposition": "Completed saved numerical evidence under adopted scope; see full variant and supplemental tables.",
+      "historical_disposition": "retained; actual execution/evidence pending",
+      "obligation": "01_same_FNO_distillation"
+    },
+    {
+      "current_analysis_disposition": "Completed saved numerical evidence under adopted scope; see full variant and supplemental tables.",
+      "historical_disposition": "retained; actual execution/evidence pending",
+      "obligation": "02_DeepONet"
+    },
+    {
+      "current_analysis_disposition": "Completed saved numerical evidence under adopted scope; see full variant and supplemental tables.",
+      "historical_disposition": "retained; actual execution/evidence pending",
+      "obligation": "03_UNet"
+    },
+    {
+      "current_analysis_disposition": "Completed saved numerical evidence under adopted scope; see full variant and supplemental tables.",
+      "historical_disposition": "retained; actual execution/evidence pending",
+      "obligation": "04_capacity_sweep"
+    },
+    {
+      "current_analysis_disposition": "Completed saved numerical evidence under adopted scope; see full variant and supplemental tables.",
+      "historical_disposition": "retained; actual execution/evidence pending",
+      "obligation": "05_forward_extraction"
+    },
+    {
+      "current_analysis_disposition": "Completed saved numerical evidence under adopted scope; see full variant and supplemental tables.",
+      "historical_disposition": "retained; actual execution/evidence pending",
+      "obligation": "06_victim_JVP"
+    },
+    {
+      "current_analysis_disposition": "Completed saved numerical evidence under adopted scope; see full variant and supplemental tables.",
+      "historical_disposition": "retained; actual execution/evidence pending",
+      "obligation": "07_solver_canonicalisation"
+    },
+    {
+      "current_analysis_disposition": "Completed saved numerical evidence under adopted scope; see full variant and supplemental tables.",
+      "historical_disposition": "retained; actual execution/evidence pending",
+      "obligation": "08_residual_substitution"
+    },
+    {
+      "current_analysis_disposition": "Completed saved numerical evidence under adopted scope; see full variant and supplemental tables.",
+      "historical_disposition": "retained; actual execution/evidence pending",
+      "obligation": "09_fourier_filter"
+    },
+    {
+      "current_analysis_disposition": "Completed saved numerical evidence under adopted scope; see full variant and supplemental tables.",
+      "historical_disposition": "retained; actual execution/evidence pending",
+      "obligation": "10_clean_finetuning"
+    },
+    {
+      "current_analysis_disposition": "Completed saved numerical evidence under adopted scope; see full variant and supplemental tables.",
+      "historical_disposition": "retained; actual execution/evidence pending",
+      "obligation": "11_pruning_quantisation"
+    },
+    {
+      "current_analysis_disposition": "Completed saved numerical evidence under adopted scope; see full variant and supplemental tables.",
+      "historical_disposition": "retained; actual execution/evidence pending",
+      "obligation": "12_averaging"
+    },
+    {
+      "current_analysis_disposition": "conditional; not triggered or authorized; retained original obligation",
+      "historical_disposition": "conditional; not triggered or authorized; retained original obligation",
+      "obligation": "13_buyer_collusion"
+    },
+    {
+      "current_analysis_disposition": "Completed saved numerical evidence under adopted scope; see full variant and supplemental tables.",
+      "historical_disposition": "retained; actual execution/evidence pending",
+      "obligation": "14_overwrite"
+    },
+    {
+      "current_analysis_disposition": "Completed saved numerical evidence under adopted scope; see full variant and supplemental tables.",
+      "historical_disposition": "retained; actual execution/evidence pending",
+      "obligation": "15_random_key_flattening"
+    },
+    {
+      "current_analysis_disposition": "Completed saved numerical evidence under adopted scope; see full variant and supplemental tables.",
+      "historical_disposition": "retained; actual execution/evidence pending",
+      "obligation": "16_rounding_precision"
+    },
+    {
+      "current_analysis_disposition": "Completed saved numerical evidence under adopted scope; see full variant and supplemental tables.",
+      "historical_disposition": "retained; actual execution/evidence pending",
+      "obligation": "17_noise"
+    },
+    {
+      "current_analysis_disposition": "Completed saved numerical evidence under adopted scope; see full variant and supplemental tables.",
+      "historical_disposition": "retained; actual execution/evidence pending",
+      "obligation": "18_API_policy"
+    },
+    {
+      "current_analysis_disposition": "Completed saved numerical evidence under adopted scope; see full variant and supplemental tables.",
+      "historical_disposition": "retained; actual execution/evidence pending",
+      "obligation": "19_remeshing"
+    },
+    {
+      "current_analysis_disposition": "Completed saved numerical evidence under adopted scope; see full variant and supplemental tables.",
+      "historical_disposition": "retained; actual execution/evidence pending",
+      "obligation": "20_null_false_accuser"
+    },
+    {
+      "current_analysis_disposition": "failed/unavailable; no new B1/A5-B1; two-working-watermark claim unsupported",
+      "historical_disposition": "failed/unavailable; no new B1/A5-B1; two-working-watermark claim unsupported",
+      "obligation": "B1"
+    },
+    {
+      "current_analysis_disposition": "unfulfilled/conditional; physical qualification negative; only discrete-reference task claims",
+      "historical_disposition": "unfulfilled/conditional; physical qualification negative; only discrete-reference task claims",
+      "obligation": "topology_dcap"
+    },
+    {
+      "current_analysis_disposition": "conditional; not triggered or authorized; retained original obligation",
+      "historical_disposition": "conditional; not triggered or authorized; retained original obligation",
+      "obligation": "same_data_ordinary"
+    },
+    {
+      "current_analysis_disposition": "conditional; not triggered or authorized; retained original obligation",
+      "historical_disposition": "conditional; not triggered or authorized; retained original obligation",
+      "obligation": "ordinary_1024"
+    },
+    {
+      "current_analysis_disposition": "conditional; not triggered or authorized; retained original obligation",
+      "historical_disposition": "conditional; not triggered or authorized; retained original obligation",
+      "obligation": "scratch_R4"
+    },
+    {
+      "current_analysis_disposition": "conditional; not triggered or authorized; retained original obligation",
+      "historical_disposition": "conditional; not triggered or authorized; retained original obligation",
+      "obligation": "train_through_wrapper"
+    },
+    {
+      "current_analysis_disposition": "conditional; not triggered or authorized; retained original obligation",
+      "historical_disposition": "conditional; not triggered or authorized; retained original obligation",
+      "obligation": "disjoint_B0"
+    },
+    {
+      "current_analysis_disposition": "conditional; not triggered or authorized; retained original obligation",
+      "historical_disposition": "conditional; not triggered or authorized; retained original obligation",
+      "obligation": "blackbox_derivative"
+    },
+    {
+      "current_analysis_disposition": "conditional; not triggered or authorized; retained original obligation",
+      "historical_disposition": "conditional; not triggered or authorized; retained original obligation",
+      "obligation": "N16"
+    },
+    {
+      "current_analysis_disposition": "Completed; accepted FINAL_CALIBRATION.json and per-owner qualification records retained.",
+      "historical_disposition": "retained; actual execution/evidence pending",
+      "obligation": "calibration"
+    },
+    {
+      "current_analysis_disposition": "formal N0/N1 deferred; actual scientific runtime/numerical compatibility still required",
+      "historical_disposition": "formal N0/N1 deferred; actual scientific runtime/numerical compatibility still required",
+      "obligation": "native_runtime"
+    },
+    {
+      "current_analysis_disposition": "scientific D7/D8 receipt reused; formal production acceptance and exclusive custody not claimed",
+      "historical_disposition": "scientific D7/D8 receipt reused; formal production acceptance and exclusive custody not claimed",
+      "obligation": "production_custody"
+    },
+    {
+      "current_analysis_disposition": "formal assurance deferred off amended scientific critical path; historical failure preserved",
+      "historical_disposition": "formal assurance deferred off amended scientific critical path; historical failure preserved",
+      "obligation": "E3"
+    },
+    {
+      "current_analysis_disposition": "Completed run returns retained; public release, rights/privacy review, and release packaging remain.",
+      "historical_disposition": "retained; actual execution/evidence pending",
+      "obligation": "export"
+    }
+  ],
+  "omitted_O_parent_noise_API_measurements": [
+    {
+      "measured": false,
+      "owner": "O01",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "noise_small"
+    },
+    {
+      "measured": false,
+      "owner": "O01",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "noise_large"
+    },
+    {
+      "measured": false,
+      "owner": "O01",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_paired_deny"
+    },
+    {
+      "measured": false,
+      "owner": "O01",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_cache"
+    },
+    {
+      "measured": false,
+      "owner": "O01",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_rate"
+    },
+    {
+      "measured": false,
+      "owner": "O02",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "noise_small"
+    },
+    {
+      "measured": false,
+      "owner": "O02",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "noise_large"
+    },
+    {
+      "measured": false,
+      "owner": "O02",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_paired_deny"
+    },
+    {
+      "measured": false,
+      "owner": "O02",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_cache"
+    },
+    {
+      "measured": false,
+      "owner": "O02",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_rate"
+    },
+    {
+      "measured": false,
+      "owner": "O03",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "noise_small"
+    },
+    {
+      "measured": false,
+      "owner": "O03",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "noise_large"
+    },
+    {
+      "measured": false,
+      "owner": "O03",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_paired_deny"
+    },
+    {
+      "measured": false,
+      "owner": "O03",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_cache"
+    },
+    {
+      "measured": false,
+      "owner": "O03",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_rate"
+    },
+    {
+      "measured": false,
+      "owner": "O04",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "noise_small"
+    },
+    {
+      "measured": false,
+      "owner": "O04",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "noise_large"
+    },
+    {
+      "measured": false,
+      "owner": "O04",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_paired_deny"
+    },
+    {
+      "measured": false,
+      "owner": "O04",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_cache"
+    },
+    {
+      "measured": false,
+      "owner": "O04",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_rate"
+    },
+    {
+      "measured": false,
+      "owner": "O05",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "noise_small"
+    },
+    {
+      "measured": false,
+      "owner": "O05",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "noise_large"
+    },
+    {
+      "measured": false,
+      "owner": "O05",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_paired_deny"
+    },
+    {
+      "measured": false,
+      "owner": "O05",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_cache"
+    },
+    {
+      "measured": false,
+      "owner": "O05",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_rate"
+    },
+    {
+      "measured": false,
+      "owner": "O06",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "noise_small"
+    },
+    {
+      "measured": false,
+      "owner": "O06",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "noise_large"
+    },
+    {
+      "measured": false,
+      "owner": "O06",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_paired_deny"
+    },
+    {
+      "measured": false,
+      "owner": "O06",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_cache"
+    },
+    {
+      "measured": false,
+      "owner": "O06",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_rate"
+    },
+    {
+      "measured": false,
+      "owner": "O07",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "noise_small"
+    },
+    {
+      "measured": false,
+      "owner": "O07",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "noise_large"
+    },
+    {
+      "measured": false,
+      "owner": "O07",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_paired_deny"
+    },
+    {
+      "measured": false,
+      "owner": "O07",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_cache"
+    },
+    {
+      "measured": false,
+      "owner": "O07",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_rate"
+    },
+    {
+      "measured": false,
+      "owner": "O08",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "noise_small"
+    },
+    {
+      "measured": false,
+      "owner": "O08",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "noise_large"
+    },
+    {
+      "measured": false,
+      "owner": "O08",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_paired_deny"
+    },
+    {
+      "measured": false,
+      "owner": "O08",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_cache"
+    },
+    {
+      "measured": false,
+      "owner": "O08",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_rate"
+    },
+    {
+      "measured": false,
+      "owner": "O09",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "noise_small"
+    },
+    {
+      "measured": false,
+      "owner": "O09",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "noise_large"
+    },
+    {
+      "measured": false,
+      "owner": "O09",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_paired_deny"
+    },
+    {
+      "measured": false,
+      "owner": "O09",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_cache"
+    },
+    {
+      "measured": false,
+      "owner": "O09",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_rate"
+    },
+    {
+      "measured": false,
+      "owner": "O10",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "noise_small"
+    },
+    {
+      "measured": false,
+      "owner": "O10",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "noise_large"
+    },
+    {
+      "measured": false,
+      "owner": "O10",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_paired_deny"
+    },
+    {
+      "measured": false,
+      "owner": "O10",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_cache"
+    },
+    {
+      "measured": false,
+      "owner": "O10",
+      "parent": "O",
+      "reason": "adopted D3/D4 O-parent measurement omitted; clean reference retained",
+      "variant": "API_rate"
+    }
+  ],
+  "paper_complete": false,
+  "physical_qualification": false,
+  "release_complete": false,
+  "remaining_planned_Colab_runs": 0,
+  "scientific_analysis_complete": true,
+  "whole_project_percentage": null
+}

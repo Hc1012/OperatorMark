@@ -1,73 +1,87 @@
 # OperatorMark
 
-**Watermark Removal in Neural PDE Operators: Limits of Passive Ownership Evidence**  
-Hadi Chamas · Paper v0.7 · Research artifact 1.0.0-rc5
+**Can a useful copy lose the evidence of where it came from?**
 
-**[Read the paper and download its LaTeX source and reproduction supplement](https://doi.org/10.5281/zenodo.23646972).**
+I built OperatorMark to investigate that question for neural PDE operators. The test has two parts: does an ownership signal survive an attack, and does the resulting model still do the job? Losing a watermark alone is not enough to call an attack successful.
 
-Which ownership evidence survives when a copied neural PDE operator remains useful? OperatorMark is a ten-owner robustness study of an active tangent-space watermark and a passive tangent-distance comparator on a discrete Darcy-flow benchmark.
+The study follows ten independently trained Fourier neural operators on a discrete Darcy-flow benchmark. It tests an **active tangent-space watermark** and a **passive tangent-distance ranking (B2)** against modified copies of those models.
 
-**Download the complete code and evidence archive from [GitHub Releases](https://github.com/Hc1012/OperatorMark/releases).** Choose the release asset named **`OperatorMark_1.0.0-rc5.zip`**. This repository's front page is the access point; the complete source tree, compact evidence, analysis scripts and scientific documentation are distributed together in that versioned archive.
+**[Read the paper](https://doi.org/10.5281/zenodo.23646972)** · [Browse the code](artifact) · [Reproduce the analysis](#reproduce-the-analysis)
 
-Do not substitute GitHub's automatically generated **Source code (zip)** download or the green **Code → Download ZIP** button: those contain this small landing repository, rather than the full research artifact.
+*Watermark Removal in Neural PDE Operators: Limits of Passive Ownership Evidence* — Hadi Chamas, v0.7, 25 October 2026.
 
-## Findings
+## What I found
 
-“Utility” here means that forward, two derivative and inverse-task errors each remain within the adopted 25% increase relative to the corresponding clean owner's numerical-reference error.
+**Seven useful copies defeated both evaluated ownership tests.** This happened after ordinary fine-tuning followed by a solver wrapper: 256 Jacobi correction iterations, using known PDE coefficients, on every forward call. The unwrapped copies all failed full utility. Whether copied weights are necessary for the wrapper's useful outputs remains unmeasured.
 
-| Setting | Saved result across ten planned owners |
+Other attacks separated the two signals: a model could lose its watermark while retaining positive passive evidence against the fixed comparators.
+
+| Procedure | What the saved results show |
 | --- | --- |
-| Ordinary fine-tuning, 256 forward pairs | At the retained descriptive checkpoint of 320 updates: utility 9/10, qualified active removal 8/10. At 960: utility 5/10, removal 4/10. Passive B2 remains positive for every useful copy at both checkpoints. |
-| Frozen ordinary 1,920-update primary | Active detection 0/10 and full utility 0/10. Copies outperform one selected scratch replacement: geometric replacement/copy error ratios 7.16 for random-direction derivatives and 2.53 for the inverse task. Earlier checkpoints do not replace this primary. |
-| A4 / A5-B3 derivative-aware attacks | At 20,480 updates: utility 10/10, qualified removal 9/10 and passive positivity with utility 10/10. These attacks use 16,384 derivative-labeled controls, four times owner training's 4,096. No matched-access scratch comparison establishes the benefit of acquired initialization in this regime. |
-| Jacobi256 after ordinary 1,920 | Eight owners pass utility and qualify as active removals. **Seven useful copies defeat both evaluated tests.** The passive cohort remains mixed because its evasion rule requires utility in at least nine owners. |
+| **256 forward-labelled pairs, 320 fine-tuning updates** | 8/10 owners qualify as useful watermark removals; every useful copy retains positive passive evidence. This is a retained descriptive checkpoint, not the frozen primary. |
+| **Two derivative-aware attacks, 20,480 updates** | 9/10 qualify as removals and all ten pass utility with positive passive evidence. Each attack uses 16,384 derivative-labelled controls, four times owner training's 4,096. There is no matched-access scratch comparison in this regime. |
+| **1,920 ordinary updates + Jacobi256 wrapper** | Eight owners pass utility and qualify as watermark removals; seven also have nonpositive passive evidence. Five of those seven were already B2-negative before wrapping. The comparator models also change, so the two sign transitions do not isolate a causal effect of the wrapper. |
 
-O05's intact final mark is undetected, so it stays in the denominator but cannot count as attack-induced removal. The seven joint failures concern these two tested signals, not every possible sign of model descent. The Jacobi256 wrapper uses known PDE coefficients for 256 correction iterations on every forward call. Five of the seven joint-failure owners were already B2-negative before wrapping; two changed sign in the wrapped comparison. The matched comparator descendants also change, so these transitions do not identify a unique causal mechanism. Whether copied weights are necessary for the wrapped utility is unmeasured. Correction adds inference work; fewer labels do not establish lower total attack cost.
+Here, **useful** has a strict meaning: forward, two derivative and inverse-task errors must each stay within 1.25× the corresponding clean owner's error against the numerical reference. The wrapper adds inference work; a small label budget does not establish a cheap attack overall.
 
-The findings are limited to one numerical benchmark, the declared procedures and fixed utility rules. Physical qualification was negative. B2 is a fixed-comparator ranking without a calibrated population false-positive rate. Historical negative results, amendments and conditional or unsatisfied obligations remain in the archive.
+![Owner-level ownership and utility outcomes at six retained endpoints](docs/figure1.png)
 
-## Download and reproduce
+*Owner-level outcomes from Figure 1 of the paper.* **P** = watermark removed, passive evidence positive; **B** = watermark removed, passive evidence nonpositive; **x** = full utility fails (x+/x− show the passive sign). **\*** marks O05: its intact final watermark was already undetected, so it cannot count as attack-induced removal. The figure's per-owner table and rendering script are in the [manuscript reproduction supplement](https://zenodo.org/records/23646972), separate from the four figures reproduced below.
 
-1. Open [Releases](https://github.com/Hc1012/OperatorMark/releases) and download **`OperatorMark_1.0.0-rc5.zip`** from the release assets.
-2. Extract that ZIP. Its top-level folder is **`OperatorMark`**.
-3. Open the extracted **`OperatorMark/README.md`** for the full instructions. Open your terminal **inside that extracted `OperatorMark` folder**, where `reproduce.py` and `requirements-analysis.txt` are located.
-4. With Python **3.12** installed, use the corresponding commands below. These repeat the archive README's analysis quickstart.
+## Explore the work
 
-**Windows PowerShell / VS Code terminal**
+| Start here | What is inside |
+| --- | --- |
+| [`artifact/research_source/`](artifact/research_source) | The frozen research implementation. |
+| [`artifact/campaign_source/`](artifact/campaign_source) | Later campaign implementations. |
+| [`artifact/analysis/`](artifact/analysis) | Saved-result analysis, compact inputs and expected outputs. |
+| [`artifact/docs/`](artifact/docs) | Methods, results, limitations and historical findings. |
+| [Data availability](DATA_AVAILABILITY.md) | What is public and what this package can reproduce. |
+
+The 444 files under `artifact/` are byte-for-byte copies of the extracted **[v1.0.0-rc5 release](https://github.com/Hc1012/OperatorMark/releases/tag/v1.0.0-rc5)**. The release remains available as a ZIP; the same code can now be read directly on GitHub.
+
+## Reproduce the analysis
+
+You need **Python 3.12**. After installing the dependencies, reproduction runs offline on CPU from saved measurements. It trains no models and runs no PDE solvers.
+
+**Windows — PowerShell**
 
 ```powershell
+git clone https://github.com/Hc1012/OperatorMark.git
+cd OperatorMark\artifact
 py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements-analysis.txt
 .\.venv\Scripts\python.exe reproduce.py
 ```
 
-**Linux / macOS terminal**
+**Linux / macOS**
 
 ```sh
+git clone https://github.com/Hc1012/OperatorMark.git
+cd OperatorMark/artifact
 python3.12 -m venv .venv
 .venv/bin/python -m pip install -r requirements-analysis.txt
 .venv/bin/python reproduce.py
 ```
 
-The analysis runs offline on CPU after dependency installation. It trains no models, runs no native solvers, uses no Colab runtime and buys no compute. Its expected final line is:
+A successful run prints:
 
 ```text
 PASS: exact analysis match, 4 figures and 128 variant summaries.
 ```
 
-Outputs are written inside the extracted artifact at `build/reproduced/`. To verify the archive's shipped file hashes without installing analysis dependencies, run `python reproduce.py --verify-only` from that same folder.
+It then prints the output directory: `artifact/build/reproduced/`. For a file-integrity check without installing dependencies, run `python reproduce.py --verify-only` from `artifact/`.
 
-## What the archive contains
+## What this study can establish
 
-- The original directory tree: `research_source/`, `campaign_source/`, `analysis/`, `provenance/`, `environment/` and `docs/`.
-- 1,271 compact model observations, including 871 full/noise evaluations and 400 conditional diagnostics, with explicit task missingness.
-- Frozen analysis rules, all 128 variant summaries, four reproducibility figures and original evidence pointers.
-- Full methods, attacker-access budgets, limitations, historical outcomes and scope dispositions.
+These findings concern **one numerical benchmark, one watermark and one passive comparator**. Physical qualification failed, so the conclusions remain tied to the declared discrete numerical references. B2 ranks against fixed comparators; it has no calibrated population false-positive rate. Ten-owner counts are not population error rates.
 
-This supports **saved-result reproducibility**, not independent raw-model or end-to-end campaign replication. The full corpus, checkpoints, teacher caches, private keys and all raw score grids are not distributed. See [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md); paths described there are inside the release archive.
+The frozen copy-versus-scratch primary compares the unwrapped 1,920-update copies with one selected scratch replacement. Geometric replacement-to-copy error ratios are **7.16** for random-direction derivatives and **2.53** for the inverse task. Those copies still fail full utility. That comparison does not establish a copied-initialization advantage for the derivative-aware or wrapped attacks.
 
-## Paper, credit and license
+This repository supports **saved-result reproducibility**. It does not distribute the corpus, checkpoints, teacher caches, private keys or full raw score grids, and it cannot independently reproduce the entire training campaign. The [data availability statement](DATA_AVAILABILITY.md) gives the exact boundary. Negative findings and amendments are retained in the artifact.
 
-The preprint **Watermark Removal in Neural PDE Operators: Limits of Passive Ownership Evidence** (v0.7, 25 October 2026) is available on Zenodo: **[doi:10.5281/zenodo.23646972](https://doi.org/10.5281/zenodo.23646972)**. The same record includes the LaTeX source and **`OperatorMark_Manuscript_Reproduction.zip`**, which supplies the Figure 1 and Table 2 rendering scripts and per-owner records. This manuscript supplement accompanies the paper; it is separate from the unchanged rc5 research artifact.
+## Citation and license
 
-Please use [CITATION.cff](CITATION.cff) for the paper's preferred citation and the separate software-artifact metadata. The paper and its LaTeX source are licensed under **CC BY 4.0**. The repository, research-artifact code and reproduction-supplement code retain the [MIT license](LICENSE); third-party dependencies retain their licenses. See the [authorship statement](AUTHORS.md). Publication does not imply peer review or fulfillment of the stated qualification and assurance limitations.
+Use [CITATION.cff](CITATION.cff), also available through GitHub's **Cite this repository** button, to cite the paper and software artifact.
+
+The paper, its LaTeX source and the paper figure shown above are **CC BY 4.0**. Project code is under the [MIT license](LICENSE); third-party dependencies retain their own licenses. See [AUTHORS.md](AUTHORS.md) for authorship and assistance.

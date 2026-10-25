@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "analysis_byte_reproducible": true,
+  "analysis_sha256": "6bbbdeee9daff3d986a17f41e587ff0820ad367efa86dca0794487ec52c5074c",
+  "independent_numpy_primary_intervals_match": true,
+  "frozen_source_gate_comparisons": 871,
+  "gate_comparison_scope": "Checks the same sufficient statistics (true score, maximum absolute wrong-key score, score count and metric vector); does not claim a fresh full raw-grid audit.",
+  "primary_owner_count": 10,
+  "full_evaluation_rows": 871,
+  "diagnostic_only_rows": 400,
+  "active_cohorts": 36,
+  "B2_variants": 124,
+  "B2_rows": 1240,
+  "fixed_null_rows": 210,
+  "graph_exact_roster_matched": true,
+  "plots_visually_inspected": true,
+  "new_training_model_solver_calls": 0,
+  "new_paid_compute": false,
+  "formal_custody_assurance": false,
+  "pdf_pages": 14,
+  "pdf_layout_visually_inspected": true
+}

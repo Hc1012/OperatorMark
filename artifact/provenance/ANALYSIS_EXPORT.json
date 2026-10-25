@@ -1,0 +1,36 @@
+{
+  "analysis_script_changes": "Output path/CLI and input paths only; frozen functions unchanged. Numerical equality is tested in RELEASE_VALIDATION.json.",
+  "date": "2026-10-25",
+  "expected_final_analysis_sha256": "6bbbdeee9daff3d986a17f41e587ff0820ad367efa86dca0794487ec52c5074c",
+  "inputs": [
+    {
+      "bytes_unchanged": true,
+      "original_file": "MODEL_ANALYSIS_INPUTS.json",
+      "original_sha256": "7dd1e1880617d0efbb79be61d4972e9027b8c8e0ddcef4e32387a28fb4154303",
+      "public_file": "analysis/inputs/MODEL_ANALYSIS_INPUTS.json"
+    },
+    {
+      "bytes_unchanged": true,
+      "original_file": "SUPPLEMENT_ANALYSIS_INPUTS.json",
+      "original_sha256": "999e96d586db689a63260f669b21e7c598f632aef1dca8ec02e3426fb1a4cf9f",
+      "public_file": "analysis/inputs/SUPPLEMENT_ANALYSIS_INPUTS.json"
+    },
+    {
+      "bytes_unchanged": true,
+      "original_file": "FROZEN_GRAPH.json",
+      "original_sha256": "3e55f04e791566fb9315bc28ac70c394a804b0caffb08ca9ebd1f92b43489324",
+      "public_file": "analysis/inputs/FROZEN_GRAPH.json"
+    },
+    {
+      "bytes_unchanged": true,
+      "original_file": "HISTORICAL_CONTEXT.json",
+      "original_sha256": "7dbc653640028a0298ac817c991b38c6e3395d3d558c8534cc1be54aeb8c003a",
+      "public_file": "analysis/inputs/HISTORICAL_CONTEXT.json"
+    }
+  ],
+  "new_scientific_experiments": 0,
+  "original_full_returns_included": false,
+  "private_analysis_bundle_sha256": "0a7249a6452c352d7e2b5cd18dfa1d3d71f9d20081437f80a8fe1d0088704ea6",
+  "raw_checkpoint_verification_repeated": false,
+  "schema": "OperatorMark.public-analysis-export.v1"
+}

@@ -1,0 +1,64 @@
+# OperatorMark Agent Instructions
+
+## Locked project
+
+OperatorMark investigates when neural PDE solution operators can carry persistent proofs of ownership under similarity notions reflecting real engineering value.
+
+Central question:
+
+Can someone steal an industrial AI simulator, erase its ownership signal, and still retain the sensitivities needed for optimisation, inverse design, or control—and how does the answer change with the attacker’s solver access, data, query budget, precision, and compute?
+
+TangentMark is only a candidate cross-resolution tangent-space watermark construction. It may survive, be redesigned, or fail. Do not treat it as a predetermined successful method.
+
+## Current phase
+
+The immediate objective is a falsification-oriented proof-or-kill sprint.
+
+Start with a clean, reproducible 2D Darcy-flow FNO baseline. Do not implement TangentMark until the clean baseline, cross-resolution evaluation, and derivative/JVP checks work reproducibly.
+
+Current local environment:
+
+- Python 3.13.5
+- PyTorch 2.12.0+cpu
+- NeuralOperator 2.0.0
+- Local development and small tests use CPU
+- Larger training will use Google Colab T4, L4, or A100
+- Exact local packages are recorded in requirements-lock-cpu.txt
+
+## Scientific requirements
+
+- Distinguish forward similarity, derivative/Sobolev similarity, and downstream capability similarity.
+- Treat solver and physics canonicalisation as central attacks.
+- Compare at minimum:
+  - B0 independent clean models
+  - B1 ordinary output-margin watermark
+  - B2 passive tangent fingerprint
+  - B3 active TangentMark v1
+- Evaluate wrong keys and independent clean models against an explicit null distribution.
+- Preserve development keys separately from final evaluation keys.
+- Use multiple seeds, confidence intervals, explicit thresholds, and recorded hardware/configurations.
+- Preserve negative runs and append failures to the failure log.
+- Cross-resolution claims require quadrature-normalised evidence.
+- Strong negative or impossibility results are valid outcomes.
+
+## Prohibited claims and directions
+
+Do not:
+
+- revive ProvenanceGate;
+- turn the project into a generic detector, remover, dashboard, provenance verifier, or compliance wrapper;
+- claim “world first,” “unremovable,” or “physics-preserving”;
+- claim removal necessarily damages utility;
+- claim resolution invariance before testing it;
+- build branding, a website, a LinkedIn post, or a paper before the scientific core;
+- silently change dependencies, datasets, thresholds, seeds, or the locked research thesis.
+
+## Engineering rules
+
+- Keep changes minimal until the Darcy/FNO baseline works.
+- Use deterministic configuration, explicit seeds, tests, and typed interfaces where useful.
+- Keep solver truth, clean victim, marked victim, and suspect model conceptually separate.
+- Never commit virtual environments, secrets, downloaded datasets, or large checkpoints.
+- Record raw measurements before aggregating them.
+- Do not install, uninstall, or upgrade packages without explicit user approval.
+- Report failures honestly instead of hiding or deleting them.
