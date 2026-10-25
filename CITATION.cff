@@ -1,11 +1,12 @@
 cff-version: 1.2.0
-message: "Please cite this software and research artifact when using its code, measurements, or figures. A publication-format preprint has been prepared; its citation will be added when a public record exists."
+message: "Please cite the paper in preferred-citation when discussing these findings, and retain the software-artifact citation when using its code or saved results."
 type: software
 title: "OperatorMark: Ownership Evidence in Useful Copies of Neural PDE Operators"
 authors:
   - family-names: Chamas
     given-names: Hadi
 version: 1.0.0-rc5
+date-released: 2026-10-25
 repository-code: "https://github.com/Hc1012/OperatorMark"
 url: "https://github.com/Hc1012/OperatorMark"
 license: MIT
@@ -17,3 +18,16 @@ keywords:
   - model extraction
   - PDE
   - reproducibility
+preferred-citation:
+  type: article
+  title: "Watermark Removal in Neural PDE Operators: Limits of Passive Ownership Evidence"
+  authors:
+    - family-names: Chamas
+      given-names: Hadi
+  year: 2026
+  month: 10
+  version: "0.7"
+  publisher:
+    name: Zenodo
+  doi: "10.5281/zenodo.23646972"
+  url: "https://doi.org/10.5281/zenodo.23646972"
