@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this software and research artifact when using its code, measurements, or figures. A publication-format preprint has been prepared; its citation will be added when a public record exists."
+type: software
+title: "OperatorMark: Ownership Evidence in Useful Copies of Neural PDE Operators"
+authors:
+  - family-names: Chamas
+    given-names: Hadi
+version: 1.0.0-rc5
+repository-code: "https://github.com/Hc1012/OperatorMark"
+url: "https://github.com/Hc1012/OperatorMark"
+license: MIT
+abstract: "A bounded robustness study of active and passive ownership evidence in useful neural PDE copies, including checkpoint-dependent active removal and seven useful solver-corrected copies that defeat both tested signals. The artifact reproduces saved-result analysis of a ten-owner discrete Darcy-flow campaign."
+keywords:
+  - neural operators
+  - model ownership
+  - watermarking
+  - model extraction
+  - PDE
+  - reproducibility
