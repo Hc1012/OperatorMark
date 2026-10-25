@@ -26,7 +26,7 @@ Here, **useful** has a strict meaning: forward, two derivative and inverse-task 
 
 ![Owner-level ownership and utility outcomes at six retained endpoints](docs/figure1.png)
 
-*Owner-level outcomes from Figure 1 of the paper.* **P** = watermark removed, passive evidence positive; **B** = watermark removed, passive evidence nonpositive; **x** = full utility fails (x+/x− show the passive sign). **\*** marks O05: its intact final watermark was already undetected, so it cannot count as attack-induced removal. The figure's per-owner table and rendering script are in the [manuscript reproduction supplement](https://zenodo.org/records/23646972), separate from the four figures reproduced below.
+*Owner-level outcomes from Figure 1 of the paper.* **P** = watermark removed, passive evidence positive; **B** = watermark removed, passive evidence nonpositive; **x** = full utility fails (x+/x− show the passive sign). **\*** marks O05: its intact final watermark was already undetected, so it cannot count as attack-induced removal. The figure's per-owner table and rendering script are in the [manuscript reproduction supplement](https://zenodo.org/records/23646972), separate from the four figures that `reproduce.py` regenerates.
 
 ## Explore the work
 
